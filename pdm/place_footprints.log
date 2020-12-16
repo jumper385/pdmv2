@@ -1,0 +1,7 @@
+12-08 20:02:58 place_footprints.action_place_footprints 414:Plugin executed on: 'win32'
+12-08 20:02:58 place_footprints.action_place_footprints 415:Plugin executed with python version: '2.7.15 (default, Oct 11 2018, 12:09:51)  [GCC 8.2.0 64 bit (AMD64)]'
+12-08 20:02:58 place_footprints.action_place_footprints 416:KiCad build version: Unknown
+12-08 20:02:58 place_footprints.action_place_footprints 417:Place footprints plugin version: 54 started
+12-08 20:03:02 place_footprints.place_footprints 213:getting project hierarchy from schematics
+12-08 20:03:02 place_footprints.place_footprints 228:getting a list of all footprints on board
+12-08 20:03:07 place_footprints.action_place_footprints 654:Modules to place: ['F4']
