@@ -1,4 +1,4 @@
-19044158713072156
+19086557159155793
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -6334,13 +6334,6 @@ XT60 female vertical
 0
 2
 2
-Connector_Amphenol
-ATF13-08PB-BM13
-
-
-0
-8
-8
 Connector_Amphenol
 Amphenol_M8S-03PMMR-SF8001
 M8 Male connector for panel, 90° PCB mount (https://www.amphenolltw.com/2012download/2D%20PDF/03_M%20Series%20Sensor%20Connectors/M8S-XXPMMR-SF8001.pdf)
@@ -44324,20 +44317,6 @@ connector TE MATE-N-LOK top entry ATA PATA IDE 5.25 inch floppy drive power
 4
 4
 Connector_USB
-CUI_UJC-HP-3-SMT-TR
-
-
-0
-10
-10
-Connector_USB
-JAE_DX07S016JA1R1500
-
-
-0
-18
-18
-Connector_USB
 USB3_A_Molex_48393-001
 USB 3.0, type A, right angle (http://www.molex.com/pdm_docs/sd/483930003_sd.pdf)
 USB 3.0 type A right angle
@@ -48789,15 +48768,15 @@ THT ceramic resonator filter DSS6
 0
 3
 3
-DT15-08PA
-TE_DT15-08PA
+DT13-4P
+TE_DT13-4P
 
 
 0
-8
-8
-DTF15-12PB
-TE_DTF15-12PB
+4
+4
+DT13-12PB-B016
+TE_DT13-12PB-B016
 
 
 0
@@ -51610,13 +51589,6 @@ Fuse Fuseholder TR5 Littelfuse/Wickmann No. 460 No560
 0
 2
 2
-Fuse
-blade_fuse_panelized
-
-
-0
-4
-4
 Heatsink
 Heatsink_35x26mm_1xFixation3mm_Fischer-SK486-35
 Heatsink, 35mm x 26mm, 1x Fixation 3mm, Fischer SK486-35
@@ -73619,13 +73591,6 @@ http://www.susumu-usa.com/pdf/Foot_Print_38.pdf, https://www.susumu.co.jp/common
 3
 3
 RF_GPS
-A2135-H
-
-
-0
-31
-30
-RF_GPS
 Linx_RXM-GPS
 GPS Module, Linx
 gps linx
@@ -81312,13 +81277,6 @@ CONN DEV
 2
 2
 TestPoint
-TestPoint_2_Points
-
-
-0
-2
-2
-TestPoint
 TestPoint_Bridge_Pitch2.0mm_Drill0.7mm
 wire loop as test point, pitch 2.0mm, hole diameter 0.7mm, wire diameter 0.5mm
 test point wire loop
@@ -83082,3 +83040,10 @@ varistor SIOV
 0
 2
 2
+pdm_v2
+fuseHolder
+
+
+0
+4
+4

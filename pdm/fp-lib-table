@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name pdm_v2)(type KiCad)(uri ${KIPRJMOD}/pdm_v2.pretty)(options "")(descr ""))
+  (lib (name DT13-12PB-B016)(type KiCad)(uri ${KIPRJMOD}/DT13-12PB-B016)(options "")(descr ""))
+  (lib (name DT13-4P)(type KiCad)(uri ${KIPRJMOD}/DT13-4P)(options "")(descr ""))
+)

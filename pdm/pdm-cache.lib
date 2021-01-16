@@ -65,29 +65,136 @@ X Pin_8 8 200 -400 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_TestPoint_Probe
+# Connector_Conn_01x12_Male
 #
-DEF Connector_TestPoint_Probe TP 0 30 N N 1 F N
-F0 "TP" 65 230 50 H V C CNN
-F1 "Connector_TestPoint_Probe" 65 160 50 H V C CNN
-F2 "" 200 0 50 H I C CNN
-F3 "" 200 0 50 H I C CNN
+DEF Connector_Conn_01x12_Male J 0 40 Y N 1 F N
+F0 "J" 0 600 50 H V C CNN
+F1 "Connector_Conn_01x12_Male" 0 -700 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
- Pin*
- Test*
+ Connector*:*_1x??_*
 $ENDFPLIST
 DRAW
-P 4 0 1 0 50 30 0 0 30 50 50 30 F
-P 5 0 1 0 55 25 25 55 95 125 125 95 55 25 f
-X 1 1 0 0 0 U 50 50 1 1 P
+S 34 -595 0 -605 1 1 6 F
+S 34 -495 0 -505 1 1 6 F
+S 34 -395 0 -405 1 1 6 F
+S 34 -295 0 -305 1 1 6 F
+S 34 -195 0 -205 1 1 6 F
+S 34 -95 0 -105 1 1 6 F
+S 34 5 0 -5 1 1 6 F
+S 34 105 0 95 1 1 6 F
+S 34 205 0 195 1 1 6 F
+S 34 305 0 295 1 1 6 F
+S 34 405 0 395 1 1 6 F
+S 34 505 0 495 1 1 6 F
+P 2 1 1 6 50 -600 34 -600 N
+P 2 1 1 6 50 -500 34 -500 N
+P 2 1 1 6 50 -400 34 -400 N
+P 2 1 1 6 50 -300 34 -300 N
+P 2 1 1 6 50 -200 34 -200 N
+P 2 1 1 6 50 -100 34 -100 N
+P 2 1 1 6 50 0 34 0 N
+P 2 1 1 6 50 100 34 100 N
+P 2 1 1 6 50 200 34 200 N
+P 2 1 1 6 50 300 34 300 N
+P 2 1 1 6 50 400 34 400 N
+P 2 1 1 6 50 500 34 500 N
+X Pin_1 1 200 500 150 L 50 50 1 1 P
+X Pin_10 10 200 -400 150 L 50 50 1 1 P
+X Pin_11 11 200 -500 150 L 50 50 1 1 P
+X Pin_12 12 200 -600 150 L 50 50 1 1 P
+X Pin_2 2 200 400 150 L 50 50 1 1 P
+X Pin_3 3 200 300 150 L 50 50 1 1 P
+X Pin_4 4 200 200 150 L 50 50 1 1 P
+X Pin_5 5 200 100 150 L 50 50 1 1 P
+X Pin_6 6 200 0 150 L 50 50 1 1 P
+X Pin_7 7 200 -100 150 L 50 50 1 1 P
+X Pin_8 8 200 -200 150 L 50 50 1 1 P
+X Pin_9 9 200 -300 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device_C
+# pdm-rescue_+12V-power
 #
-DEF Device_C C 0 10 N Y 1 F N
+DEF pdm-rescue_+12V-power #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "pdm-rescue_+12V-power" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +12V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# pdm-rescue_+3.3V-power
+#
+DEF pdm-rescue_+3.3V-power #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "pdm-rescue_+3.3V-power" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +3V3 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# pdm-rescue_AZ1117CH-3_3TRG1-dk_PMIC-Voltage-Regulators-Linear
+#
+DEF pdm-rescue_AZ1117CH-3_3TRG1-dk_PMIC-Voltage-Regulators-Linear U 0 20 Y Y 1 F N
+F0 "U" 50 150 60 H V C CNN
+F1 "pdm-rescue_AZ1117CH-3_3TRG1-dk_PMIC-Voltage-Regulators-Linear" 50 250 60 H V C CNN
+F2 "digikey-footprints:SOT-223" 200 200 60 H I L CNN
+F3 "https://www.diodes.com/assets/Datasheets/AZ1117C.pdf" 200 300 60 H I L CNN
+F4 "AZ1117CH-3.3TRG1DICT-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "AZ1117CH-3.3TRG1" 200 500 60 H I L CNN "MPN"
+F6 "Integrated Circuits (ICs)" 200 600 60 H I L CNN "Category"
+F7 "PMIC - Voltage Regulators - Linear" 200 700 60 H I L CNN "Family"
+F8 "https://www.diodes.com/assets/Datasheets/AZ1117C.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/diodes-incorporated/AZ1117CH-3.3TRG1/AZ1117CH-3.3TRG1DICT-ND/4505206" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "IC REG LINEAR 3.3V 800MA SOT223" 200 1000 60 H I L CNN "Description"
+F11 "Diodes Incorporated" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+S -200 100 300 -300 0 1 0 f
+X ADJ/GND 1 0 -400 100 U 50 50 1 1 W
+X OUT 2 400 0 100 L 50 50 1 1 w
+X IN 3 -300 0 100 R 50 50 1 1 W
+X VOUT 4 400 -100 100 L 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
+# pdm-rescue_BTS443P-Power_Management
+#
+DEF pdm-rescue_BTS443P-Power_Management U 0 20 Y Y 1 F N
+F0 "U" -200 250 50 H V C CNN
+F1 "pdm-rescue_BTS443P-Power_Management" 350 250 50 H V C CNN
+F2 "Package_TO_SOT_SMD:TO-252-4" 0 -250 50 H I C CNN
+F3 "" 0 -400 50 H I C CNN
+$FPLIST
+ TO*252*
+$ENDFPLIST
+DRAW
+S -200 200 200 -200 0 1 10 f
+X OUT 1 300 0 100 L 50 50 1 1 w
+X IN 2 -300 100 100 R 50 50 1 1 I
+X Vbb 3 0 300 100 D 50 50 1 1 W
+X IS 4 -300 -100 100 R 50 50 1 1 O
+X OUT 5 300 0 100 L 50 50 1 1 P N
+ENDDRAW
+ENDDEF
+#
+# pdm-rescue_C-Device
+#
+DEF pdm-rescue_C-Device C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "Device_C" 25 -100 50 H V L CNN
+F1 "pdm-rescue_C-Device" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -101,11 +208,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device_CP
+# pdm-rescue_CP-Device
 #
-DEF Device_CP C 0 10 N Y 1 F N
+DEF pdm-rescue_CP-Device C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "Device_CP" 25 -100 50 H V L CNN
+F1 "pdm-rescue_CP-Device" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -121,11 +228,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device_Fuse
+# pdm-rescue_Fuse-Device
 #
-DEF Device_Fuse F 0 0 N Y 1 F N
+DEF pdm-rescue_Fuse-Device F 0 0 N Y 1 F N
 F0 "F" 80 0 50 V V C CNN
-F1 "Device_Fuse" -75 0 50 V V C CNN
+F1 "pdm-rescue_Fuse-Device" -75 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -139,11 +246,24 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device_LED
+# pdm-rescue_GND-power
 #
-DEF Device_LED D 0 40 N N 1 F N
+DEF pdm-rescue_GND-power #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "pdm-rescue_GND-power" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# pdm-rescue_LED-Device
+#
+DEF pdm-rescue_LED-Device D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "Device_LED" 0 -100 50 H V C CNN
+F1 "pdm-rescue_LED-Device" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -162,11 +282,71 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device_Q_NPN_BCE
+# pdm-rescue_MMBT3904-Transistor_BJT
 #
-DEF Device_Q_NPN_BCE Q 0 0 Y N 1 F N
+DEF pdm-rescue_MMBT3904-Transistor_BJT Q 0 0 Y N 1 F N
+F0 "Q" 200 75 50 H V L CNN
+F1 "pdm-rescue_MMBT3904-Transistor_BJT" 200 0 50 H V L CNN
+F2 "Package_TO_SOT_SMD:SOT-23" 200 -75 50 H I L CIN
+F3 "" 0 0 50 H I L CNN
+$FPLIST
+ SOT?23*
+$ENDFPLIST
+DRAW
+C 50 0 111 0 1 10 N
+P 2 0 1 0 25 25 100 100 N
+P 3 0 1 0 25 -25 100 -100 100 -100 N
+P 3 0 1 20 25 75 25 -75 25 -75 N
+P 5 0 1 0 50 -70 70 -50 90 -90 50 -70 50 -70 F
+X B 1 -200 0 225 R 50 50 1 1 I
+X E 2 100 -200 100 U 50 50 1 1 P
+X C 3 100 200 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# pdm-rescue_NX3225GD-8MHZ-STD-CRA-3-dk_Crystals
+#
+DEF pdm-rescue_NX3225GD-8MHZ-STD-CRA-3-dk_Crystals XTAL 0 40 Y Y 1 F N
+F0 "XTAL" 0 150 50 H V C CNN
+F1 "pdm-rescue_NX3225GD-8MHZ-STD-CRA-3-dk_Crystals" 0 -150 50 H V C CNN
+F2 "digikey-footprints:SMD-2_3.2x2.5mm" 200 200 60 H I L CNN
+F3 "http://www.ndk.com/images/products/catalog/c_NX3225GD-STD-CRA-3_e.pdf" 200 300 60 H I L CNN
+F4 "644-1178-1-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "NX3225GD-8MHZ-STD-CRA-3" 200 500 60 H I L CNN "MPN"
+F6 "Crystals, Oscillators, Resonators" 200 600 60 H I L CNN "Category"
+F7 "Crystals" 200 700 60 H I L CNN "Family"
+F8 "http://www.ndk.com/images/products/catalog/c_NX3225GD-STD-CRA-3_e.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/ndk-america-inc/NX3225GD-8MHZ-STD-CRA-3/644-1178-1-ND/3125567" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "CRYSTAL 8.0000MHZ 8PF SMD" 200 1000 60 H I L CNN "Description"
+F11 "NDK America, Inc." 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+S -25 75 25 -75 1 1 0 F
+P 2 1 1 0 -50 75 -50 -75 N
+P 2 1 1 0 50 75 50 -75 N
+X ~ 1 -150 0 100 R 50 50 1 1 B
+X ~ 2 150 0 100 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# pdm-rescue_PWR_FLAG-power
+#
+DEF pdm-rescue_PWR_FLAG-power #FLG 0 0 N N 1 F P
+F0 "#FLG" 0 75 50 H I C CNN
+F1 "pdm-rescue_PWR_FLAG-power" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
+X pwr 1 0 0 0 U 50 50 0 0 w
+ENDDRAW
+ENDDEF
+#
+# pdm-rescue_Q_NPN_BCE-Device
+#
+DEF pdm-rescue_Q_NPN_BCE-Device Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
-F1 "Device_Q_NPN_BCE" 200 -50 50 H V L CNN
+F1 "pdm-rescue_Q_NPN_BCE-Device" 200 -50 50 H V L CNN
 F2 "" 200 100 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -181,11 +361,11 @@ X E 3 100 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device_R
+# pdm-rescue_R-Device
 #
-DEF Device_R R 0 0 N Y 1 F N
+DEF pdm-rescue_R-Device R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "Device_R" 0 0 50 V V C CNN
+F1 "pdm-rescue_R-Device" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -198,11 +378,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Interface_CAN_LIN_SN65HVD233
+# pdm-rescue_SN65HVD233-Interface_CAN_LIN
 #
-DEF Interface_CAN_LIN_SN65HVD233 U 0 40 Y Y 1 F N
+DEF pdm-rescue_SN65HVD233-Interface_CAN_LIN U 0 40 Y Y 1 F N
 F0 "U" -100 400 50 H V R CNN
-F1 "Interface_CAN_LIN_SN65HVD233" -100 300 50 H V R CNN
+F1 "pdm-rescue_SN65HVD233-Interface_CAN_LIN" -100 300 50 H V R CNN
 F2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" 0 -500 50 H I C CNN
 F3 "" -100 400 50 H I C CNN
 $FPLIST
@@ -221,14 +401,13 @@ X Rs 8 -400 -200 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# MCU_ST_STM32F0_STM32F042G6Ux
+# pdm-rescue_STM32F042G6Ux-MCU_ST_STM32F0
 #
-DEF MCU_ST_STM32F0_STM32F042G6Ux U 0 20 Y Y 1 F N
+DEF pdm-rescue_STM32F042G6Ux-MCU_ST_STM32F0 U 0 20 Y Y 1 F N
 F0 "U" -600 750 50 H V L CNN
-F1 "MCU_ST_STM32F0_STM32F042G6Ux" 0 750 50 H V L CNN
+F1 "pdm-rescue_STM32F042G6Ux-MCU_ST_STM32F0" 0 750 50 H V L CNN
 F2 "Package_DFN_QFN:QFN-28_4x4mm_P0.5mm" -600 -700 50 H I R CNN
 F3 "" 0 0 50 H I C CNN
-ALIAS STM32F042G6Ux
 $FPLIST
  QFN*4x4mm*P0.5mm*
 $ENDFPLIST
@@ -265,48 +444,11 @@ X PA3 9 600 300 100 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# Mechanical_MountingHole_Pad
+# pdm-rescue_SW_Push-Switch
 #
-DEF Mechanical_MountingHole_Pad H 0 40 N N 1 F N
-F0 "H" 0 250 50 H V C CNN
-F1 "Mechanical_MountingHole_Pad" 0 175 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- MountingHole*Pad*
-$ENDFPLIST
-DRAW
-C 0 50 50 0 1 50 N
-X 1 1 0 -100 100 U 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# Power_Management_BTS443P
-#
-DEF Power_Management_BTS443P U 0 20 Y Y 1 F N
-F0 "U" -200 250 50 H V C CNN
-F1 "Power_Management_BTS443P" 350 250 50 H V C CNN
-F2 "Package_TO_SOT_SMD:TO-252-4" 0 -250 50 H I C CNN
-F3 "" 0 -400 50 H I C CNN
-ALIAS BTS50080-1TEB BTS5012SDA BTS5014SDA BTS5016SDA BTS6133D BTS6163D BTS6142D BTS6143D BTS443P
-$FPLIST
- TO*252*
-$ENDFPLIST
-DRAW
-S -200 200 200 -200 0 1 10 f
-X OUT 1 300 0 100 L 50 50 1 1 w
-X IN 2 -300 100 100 R 50 50 1 1 I
-X Vbb 3 0 300 100 D 50 50 1 1 W
-X IS 4 -300 -100 100 R 50 50 1 1 O
-X OUT 5 300 0 100 L 50 50 1 1 P N
-ENDDRAW
-ENDDEF
-#
-# Switch_SW_Push
-#
-DEF Switch_SW_Push SW 0 40 N N 1 F N
+DEF pdm-rescue_SW_Push-Switch SW 0 40 N N 1 F N
 F0 "SW" 50 100 50 H V L CNN
-F1 "Switch_SW_Push" 0 -60 50 H V C CNN
+F1 "pdm-rescue_SW_Push-Switch" 0 -60 50 H V C CNN
 F2 "" 0 200 50 H I C CNN
 F3 "" 0 200 50 H I C CNN
 DRAW
@@ -319,76 +461,21 @@ X 2 2 200 0 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# Transistor_BJT_MMBT3904
+# pdm-rescue_TestPoint_Probe-Connector
 #
-DEF Transistor_BJT_MMBT3904 Q 0 0 Y N 1 F N
-F0 "Q" 200 75 50 H V L CNN
-F1 "Transistor_BJT_MMBT3904" 200 0 50 H V L CNN
-F2 "Package_TO_SOT_SMD:SOT-23" 200 -75 50 H I L CIN
-F3 "" 0 0 50 H I L CNN
-ALIAS BC818 BC846 BC847 BC848 BC849 BC850 MMBT3904 MMBT5550L MMBT5551L
+DEF pdm-rescue_TestPoint_Probe-Connector TP 0 30 N N 1 F N
+F0 "TP" 65 230 50 H V C CNN
+F1 "pdm-rescue_TestPoint_Probe-Connector" 65 160 50 H V C CNN
+F2 "" 200 0 50 H I C CNN
+F3 "" 200 0 50 H I C CNN
 $FPLIST
- SOT?23*
+ Pin*
+ Test*
 $ENDFPLIST
 DRAW
-C 50 0 111 0 1 10 N
-P 2 0 1 0 25 25 100 100 N
-P 3 0 1 0 25 -25 100 -100 100 -100 N
-P 3 0 1 20 25 75 25 -75 25 -75 N
-P 5 0 1 0 50 -70 70 -50 90 -90 50 -70 50 -70 F
-X B 1 -200 0 225 R 50 50 1 1 I
-X E 2 100 -200 100 U 50 50 1 1 P
-X C 3 100 200 100 D 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# pdm-rescue_AZ1117CH-3_3TRG1-dk_PMIC-Voltage-Regulators-Linear
-#
-DEF pdm-rescue_AZ1117CH-3_3TRG1-dk_PMIC-Voltage-Regulators-Linear U 0 20 Y Y 1 F N
-F0 "U" 50 150 60 H V C CNN
-F1 "pdm-rescue_AZ1117CH-3_3TRG1-dk_PMIC-Voltage-Regulators-Linear" 50 250 60 H V C CNN
-F2 "digikey-footprints:SOT-223" 200 200 60 H I L CNN
-F3 "https://www.diodes.com/assets/Datasheets/AZ1117C.pdf" 200 300 60 H I L CNN
-F4 "AZ1117CH-3.3TRG1DICT-ND" 200 400 60 H I L CNN "Digi-Key_PN"
-F5 "AZ1117CH-3.3TRG1" 200 500 60 H I L CNN "MPN"
-F6 "Integrated Circuits (ICs)" 200 600 60 H I L CNN "Category"
-F7 "PMIC - Voltage Regulators - Linear" 200 700 60 H I L CNN "Family"
-F8 "https://www.diodes.com/assets/Datasheets/AZ1117C.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
-F9 "/product-detail/en/diodes-incorporated/AZ1117CH-3.3TRG1/AZ1117CH-3.3TRG1DICT-ND/4505206" 200 900 60 H I L CNN "DK_Detail_Page"
-F10 "IC REG LINEAR 3.3V 800MA SOT223" 200 1000 60 H I L CNN "Description"
-F11 "Diodes Incorporated" 200 1100 60 H I L CNN "Manufacturer"
-F12 "Active" 200 1200 60 H I L CNN "Status"
-DRAW
-S -200 100 300 -300 0 1 0 f
-X ADJ/GND 1 0 -400 100 U 50 50 1 1 W
-X OUT 2 400 0 100 L 50 50 1 1 w
-X IN 3 -300 0 100 R 50 50 1 1 W
-X VOUT 4 400 -100 100 L 50 50 1 1 w
-ENDDRAW
-ENDDEF
-#
-# pdm-rescue_NX3225GD-8MHZ-STD-CRA-3-dk_Crystals
-#
-DEF pdm-rescue_NX3225GD-8MHZ-STD-CRA-3-dk_Crystals XTAL 0 40 Y Y 1 F N
-F0 "XTAL" 0 150 50 H V C CNN
-F1 "pdm-rescue_NX3225GD-8MHZ-STD-CRA-3-dk_Crystals" 0 -150 50 H V C CNN
-F2 "digikey-footprints:SMD-2_3.2x2.5mm" 200 200 60 H I L CNN
-F3 "http://www.ndk.com/images/products/catalog/c_NX3225GD-STD-CRA-3_e.pdf" 200 300 60 H I L CNN
-F4 "644-1178-1-ND" 200 400 60 H I L CNN "Digi-Key_PN"
-F5 "NX3225GD-8MHZ-STD-CRA-3" 200 500 60 H I L CNN "MPN"
-F6 "Crystals, Oscillators, Resonators" 200 600 60 H I L CNN "Category"
-F7 "Crystals" 200 700 60 H I L CNN "Family"
-F8 "http://www.ndk.com/images/products/catalog/c_NX3225GD-STD-CRA-3_e.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
-F9 "/product-detail/en/ndk-america-inc/NX3225GD-8MHZ-STD-CRA-3/644-1178-1-ND/3125567" 200 900 60 H I L CNN "DK_Detail_Page"
-F10 "CRYSTAL 8.0000MHZ 8PF SMD" 200 1000 60 H I L CNN "Description"
-F11 "NDK America, Inc." 200 1100 60 H I L CNN "Manufacturer"
-F12 "Active" 200 1200 60 H I L CNN "Status"
-DRAW
-S -25 75 25 -75 1 1 0 F
-P 2 1 1 0 -50 75 -50 -75 N
-P 2 1 1 0 50 75 50 -75 N
-X ~ 1 -150 0 100 R 50 50 1 1 B
-X ~ 2 150 0 100 L 50 50 1 1 B
+P 4 0 1 0 50 30 0 0 30 50 50 30 F
+P 5 0 1 0 55 25 25 55 95 125 125 95 55 25 f
+X 1 1 0 0 0 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -407,22 +494,6 @@ X +12V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power_+3.3V
-#
-DEF power_+3.3V #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power_+3.3V" 0 140 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-ALIAS +3.3V
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +3V3 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
 # power_GND
 #
 DEF power_GND #PWR 0 0 Y Y 1 F P
@@ -433,19 +504,6 @@ F3 "" 0 0 50 H I C CNN
 DRAW
 P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
 X GND 1 0 0 0 D 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power_PWR_FLAG
-#
-DEF power_PWR_FLAG #FLG 0 0 N N 1 F P
-F0 "#FLG" 0 75 50 H I C CNN
-F1 "power_PWR_FLAG" 0 150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
-X pwr 1 0 0 0 U 50 50 0 0 w
 ENDDRAW
 ENDDEF
 #
