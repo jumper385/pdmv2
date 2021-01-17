@@ -1121,8 +1121,8 @@ AR Path="/5F955EE4/6005DA4C" Ref="TP?"  Part="1"
 AR Path="/5F94FFF3/6005DA4C" Ref="TP?"  Part="1" 
 AR Path="/5F956034/6005DA4C" Ref="TP?"  Part="1" 
 AR Path="/5F9560D2/6005DA4C" Ref="TP?"  Part="1" 
-AR Path="/6005DA4C" Ref="Vin_TP"  Part="1" 
-F 0 "Vin_TP" H 1450 6950 50  0000 R CNN
+AR Path="/6005DA4C" Ref="Vin_TP1"  Part="1" 
+F 0 "Vin_TP1" H 1450 6950 50  0000 R CNN
 F 1 "TestPoint_Probe" H 1800 6850 50  0000 R CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 1350 6850 50  0001 C CNN
 F 3 "~" H 1350 6850 50  0001 C CNN

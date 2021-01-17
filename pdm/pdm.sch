@@ -53,23 +53,8 @@ Wire Wire Line
 	10800 1400 10800 1550
 Text Notes 10600 1950 0    50   ~ 0
 place near\nswd header
-$Comp
-L pdm-rescue:R-Device R4
-U 1 1 5F96850C
-P 3150 2750
-F 0 "R4" H 3250 2750 50  0000 L CNN
-F 1 "120R" V 3150 2650 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 3080 2750 50  0001 C CNN
-F 3 "~" H 3150 2750 50  0001 C CNN
-	1    3150 2750
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2850 2700 2850 2600
-Wire Wire Line
-	2850 2600 3150 2600
-Wire Wire Line
-	3150 2900 2850 2900
 Wire Wire Line
 	2850 2900 2850 2800
 $Comp
@@ -468,12 +453,6 @@ Wire Wire Line
 	1050 3850 1050 4550
 Text Label 2000 4550 2    50   ~ 0
 OSC_N
-Wire Wire Line
-	3150 2900 3750 2900
-Connection ~ 3150 2900
-Wire Wire Line
-	3750 2600 3150 2600
-Connection ~ 3150 2600
 Wire Wire Line
 	1500 7000 2000 7000
 Wire Wire Line
@@ -1449,4 +1428,8 @@ Wire Wire Line
 	5550 5450 5650 5450
 Wire Wire Line
 	5650 5450 5650 5600
+Wire Wire Line
+	2850 2600 3750 2600
+Wire Wire Line
+	2850 2900 3750 2900
 $EndSCHEMATC
