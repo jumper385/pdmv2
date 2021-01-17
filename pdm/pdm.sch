@@ -376,8 +376,8 @@ Wire Notes Line
 	650  6300 4200 6300
 Wire Notes Line
 	4200 550  4200 7700
-Text Notes 4100 900  3    50   ~ 10
-Signal Connector
+Text Notes 4100 1050 3    50   ~ 10
+Mechanicals
 Text Notes 4100 2450 3    50   ~ 10
 CAN Transceiver
 Text Notes 4100 3900 3    50   ~ 10
@@ -1432,4 +1432,48 @@ Wire Wire Line
 	2850 2600 3750 2600
 Wire Wire Line
 	2850 2900 3750 2900
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 600819BB
+P 2050 950
+F 0 "H1" H 2150 996 50  0000 L CNN
+F 1 "MountingHole" H 2150 905 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4mm_Pad_Via" H 2050 950 50  0001 C CNN
+F 3 "~" H 2050 950 50  0001 C CNN
+	1    2050 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 600A6D0C
+P 2050 1150
+F 0 "H2" H 2150 1196 50  0000 L CNN
+F 1 "MountingHole" H 2150 1105 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4mm_Pad_Via" H 2050 1150 50  0001 C CNN
+F 3 "~" H 2050 1150 50  0001 C CNN
+	1    2050 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 600AC80E
+P 2050 1350
+F 0 "H3" H 2150 1396 50  0000 L CNN
+F 1 "MountingHole" H 2150 1305 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4mm_Pad_Via" H 2050 1350 50  0001 C CNN
+F 3 "~" H 2050 1350 50  0001 C CNN
+	1    2050 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 600B22DD
+P 2050 1550
+F 0 "H4" H 2150 1596 50  0000 L CNN
+F 1 "MountingHole" H 2150 1505 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4mm_Pad_Via" H 2050 1550 50  0001 C CNN
+F 3 "~" H 2050 1550 50  0001 C CNN
+	1    2050 1550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
