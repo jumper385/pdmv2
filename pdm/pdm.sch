@@ -1236,4 +1236,6 @@ Text Notes 5200 3250 0    50   ~ 0
 Input Fan
 Text Notes 6350 3250 0    50   ~ 0
 Output Fan
+NoConn ~ 7900 2750
+NoConn ~ 7900 3250
 $EndSCHEMATC
