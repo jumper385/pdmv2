@@ -1,0 +1,2140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/Users/henrychen/Documents/embedded/uwam_pdm_2021/pdm/pdm.sch</source>
+    <date>Tuesday, 26 January 2021 at 09:06:48 pm</date>
+    <tool>Eeschema (5.1.9-0-10_14)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>PDM Board</title>
+        <company>UWA Motorsports</company>
+        <rev/>
+        <date>2021-01-14</date>
+        <source>pdm.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/sheet5F955F69/" tstamps="/5F955F6E/">
+      <title_block>
+        <title>PDM Board</title>
+        <company>UWA Motorsports</company>
+        <rev/>
+        <date>2021-01-14</date>
+        <source>fuse_block.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/sheet5F95602F/" tstamps="/5F956034/">
+      <title_block>
+        <title>PDM Board</title>
+        <company>UWA Motorsports</company>
+        <rev/>
+        <date>2021-01-14</date>
+        <source>fuse_block.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/sheet5F9560CD/" tstamps="/5F9560D2/">
+      <title_block>
+        <title>PDM Board</title>
+        <company>UWA Motorsports</company>
+        <rev/>
+        <date>2021-01-14</date>
+        <source>fuse_block.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/fuse_block/" tstamps="/5F94FFF3/">
+      <title_block>
+        <title>PDM Board</title>
+        <company>UWA Motorsports</company>
+        <rev/>
+        <date>2021-01-14</date>
+        <source>fuse_block.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/sheet5F955EDF/" tstamps="/5F955EE4/">
+      <title_block>
+        <title>PDM Board</title>
+        <company>UWA Motorsports</company>
+        <rev/>
+        <date>2021-01-14</date>
+        <source>fuse_block.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="7" name="/voltage_regulator/" tstamps="/60112AE4/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>voltage_regulator.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C4">
+      <value>16pF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">08051A200JAT2A</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9D5FE7</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>16pF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">08051A200JAT2A</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9D7172</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">1276-1244-1-ND</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA0A8C4</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">T494A106M020AT</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA6B51B</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">CL21B104KBCNNNC</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F96A74C</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>SN65HVD233</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/sn65hvd234.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">296-35967-1-ND</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="SN65HVD233-Interface_CAN_LIN" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F965A3B</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">CL21B104KBCNNNC</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA81303</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">CL21B104KBCNNNC</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA888F4</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>STM32F042G6Ux</value>
+      <footprint>Package_DFN_QFN:QFN-28_4x4mm_P0.5mm</footprint>
+      <datasheet>http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00105814.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">497-17345-ND</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="STM32F042G6Ux-MCU_ST_STM32F0" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9A341D</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">516-1431-1-ND</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="LED-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FD0618B</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>600R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">A126352CT-ND</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FD06191</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">450-1650-ND</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="SW_Push-Switch" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FD13197</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">RNCP0805FTD10K0CT-ND</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FD1B3D0</tstamp>
+    </comp>
+    <comp ref="CANH_TP1">
+      <value>CANH_Test1</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pdm-rescue" part="TestPoint_Probe-Connector" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6002DB6D</tstamp>
+    </comp>
+    <comp ref="CANL_Test1">
+      <value>CANL_TP</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pdm-rescue" part="TestPoint_Probe-Connector" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6002ED89</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x12_Male</value>
+      <footprint>DT13-12PB-B016:TE_DT13-12PB-B016</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">1734-1635-ND</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x12_Male" description="Generic connector, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6006C29A</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">RNCP0805FTD10K0CT-ND</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600DBF8D</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x04_Male</value>
+      <footprint>DT13-4P:TE_DT13-4P</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">1734-1024-ND</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x04_Male" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>603F726E</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3mm_Pad_Via</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600819BB</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3mm_Pad_Via</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600A6D0C</tstamp>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3mm_Pad_Via</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600AC80E</tstamp>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3mm_Pad_Via</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600B22DD</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">CL21B104KBCNNNC</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60085B5A</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>120R</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">A129738CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60087C69</tstamp>
+    </comp>
+    <comp ref="XTAL1">
+      <value>NX3225GD-8MHZ-STD-CRA-3</value>
+      <footprint>digikey-footprints:SMD-2_3.2x2.5mm</footprint>
+      <datasheet>http://www.ndk.com/images/products/catalog/c_NX3225GD-STD-CRA-3_e.pdf</datasheet>
+      <fields>
+        <field name="Category">Crystals, Oscillators, Resonators</field>
+        <field name="DK_Datasheet_Link">http://www.ndk.com/images/products/catalog/c_NX3225GD-STD-CRA-3_e.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/ndk-america-inc/NX3225GD-8MHZ-STD-CRA-3/644-1178-1-ND/3125567</field>
+        <field name="Description">CRYSTAL 8.0000MHZ 8PF SMD</field>
+        <field name="Digi-Key_PN">644-1178-1-ND</field>
+        <field name="Family">Crystals</field>
+        <field name="MPN">NX3225GD-8MHZ-STD-CRA-3</field>
+        <field name="Manufacturer">NDK America, Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Crystals" part="NX3225GD-8MHZ-STD-CRA-3" description="CRYSTAL 8.0000MHZ 8PF SMD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60080B08</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x06_Female</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical_SMD_Pin1Left</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">S5598-ND</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x06_Female" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60145520</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x04_Female</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical_SMD_Pin1Left</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">S5596-ND</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60199908</tstamp>
+    </comp>
+    <comp ref="Q11">
+      <value>Q_PMOS_DSG</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <datasheet>https://www.vishay.com/docs/65594/sud50p04-08.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">SUD50P04-08-GE3CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="Q_PMOS_GDS" description="P-MOSFET transistor, gate/drain/source"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60318C08</tstamp>
+    </comp>
+    <comp ref="M1">
+      <value>Fan</value>
+      <footprint>Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">455-1657-ND</field>
+      </fields>
+      <libsource lib="Motor" part="Fan" description="Fan"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6036FA12</tstamp>
+    </comp>
+    <comp ref="M2">
+      <value>Fan</value>
+      <footprint>Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">455-1657-ND</field>
+      </fields>
+      <libsource lib="Motor" part="Fan" description="Fan"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60370FB0</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>BTS443P</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-4</footprint>
+      <datasheet>http://www.infineon.com/dgdl/Infineon-BTS443P-DS-v01_00-EN.pdf?fileId=5546d4625a888733015aa9afbc5035d5</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">BTS443PAUMA1CT-ND</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="BTS443P-Power_Management" description=""/>
+      <sheetpath names="/sheet5F955F69/" tstamps="/5F955F6E/"/>
+      <tstamp>5F95464C</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>1K5</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">A106057CT-ND</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="R-Device" description=""/>
+      <sheetpath names="/sheet5F955F69/" tstamps="/5F955F6E/"/>
+      <tstamp>5F95465A</tstamp>
+    </comp>
+    <comp ref="F3">
+      <value>Fuse</value>
+      <footprint>pdm_v2:fuseHolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pdm-rescue" part="Fuse-Device" description=""/>
+      <sheetpath names="/sheet5F955F69/" tstamps="/5F955F6E/"/>
+      <tstamp>5F95466C</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>2k2</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">A106060CT-ND</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="R-Device" description=""/>
+      <sheetpath names="/sheet5F955F69/" tstamps="/5F955F6E/"/>
+      <tstamp>5F954690</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>220R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">311-220CRCT-ND</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="R-Device" description=""/>
+      <sheetpath names="/sheet5F955F69/" tstamps="/5F955F6E/"/>
+      <tstamp>5F954672</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>680R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">A129747CT-ND</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="R-Device" description=""/>
+      <sheetpath names="/sheet5F955F69/" tstamps="/5F955F6E/"/>
+      <tstamp>5F986EB2</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">516-1431-1-ND</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="LED-Device" description=""/>
+      <sheetpath names="/sheet5F955F69/" tstamps="/5F955F6E/"/>
+      <tstamp>5F98650F</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>2k2</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">A106060CT-ND</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="R-Device" description=""/>
+      <sheetpath names="/sheet5F955F69/" tstamps="/5F955F6E/"/>
+      <tstamp>5FDFC164</tstamp>
+    </comp>
+    <comp ref="TP6">
+      <value>TestPoint_Probe</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pdm-rescue" part="TestPoint_Probe-Connector" description=""/>
+      <sheetpath names="/sheet5F955F69/" tstamps="/5F955F6E/"/>
+      <tstamp>5FFEFF01</tstamp>
+    </comp>
+    <comp ref="TP5">
+      <value>TestPoint_Probe</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pdm-rescue" part="TestPoint_Probe-Connector" description=""/>
+      <sheetpath names="/sheet5F955F69/" tstamps="/5F955F6E/"/>
+      <tstamp>5FFF1F4F</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">T494A106M020AT</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/sheet5F955F69/" tstamps="/5F955F6E/"/>
+      <tstamp>6007317B</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">RNCP0805FTD10K0CT-ND</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="R-Device" description=""/>
+      <sheetpath names="/sheet5F955F69/" tstamps="/5F955F6E/"/>
+      <tstamp>60187A80</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>2k8</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">311-2.80KCRCT-ND</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="R-Device" description=""/>
+      <sheetpath names="/sheet5F955F69/" tstamps="/5F955F6E/"/>
+      <tstamp>60189F37</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>BC817</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BC818-D.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">1727-6186-1-ND</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="BC817" description="0.8A Ic, 45V Vce, NPN Transistor, SOT-23"/>
+      <sheetpath names="/sheet5F955F69/" tstamps="/5F955F6E/"/>
+      <tstamp>6018FB48</tstamp>
+    </comp>
+    <comp ref="Q6">
+      <value>BC817</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23_Handsoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">1727-6186-1-ND</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="Q_NPN_BCE-Device" description=""/>
+      <sheetpath names="/sheet5F955F69/" tstamps="/5F955F6E/"/>
+      <tstamp>5F982D06</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>BTS443P</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-4</footprint>
+      <datasheet>http://www.infineon.com/dgdl/Infineon-BTS443P-DS-v01_00-EN.pdf?fileId=5546d4625a888733015aa9afbc5035d5</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">BTS443PAUMA1CT-ND</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="BTS443P-Power_Management" description=""/>
+      <sheetpath names="/sheet5F95602F/" tstamps="/5F956034/"/>
+      <tstamp>5F95464C</tstamp>
+    </comp>
+    <comp ref="R30">
+      <value>1K5</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">A106057CT-ND</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="R-Device" description=""/>
+      <sheetpath names="/sheet5F95602F/" tstamps="/5F956034/"/>
+      <tstamp>5F95465A</tstamp>
+    </comp>
+    <comp ref="F4">
+      <value>Fuse</value>
+      <footprint>pdm_v2:fuseHolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pdm-rescue" part="Fuse-Device" description=""/>
+      <sheetpath names="/sheet5F95602F/" tstamps="/5F956034/"/>
+      <tstamp>5F95466C</tstamp>
+    </comp>
+    <comp ref="R32">
+      <value>2k2</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">A106060CT-ND</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="R-Device" description=""/>
+      <sheetpath names="/sheet5F95602F/" tstamps="/5F956034/"/>
+      <tstamp>5F954690</tstamp>
+    </comp>
+    <comp ref="R33">
+      <value>220R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">311-220CRCT-ND</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="R-Device" description=""/>
+      <sheetpath names="/sheet5F95602F/" tstamps="/5F956034/"/>
+      <tstamp>5F954672</tstamp>
+    </comp>
+    <comp ref="R31">
+      <value>680R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">A129747CT-ND</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="R-Device" description=""/>
+      <sheetpath names="/sheet5F95602F/" tstamps="/5F956034/"/>
+      <tstamp>5F986EB2</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">516-1431-1-ND</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="LED-Device" description=""/>
+      <sheetpath names="/sheet5F95602F/" tstamps="/5F956034/"/>
+      <tstamp>5F98650F</tstamp>
+    </comp>
+    <comp ref="R34">
+      <value>2k2</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">A106060CT-ND</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="R-Device" description=""/>
+      <sheetpath names="/sheet5F95602F/" tstamps="/5F956034/"/>
+      <tstamp>5FDFC164</tstamp>
+    </comp>
+    <comp ref="TP8">
+      <value>TestPoint_Probe</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pdm-rescue" part="TestPoint_Probe-Connector" description=""/>
+      <sheetpath names="/sheet5F95602F/" tstamps="/5F956034/"/>
+      <tstamp>5FFEFF01</tstamp>
+    </comp>
+    <comp ref="TP7">
+      <value>TestPoint_Probe</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pdm-rescue" part="TestPoint_Probe-Connector" description=""/>
+      <sheetpath names="/sheet5F95602F/" tstamps="/5F956034/"/>
+      <tstamp>5FFF1F4F</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">T494A106M020AT</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/sheet5F95602F/" tstamps="/5F956034/"/>
+      <tstamp>6007317B</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">RNCP0805FTD10K0CT-ND</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="R-Device" description=""/>
+      <sheetpath names="/sheet5F95602F/" tstamps="/5F956034/"/>
+      <tstamp>60187A80</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>2k8</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">311-2.80KCRCT-ND</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="R-Device" description=""/>
+      <sheetpath names="/sheet5F95602F/" tstamps="/5F956034/"/>
+      <tstamp>60189F37</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>BC817</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BC818-D.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">1727-6186-1-ND</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="BC817" description="0.8A Ic, 45V Vce, NPN Transistor, SOT-23"/>
+      <sheetpath names="/sheet5F95602F/" tstamps="/5F956034/"/>
+      <tstamp>6018FB48</tstamp>
+    </comp>
+    <comp ref="Q8">
+      <value>BC817</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23_Handsoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">1727-6186-1-ND</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="Q_NPN_BCE-Device" description=""/>
+      <sheetpath names="/sheet5F95602F/" tstamps="/5F956034/"/>
+      <tstamp>5F982D06</tstamp>
+    </comp>
+    <comp ref="U8">
+      <value>BTS443P</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-4</footprint>
+      <datasheet>http://www.infineon.com/dgdl/Infineon-BTS443P-DS-v01_00-EN.pdf?fileId=5546d4625a888733015aa9afbc5035d5</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">BTS443PAUMA1CT-ND</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="BTS443P-Power_Management" description=""/>
+      <sheetpath names="/sheet5F9560CD/" tstamps="/5F9560D2/"/>
+      <tstamp>5F95464C</tstamp>
+    </comp>
+    <comp ref="R37">
+      <value>1K5</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">A106057CT-ND</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="R-Device" description=""/>
+      <sheetpath names="/sheet5F9560CD/" tstamps="/5F9560D2/"/>
+      <tstamp>5F95465A</tstamp>
+    </comp>
+    <comp ref="F5">
+      <value>Fuse</value>
+      <footprint>pdm_v2:fuseHolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pdm-rescue" part="Fuse-Device" description=""/>
+      <sheetpath names="/sheet5F9560CD/" tstamps="/5F9560D2/"/>
+      <tstamp>5F95466C</tstamp>
+    </comp>
+    <comp ref="R39">
+      <value>2k2</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">A106060CT-ND</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="R-Device" description=""/>
+      <sheetpath names="/sheet5F9560CD/" tstamps="/5F9560D2/"/>
+      <tstamp>5F954690</tstamp>
+    </comp>
+    <comp ref="R40">
+      <value>220R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">311-220CRCT-ND</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="R-Device" description=""/>
+      <sheetpath names="/sheet5F9560CD/" tstamps="/5F9560D2/"/>
+      <tstamp>5F954672</tstamp>
+    </comp>
+    <comp ref="R38">
+      <value>680R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">A129747CT-ND</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="R-Device" description=""/>
+      <sheetpath names="/sheet5F9560CD/" tstamps="/5F9560D2/"/>
+      <tstamp>5F986EB2</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">516-1431-1-ND</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="LED-Device" description=""/>
+      <sheetpath names="/sheet5F9560CD/" tstamps="/5F9560D2/"/>
+      <tstamp>5F98650F</tstamp>
+    </comp>
+    <comp ref="R41">
+      <value>2k2</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">A106060CT-ND</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="R-Device" description=""/>
+      <sheetpath names="/sheet5F9560CD/" tstamps="/5F9560D2/"/>
+      <tstamp>5FDFC164</tstamp>
+    </comp>
+    <comp ref="Vout_TP1">
+      <value>TestPoint_Probe</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pdm-rescue" part="TestPoint_Probe-Connector" description=""/>
+      <sheetpath names="/sheet5F9560CD/" tstamps="/5F9560D2/"/>
+      <tstamp>5FFEFF01</tstamp>
+    </comp>
+    <comp ref="Sense_TP1">
+      <value>TestPoint_Probe</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pdm-rescue" part="TestPoint_Probe-Connector" description=""/>
+      <sheetpath names="/sheet5F9560CD/" tstamps="/5F9560D2/"/>
+      <tstamp>5FFF1F4F</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">T494A106M020AT</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/sheet5F9560CD/" tstamps="/5F9560D2/"/>
+      <tstamp>6007317B</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">RNCP0805FTD10K0CT-ND</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="R-Device" description=""/>
+      <sheetpath names="/sheet5F9560CD/" tstamps="/5F9560D2/"/>
+      <tstamp>60187A80</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>2k8</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">311-2.80KCRCT-ND</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="R-Device" description=""/>
+      <sheetpath names="/sheet5F9560CD/" tstamps="/5F9560D2/"/>
+      <tstamp>60189F37</tstamp>
+    </comp>
+    <comp ref="Q5">
+      <value>BC817</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BC818-D.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">1727-6186-1-ND</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="BC817" description="0.8A Ic, 45V Vce, NPN Transistor, SOT-23"/>
+      <sheetpath names="/sheet5F9560CD/" tstamps="/5F9560D2/"/>
+      <tstamp>6018FB48</tstamp>
+    </comp>
+    <comp ref="Q10">
+      <value>BC817</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23_Handsoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">1727-6186-1-ND</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="Q_NPN_BCE-Device" description=""/>
+      <sheetpath names="/sheet5F9560CD/" tstamps="/5F9560D2/"/>
+      <tstamp>5F982D06</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>BTS443P</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-4</footprint>
+      <datasheet>http://www.infineon.com/dgdl/Infineon-BTS443P-DS-v01_00-EN.pdf?fileId=5546d4625a888733015aa9afbc5035d5</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">BTS443PAUMA1CT-ND</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="BTS443P-Power_Management" description=""/>
+      <sheetpath names="/fuse_block/" tstamps="/5F94FFF3/"/>
+      <tstamp>5F95464C</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>1K5</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">A106057CT-ND</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="R-Device" description=""/>
+      <sheetpath names="/fuse_block/" tstamps="/5F94FFF3/"/>
+      <tstamp>5F95465A</tstamp>
+    </comp>
+    <comp ref="F2">
+      <value>Fuse</value>
+      <footprint>pdm_v2:fuseHolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pdm-rescue" part="Fuse-Device" description=""/>
+      <sheetpath names="/fuse_block/" tstamps="/5F94FFF3/"/>
+      <tstamp>5F95466C</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>2k2</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">A106060CT-ND</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="R-Device" description=""/>
+      <sheetpath names="/fuse_block/" tstamps="/5F94FFF3/"/>
+      <tstamp>5F954690</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>220R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">311-220CRCT-ND</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="R-Device" description=""/>
+      <sheetpath names="/fuse_block/" tstamps="/5F94FFF3/"/>
+      <tstamp>5F954672</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>680R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">A129747CT-ND</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="R-Device" description=""/>
+      <sheetpath names="/fuse_block/" tstamps="/5F94FFF3/"/>
+      <tstamp>5F986EB2</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">516-1431-1-ND</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="LED-Device" description=""/>
+      <sheetpath names="/fuse_block/" tstamps="/5F94FFF3/"/>
+      <tstamp>5F98650F</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>2k2</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">A106060CT-ND</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="R-Device" description=""/>
+      <sheetpath names="/fuse_block/" tstamps="/5F94FFF3/"/>
+      <tstamp>5FDFC164</tstamp>
+    </comp>
+    <comp ref="TP4">
+      <value>TestPoint_Probe</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pdm-rescue" part="TestPoint_Probe-Connector" description=""/>
+      <sheetpath names="/fuse_block/" tstamps="/5F94FFF3/"/>
+      <tstamp>5FFEFF01</tstamp>
+    </comp>
+    <comp ref="TP3">
+      <value>TestPoint_Probe</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pdm-rescue" part="TestPoint_Probe-Connector" description=""/>
+      <sheetpath names="/fuse_block/" tstamps="/5F94FFF3/"/>
+      <tstamp>5FFF1F4F</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">T494A106M020AT</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/fuse_block/" tstamps="/5F94FFF3/"/>
+      <tstamp>6007317B</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">RNCP0805FTD10K0CT-ND</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="R-Device" description=""/>
+      <sheetpath names="/fuse_block/" tstamps="/5F94FFF3/"/>
+      <tstamp>60187A80</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>2k8</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">311-2.80KCRCT-ND</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="R-Device" description=""/>
+      <sheetpath names="/fuse_block/" tstamps="/5F94FFF3/"/>
+      <tstamp>60189F37</tstamp>
+    </comp>
+    <comp ref="Q7">
+      <value>BC817</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BC818-D.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">1727-6186-1-ND</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="BC817" description="0.8A Ic, 45V Vce, NPN Transistor, SOT-23"/>
+      <sheetpath names="/fuse_block/" tstamps="/5F94FFF3/"/>
+      <tstamp>6018FB48</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>BC817</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23_Handsoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">1727-6186-1-ND</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="Q_NPN_BCE-Device" description=""/>
+      <sheetpath names="/fuse_block/" tstamps="/5F94FFF3/"/>
+      <tstamp>5F982D06</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>BTS443P</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-4</footprint>
+      <datasheet>http://www.infineon.com/dgdl/Infineon-BTS443P-DS-v01_00-EN.pdf?fileId=5546d4625a888733015aa9afbc5035d5</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">BTS443PAUMA1CT-ND</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="BTS443P-Power_Management" description=""/>
+      <sheetpath names="/sheet5F955EDF/" tstamps="/5F955EE4/"/>
+      <tstamp>5F95464C</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>1K5</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">A106057CT-ND</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="R-Device" description=""/>
+      <sheetpath names="/sheet5F955EDF/" tstamps="/5F955EE4/"/>
+      <tstamp>5F95465A</tstamp>
+    </comp>
+    <comp ref="F1">
+      <value>Fuse</value>
+      <footprint>pdm_v2:fuseHolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pdm-rescue" part="Fuse-Device" description=""/>
+      <sheetpath names="/sheet5F955EDF/" tstamps="/5F955EE4/"/>
+      <tstamp>5F95466C</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>2k2</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">A106060CT-ND</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="R-Device" description=""/>
+      <sheetpath names="/sheet5F955EDF/" tstamps="/5F955EE4/"/>
+      <tstamp>5F954690</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>220R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">311-220CRCT-ND</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="R-Device" description=""/>
+      <sheetpath names="/sheet5F955EDF/" tstamps="/5F955EE4/"/>
+      <tstamp>5F954672</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>680R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">A129747CT-ND</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="R-Device" description=""/>
+      <sheetpath names="/sheet5F955EDF/" tstamps="/5F955EE4/"/>
+      <tstamp>5F986EB2</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">516-1431-1-ND</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="LED-Device" description=""/>
+      <sheetpath names="/sheet5F955EDF/" tstamps="/5F955EE4/"/>
+      <tstamp>5F98650F</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>2k2</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">A106060CT-ND</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="R-Device" description=""/>
+      <sheetpath names="/sheet5F955EDF/" tstamps="/5F955EE4/"/>
+      <tstamp>5FDFC164</tstamp>
+    </comp>
+    <comp ref="TP2">
+      <value>TestPoint_Probe</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pdm-rescue" part="TestPoint_Probe-Connector" description=""/>
+      <sheetpath names="/sheet5F955EDF/" tstamps="/5F955EE4/"/>
+      <tstamp>5FFEFF01</tstamp>
+    </comp>
+    <comp ref="TP1">
+      <value>TestPoint_Probe</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pdm-rescue" part="TestPoint_Probe-Connector" description=""/>
+      <sheetpath names="/sheet5F955EDF/" tstamps="/5F955EE4/"/>
+      <tstamp>5FFF1F4F</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">T494A106M020AT</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/sheet5F955EDF/" tstamps="/5F955EE4/"/>
+      <tstamp>6007317B</tstamp>
+    </comp>
+    <comp ref="R29">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">RNCP0805FTD10K0CT-ND</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="R-Device" description=""/>
+      <sheetpath names="/sheet5F955EDF/" tstamps="/5F955EE4/"/>
+      <tstamp>60187A80</tstamp>
+    </comp>
+    <comp ref="R28">
+      <value>2k8</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">311-2.80KCRCT-ND</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="R-Device" description=""/>
+      <sheetpath names="/sheet5F955EDF/" tstamps="/5F955EE4/"/>
+      <tstamp>60189F37</tstamp>
+    </comp>
+    <comp ref="Q9">
+      <value>BC817</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BC818-D.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">1727-6186-1-ND</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="BC817" description="0.8A Ic, 45V Vce, NPN Transistor, SOT-23"/>
+      <sheetpath names="/sheet5F955EDF/" tstamps="/5F955EE4/"/>
+      <tstamp>6018FB48</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>BC817</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23_Handsoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">1727-6186-1-ND</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="Q_NPN_BCE-Device" description=""/>
+      <sheetpath names="/sheet5F955EDF/" tstamps="/5F955EE4/"/>
+      <tstamp>5F982D06</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>10u</value>
+      <footprint>Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A_Pad1.58x1.35mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">T491B226K020AT</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="CP-Device" description=""/>
+      <sheetpath names="/voltage_regulator/" tstamps="/60112AE4/"/>
+      <tstamp>60117477</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">516-1431-1-ND</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="LED-Device" description=""/>
+      <sheetpath names="/voltage_regulator/" tstamps="/60112AE4/"/>
+      <tstamp>60117483</tstamp>
+    </comp>
+    <comp ref="R35">
+      <value>600R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">A126352CT-ND</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="R-Device" description=""/>
+      <sheetpath names="/voltage_regulator/" tstamps="/60112AE4/"/>
+      <tstamp>60117489</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">516-1431-1-ND</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="LED-Device" description=""/>
+      <sheetpath names="/voltage_regulator/" tstamps="/60112AE4/"/>
+      <tstamp>60117496</tstamp>
+    </comp>
+    <comp ref="R36">
+      <value>600R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">A126352CT-ND</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="R-Device" description=""/>
+      <sheetpath names="/voltage_regulator/" tstamps="/60112AE4/"/>
+      <tstamp>6011749C</tstamp>
+    </comp>
+    <comp ref="TP9">
+      <value>TestPoint_Probe</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pdm-rescue" part="TestPoint_Probe-Connector" description=""/>
+      <sheetpath names="/voltage_regulator/" tstamps="/60112AE4/"/>
+      <tstamp>601174B8</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">CL21B104KBCNNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/voltage_regulator/" tstamps="/60112AE4/"/>
+      <tstamp>60108663</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>LM2937xS</value>
+      <footprint>Package_TO_SOT_SMD:TO-263-3_TabPin2</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm2937.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">LM2937ESX-3.3/NOPBCT-ND</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="LM2937xS" description="500-mA Low Dropout Regulator, TO-263"/>
+      <sheetpath names="/voltage_regulator/" tstamps="/60112AE4/"/>
+      <tstamp>60109A41</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x04_Female">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Female</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x04_Male">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x06_Female">
+      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06_Female</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x12_Male">
+      <description>Generic connector, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x12_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_PMOS_GDS">
+      <description>P-MOSFET transistor, gate/drain/source</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_PMOS_GDS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+      </fields>
+    </libpart>
+    <libpart lib="Motor" part="Fan">
+      <description>Fan</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>PinHeader*P2.54mm*</fp>
+        <fp>TerminalBlock*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">M</field>
+        <field name="Value">Fan</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="SPX2920T-3.3_TO263">
+      <aliases>
+        <alias>SPX2920T-5.0_TO263</alias>
+        <alias>LM2937xS</alias>
+      </aliases>
+      <description>400mA Low drop-out regulator, Fixed Output 3.3V, TO-263</description>
+      <docs>http://www.zlgmcu.com/Sipex/LDO/PDF/spx2920.pdf</docs>
+      <footprints>
+        <fp>TO?263*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SPX2920T-3.3_TO263</field>
+        <field name="Footprint">Package_TO_SOT_SMD:TO-263-3_TabPin2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VI" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="VO" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="BC817">
+      <aliases>
+        <alias>BC818</alias>
+        <alias>BC846</alias>
+        <alias>BC847</alias>
+        <alias>BC848</alias>
+        <alias>BC849</alias>
+        <alias>BC850</alias>
+        <alias>MMBT3904</alias>
+        <alias>MMBT5550L</alias>
+        <alias>MMBT5551L</alias>
+      </aliases>
+      <description>0.8A Ic, 45V Vce, NPN Transistor, SOT-23</description>
+      <docs>https://www.onsemi.com/pub/Collateral/BC818-D.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BC817</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="dk_Crystals" part="NX3225GD-8MHZ-STD-CRA-3">
+      <description>CRYSTAL 8.0000MHZ 8PF SMD</description>
+      <docs>http://www.ndk.com/images/products/catalog/c_NX3225GD-STD-CRA-3_e.pdf</docs>
+      <fields>
+        <field name="Reference">XTAL</field>
+        <field name="Value">NX3225GD-8MHZ-STD-CRA-3</field>
+        <field name="Footprint">digikey-footprints:SMD-2_3.2x2.5mm</field>
+        <field name="Datasheet">http://www.ndk.com/images/products/catalog/c_NX3225GD-STD-CRA-3_e.pdf</field>
+        <field name="Digi-Key_PN">644-1178-1-ND</field>
+        <field name="MPN">NX3225GD-8MHZ-STD-CRA-3</field>
+        <field name="Category">Crystals, Oscillators, Resonators</field>
+        <field name="Family">Crystals</field>
+        <field name="DK_Datasheet_Link">http://www.ndk.com/images/products/catalog/c_NX3225GD-STD-CRA-3_e.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/ndk-america-inc/NX3225GD-8MHZ-STD-CRA-3/644-1178-1-ND/3125567</field>
+        <field name="Description">CRYSTAL 8.0000MHZ 8PF SMD</field>
+        <field name="Manufacturer">NDK America, Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="BiDi"/>
+        <pin num="2" name="~" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="pdm-rescue" part="BTS443P-Power_Management">
+      <footprints>
+        <fp>TO*252*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">BTS443P-Power_Management</field>
+        <field name="Footprint">Package_TO_SOT_SMD:TO-252-4</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUT" type="power_out"/>
+        <pin num="2" name="IN" type="input"/>
+        <pin num="3" name="Vbb" type="power_in"/>
+        <pin num="4" name="IS" type="output"/>
+        <pin num="5" name="OUT" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="pdm-rescue" part="C-Device">
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="pdm-rescue" part="CP-Device">
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="pdm-rescue" part="Fuse-Device">
+      <footprints>
+        <fp>*Fuse*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Fuse-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="pdm-rescue" part="LED-Device">
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="pdm-rescue" part="Q_NPN_BCE-Device">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NPN_BCE-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="pdm-rescue" part="R-Device">
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="pdm-rescue" part="SN65HVD233-Interface_CAN_LIN">
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SN65HVD233-Interface_CAN_LIN</field>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="VCC" type="power_in"/>
+        <pin num="4" name="R" type="output"/>
+        <pin num="5" name="LBK" type="input"/>
+        <pin num="6" name="CANL" type="BiDi"/>
+        <pin num="7" name="CANH" type="BiDi"/>
+        <pin num="8" name="Rs" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="pdm-rescue" part="STM32F042G6Ux-MCU_ST_STM32F0">
+      <footprints>
+        <fp>QFN*4x4mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">STM32F042G6Ux-MCU_ST_STM32F0</field>
+        <field name="Footprint">Package_DFN_QFN:QFN-28_4x4mm_P0.5mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PB8" type="BiDi"/>
+        <pin num="2" name="PF0" type="input"/>
+        <pin num="3" name="PF1" type="input"/>
+        <pin num="4" name="NRST" type="input"/>
+        <pin num="5" name="VDDA" type="power_in"/>
+        <pin num="6" name="PA0" type="BiDi"/>
+        <pin num="7" name="PA1" type="BiDi"/>
+        <pin num="8" name="PA2" type="BiDi"/>
+        <pin num="9" name="PA3" type="BiDi"/>
+        <pin num="10" name="PA4" type="BiDi"/>
+        <pin num="11" name="PA5" type="BiDi"/>
+        <pin num="12" name="PA6" type="BiDi"/>
+        <pin num="13" name="PA7" type="BiDi"/>
+        <pin num="14" name="PB0" type="BiDi"/>
+        <pin num="15" name="PB1" type="BiDi"/>
+        <pin num="16" name="VSSA" type="power_in"/>
+        <pin num="17" name="VDD" type="power_in"/>
+        <pin num="18" name="VDDIO2" type="power_in"/>
+        <pin num="19" name="PA9/PA11" type="BiDi"/>
+        <pin num="20" name="PA10/PA12" type="BiDi"/>
+        <pin num="21" name="PA13" type="BiDi"/>
+        <pin num="22" name="PA14" type="BiDi"/>
+        <pin num="23" name="PA15" type="BiDi"/>
+        <pin num="24" name="PB3" type="BiDi"/>
+        <pin num="25" name="PB4" type="BiDi"/>
+        <pin num="26" name="PB5" type="BiDi"/>
+        <pin num="27" name="PB6" type="BiDi"/>
+        <pin num="28" name="PB7" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="pdm-rescue" part="SW_Push-Switch">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push-Switch</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="pdm-rescue" part="TestPoint_Probe-Connector">
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint_Probe-Connector</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/Library/Application Support/kicad/library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Library/Application Support/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/Library/Application Support/kicad/library/Mechanical.lib</uri>
+    </library>
+    <library logical="Motor">
+      <uri>/Library/Application Support/kicad/library/Motor.lib</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>/Library/Application Support/kicad/library/Regulator_Linear.lib</uri>
+    </library>
+    <library logical="Transistor_BJT">
+      <uri>/Library/Application Support/kicad/library/Transistor_BJT.lib</uri>
+    </library>
+    <library logical="dk_Crystals">
+      <uri>/Users/henrychen/Documents/embedded/digikey-kicad-library/digikey-symbols/dk_Crystals.lib</uri>
+    </library>
+    <library logical="pdm-rescue">
+      <uri>/Users/henrychen/Documents/embedded/uwam_pdm_2021/pdm/pdm-rescue.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/_N">
+      <node ref="CANL_Test1" pin="1"/>
+      <node ref="J2" pin="12"/>
+      <node ref="R4" pin="1"/>
+      <node ref="J3" pin="4"/>
+      <node ref="U2" pin="7"/>
+    </net>
+    <net code="2" name="/_P">
+      <node ref="J3" pin="3"/>
+      <node ref="CANH_TP1" pin="1"/>
+      <node ref="J2" pin="11"/>
+      <node ref="R4" pin="2"/>
+      <node ref="U2" pin="6"/>
+    </net>
+    <net code="3" name="Net-(C4-Pad1)">
+      <node ref="C4" pin="1"/>
+      <node ref="C5" pin="1"/>
+    </net>
+    <net code="4" name="/OSC_N">
+      <node ref="U3" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="XTAL1" pin="2"/>
+    </net>
+    <net code="5" name="/OSC_P">
+      <node ref="U3" pin="3"/>
+      <node ref="C4" pin="2"/>
+      <node ref="XTAL1" pin="1"/>
+    </net>
+    <net code="6" name="+3V3">
+      <node ref="U2" pin="3"/>
+      <node ref="C6" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="R36" pin="2"/>
+      <node ref="J3" pin="2"/>
+      <node ref="R20" pin="2"/>
+      <node ref="R41" pin="2"/>
+      <node ref="R13" pin="2"/>
+      <node ref="U1" pin="3"/>
+      <node ref="R27" pin="2"/>
+      <node ref="J2" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="R34" pin="2"/>
+      <node ref="C9" pin="1"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="U3" pin="17"/>
+      <node ref="U3" pin="18"/>
+      <node ref="U3" pin="5"/>
+      <node ref="C10" pin="1"/>
+    </net>
+    <net code="7" name="GND">
+      <node ref="R33" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="D5" pin="1"/>
+      <node ref="U3" pin="16"/>
+      <node ref="D3" pin="1"/>
+      <node ref="D7" pin="1"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="R30" pin="1"/>
+      <node ref="Q3" pin="2"/>
+      <node ref="Q10" pin="3"/>
+      <node ref="Q8" pin="3"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="R37" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="R19" pin="2"/>
+      <node ref="D6" pin="1"/>
+      <node ref="Q5" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="R26" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="R23" pin="1"/>
+      <node ref="Q6" pin="3"/>
+      <node ref="Q2" pin="3"/>
+      <node ref="Q9" pin="2"/>
+      <node ref="J2" pin="2"/>
+      <node ref="C15" pin="2"/>
+      <node ref="D4" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="C14" pin="2"/>
+      <node ref="R16" pin="1"/>
+      <node ref="C2" pin="2"/>
+      <node ref="D8" pin="1"/>
+      <node ref="R12" pin="2"/>
+      <node ref="J1" pin="1"/>
+      <node ref="U1" pin="2"/>
+      <node ref="R9" pin="1"/>
+      <node ref="Q4" pin="3"/>
+      <node ref="C16" pin="2"/>
+      <node ref="U2" pin="2"/>
+      <node ref="Q7" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="U2" pin="5"/>
+      <node ref="U2" pin="8"/>
+      <node ref="D1" pin="1"/>
+      <node ref="R40" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="J4" pin="3"/>
+      <node ref="J3" pin="1"/>
+      <node ref="M2" pin="2"/>
+      <node ref="M1" pin="2"/>
+      <node ref="D2" pin="1"/>
+      <node ref="Q11" pin="1"/>
+    </net>
+    <net code="8" name="/SWDIO">
+      <node ref="U3" pin="21"/>
+      <node ref="J4" pin="4"/>
+    </net>
+    <net code="9" name="/SWCLK">
+      <node ref="U3" pin="22"/>
+      <node ref="J4" pin="2"/>
+    </net>
+    <net code="10" name="/NRST">
+      <node ref="U3" pin="4"/>
+      <node ref="J4" pin="5"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="11" name="/canrx">
+      <node ref="U2" pin="4"/>
+      <node ref="U3" pin="19"/>
+    </net>
+    <net code="12" name="/cantx">
+      <node ref="U2" pin="1"/>
+      <node ref="U3" pin="20"/>
+    </net>
+    <net code="13" name="/act1">
+      <node ref="R21" pin="1"/>
+      <node ref="U3" pin="12"/>
+    </net>
+    <net code="14" name="/act2">
+      <node ref="R28" pin="1"/>
+      <node ref="U3" pin="23"/>
+    </net>
+    <net code="15" name="/act3">
+      <node ref="R1" pin="1"/>
+      <node ref="U3" pin="25"/>
+    </net>
+    <net code="16" name="/sense1">
+      <node ref="U3" pin="8"/>
+      <node ref="U5" pin="4"/>
+      <node ref="R16" pin="2"/>
+      <node ref="C14" pin="1"/>
+      <node ref="TP3" pin="1"/>
+    </net>
+    <net code="17" name="/sense2">
+      <node ref="U4" pin="4"/>
+      <node ref="TP1" pin="1"/>
+      <node ref="C15" pin="1"/>
+      <node ref="U3" pin="9"/>
+      <node ref="R9" pin="2"/>
+    </net>
+    <net code="18" name="/sense3">
+      <node ref="C1" pin="1"/>
+      <node ref="TP5" pin="1"/>
+      <node ref="U6" pin="4"/>
+      <node ref="R23" pin="2"/>
+      <node ref="U3" pin="10"/>
+    </net>
+    <net code="19" name="/sense4">
+      <node ref="U3" pin="6"/>
+      <node ref="C12" pin="1"/>
+      <node ref="TP7" pin="1"/>
+      <node ref="U7" pin="4"/>
+      <node ref="R30" pin="2"/>
+    </net>
+    <net code="20" name="/sense5">
+      <node ref="U3" pin="7"/>
+      <node ref="R37" pin="2"/>
+      <node ref="U8" pin="4"/>
+      <node ref="C13" pin="1"/>
+      <node ref="Sense_TP1" pin="1"/>
+    </net>
+    <net code="21" name="/act5">
+      <node ref="R14" pin="1"/>
+      <node ref="U3" pin="1"/>
+    </net>
+    <net code="22" name="/act4">
+      <node ref="U3" pin="27"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="23" name="/fuse1">
+      <node ref="R20" pin="1"/>
+      <node ref="Q4" pin="2"/>
+      <node ref="U3" pin="11"/>
+    </net>
+    <net code="24" name="/fuse4">
+      <node ref="U3" pin="26"/>
+      <node ref="R34" pin="1"/>
+      <node ref="Q8" pin="2"/>
+    </net>
+    <net code="25" name="/fuse3">
+      <node ref="R27" pin="1"/>
+      <node ref="U3" pin="24"/>
+      <node ref="Q6" pin="2"/>
+    </net>
+    <net code="26" name="/LED_DEBUG">
+      <node ref="R6" pin="2"/>
+      <node ref="U3" pin="14"/>
+    </net>
+    <net code="27" name="/DEBUG_BUTTON">
+      <node ref="R5" pin="1"/>
+      <node ref="U3" pin="15"/>
+    </net>
+    <net code="28" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="29" name="Net-(C16-Pad1)">
+      <node ref="SW1" pin="1"/>
+      <node ref="C16" pin="1"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="30" name="/vout3">
+      <node ref="R25" pin="2"/>
+      <node ref="F3" pin="1"/>
+      <node ref="TP6" pin="1"/>
+      <node ref="R24" pin="1"/>
+      <node ref="J2" pin="4"/>
+      <node ref="J2" pin="9"/>
+    </net>
+    <net code="31" name="/vout4">
+      <node ref="J2" pin="8"/>
+      <node ref="J2" pin="5"/>
+      <node ref="R31" pin="1"/>
+      <node ref="TP8" pin="1"/>
+      <node ref="F4" pin="1"/>
+      <node ref="R32" pin="2"/>
+    </net>
+    <net code="32" name="/fuse5">
+      <node ref="R41" pin="1"/>
+      <node ref="U3" pin="28"/>
+      <node ref="Q10" pin="2"/>
+    </net>
+    <net code="33" name="/vout5">
+      <node ref="J2" pin="6"/>
+      <node ref="J2" pin="7"/>
+      <node ref="F5" pin="1"/>
+      <node ref="R39" pin="2"/>
+      <node ref="R38" pin="1"/>
+      <node ref="Vout_TP1" pin="1"/>
+    </net>
+    <net code="34" name="/vout1">
+      <node ref="R17" pin="1"/>
+      <node ref="TP4" pin="1"/>
+      <node ref="F2" pin="1"/>
+      <node ref="R18" pin="2"/>
+      <node ref="J2" pin="10"/>
+    </net>
+    <net code="35" name="/fuse2">
+      <node ref="R13" pin="1"/>
+      <node ref="U3" pin="13"/>
+      <node ref="Q2" pin="2"/>
+    </net>
+    <net code="36" name="/vout2">
+      <node ref="J2" pin="3"/>
+      <node ref="F1" pin="1"/>
+      <node ref="R11" pin="2"/>
+      <node ref="TP2" pin="1"/>
+      <node ref="R10" pin="1"/>
+    </net>
+    <net code="37" name="+12V">
+      <node ref="U1" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="U8" pin="3"/>
+      <node ref="U7" pin="3"/>
+      <node ref="TP9" pin="1"/>
+      <node ref="U6" pin="3"/>
+      <node ref="Q11" pin="3"/>
+      <node ref="M1" pin="1"/>
+      <node ref="M2" pin="1"/>
+      <node ref="R35" pin="2"/>
+      <node ref="U4" pin="3"/>
+      <node ref="U5" pin="3"/>
+    </net>
+    <net code="38" name="Net-(J4-Pad1)">
+      <node ref="J4" pin="1"/>
+    </net>
+    <net code="39" name="Net-(J4-Pad6)">
+      <node ref="J4" pin="6"/>
+    </net>
+    <net code="40" name="/vin">
+      <node ref="Q11" pin="2"/>
+      <node ref="J1" pin="4"/>
+      <node ref="J1" pin="3"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="41" name="/fuse_block/out">
+      <node ref="U5" pin="1"/>
+      <node ref="F2" pin="2"/>
+      <node ref="U5" pin="5"/>
+    </net>
+    <net code="42" name="Net-(Q4-Pad1)">
+      <node ref="R18" pin="1"/>
+      <node ref="R19" pin="1"/>
+      <node ref="Q4" pin="1"/>
+    </net>
+    <net code="43" name="Net-(D5-Pad2)">
+      <node ref="R17" pin="2"/>
+      <node ref="D5" pin="2"/>
+    </net>
+    <net code="44" name="Net-(Q7-Pad3)">
+      <node ref="R22" pin="1"/>
+      <node ref="Q7" pin="3"/>
+    </net>
+    <net code="45" name="Net-(R22-Pad2)">
+      <node ref="R22" pin="2"/>
+      <node ref="U5" pin="2"/>
+    </net>
+    <net code="46" name="Net-(Q7-Pad1)">
+      <node ref="R21" pin="2"/>
+      <node ref="Q7" pin="1"/>
+    </net>
+    <net code="47" name="/sheet5F955EDF/out">
+      <node ref="U4" pin="1"/>
+      <node ref="U4" pin="5"/>
+      <node ref="F1" pin="2"/>
+    </net>
+    <net code="48" name="Net-(Q2-Pad1)">
+      <node ref="R12" pin="1"/>
+      <node ref="Q2" pin="1"/>
+      <node ref="R11" pin="1"/>
+    </net>
+    <net code="49" name="Net-(D4-Pad2)">
+      <node ref="D4" pin="2"/>
+      <node ref="R10" pin="2"/>
+    </net>
+    <net code="50" name="Net-(Q9-Pad3)">
+      <node ref="Q9" pin="3"/>
+      <node ref="R29" pin="1"/>
+    </net>
+    <net code="51" name="Net-(R29-Pad2)">
+      <node ref="R29" pin="2"/>
+      <node ref="U4" pin="2"/>
+    </net>
+    <net code="52" name="Net-(Q9-Pad1)">
+      <node ref="Q9" pin="1"/>
+      <node ref="R28" pin="2"/>
+    </net>
+    <net code="53" name="Net-(Q1-Pad1)">
+      <node ref="R1" pin="2"/>
+      <node ref="Q1" pin="1"/>
+    </net>
+    <net code="54" name="/sheet5F955F69/out">
+      <node ref="U6" pin="1"/>
+      <node ref="U6" pin="5"/>
+      <node ref="F3" pin="2"/>
+    </net>
+    <net code="55" name="Net-(Q6-Pad1)">
+      <node ref="R25" pin="1"/>
+      <node ref="Q6" pin="1"/>
+      <node ref="R26" pin="1"/>
+    </net>
+    <net code="56" name="Net-(D6-Pad2)">
+      <node ref="R24" pin="2"/>
+      <node ref="D6" pin="2"/>
+    </net>
+    <net code="57" name="Net-(Q1-Pad3)">
+      <node ref="Q1" pin="3"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="58" name="Net-(R3-Pad2)">
+      <node ref="U6" pin="2"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="59" name="Net-(Q3-Pad1)">
+      <node ref="R7" pin="2"/>
+      <node ref="Q3" pin="1"/>
+    </net>
+    <net code="60" name="Net-(R8-Pad2)">
+      <node ref="R8" pin="2"/>
+      <node ref="U7" pin="2"/>
+    </net>
+    <net code="61" name="Net-(Q3-Pad3)">
+      <node ref="R8" pin="1"/>
+      <node ref="Q3" pin="3"/>
+    </net>
+    <net code="62" name="Net-(D7-Pad2)">
+      <node ref="R31" pin="2"/>
+      <node ref="D7" pin="2"/>
+    </net>
+    <net code="63" name="Net-(Q8-Pad1)">
+      <node ref="R33" pin="1"/>
+      <node ref="Q8" pin="1"/>
+      <node ref="R32" pin="1"/>
+    </net>
+    <net code="64" name="/sheet5F95602F/out">
+      <node ref="U7" pin="1"/>
+      <node ref="F4" pin="2"/>
+      <node ref="U7" pin="5"/>
+    </net>
+    <net code="65" name="Net-(R15-Pad2)">
+      <node ref="R15" pin="2"/>
+      <node ref="U8" pin="2"/>
+    </net>
+    <net code="66" name="/sheet5F9560CD/out">
+      <node ref="U8" pin="1"/>
+      <node ref="U8" pin="5"/>
+      <node ref="F5" pin="2"/>
+    </net>
+    <net code="67" name="Net-(Q5-Pad1)">
+      <node ref="R14" pin="2"/>
+      <node ref="Q5" pin="1"/>
+    </net>
+    <net code="68" name="Net-(Q5-Pad3)">
+      <node ref="Q5" pin="3"/>
+      <node ref="R15" pin="1"/>
+    </net>
+    <net code="69" name="Net-(D8-Pad2)">
+      <node ref="D8" pin="2"/>
+      <node ref="R38" pin="2"/>
+    </net>
+    <net code="70" name="Net-(Q10-Pad1)">
+      <node ref="R40" pin="1"/>
+      <node ref="R39" pin="1"/>
+      <node ref="Q10" pin="1"/>
+    </net>
+    <net code="71" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="R35" pin="1"/>
+    </net>
+    <net code="72" name="Net-(D2-Pad2)">
+      <node ref="R36" pin="1"/>
+      <node ref="D2" pin="2"/>
+    </net>
+  </nets>
+</export>
