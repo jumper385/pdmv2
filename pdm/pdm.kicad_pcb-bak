@@ -271,7 +271,7 @@
   )
 
   (module Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical (layer F.Cu) (tedit 5C28142C) (tstamp 6015CAD4)
-    (at 218.059 123.19)
+    (at 218.059 124.46)
     (descr "JST EH series connector, B2B-EH-A (http://www.jst-mfg.com/product/pdf/eng/eEH.pdf), generated with kicad-footprint-generator")
     (tags "connector JST EH vertical")
     (path /60370FB0)
@@ -321,7 +321,7 @@
   )
 
   (module Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical (layer F.Cu) (tedit 5C28142C) (tstamp 6015CAB4)
-    (at 218.069233 116.596234)
+    (at 218.069233 115.326234)
     (descr "JST EH series connector, B2B-EH-A (http://www.jst-mfg.com/product/pdf/eng/eEH.pdf), generated with kicad-footprint-generator")
     (tags "connector JST EH vertical")
     (path /6036FA12)
@@ -4641,10 +4641,10 @@
     )
   )
 
-  (gr_text FAN2 (at 224.917 116.84 90) (layer F.SilkS) (tstamp 6015E9F6)
+  (gr_text FAN2 (at 224.917 115.57 90) (layer F.SilkS) (tstamp 6015E9F6)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text FAN1 (at 224.917 123.444 90) (layer F.SilkS)
+  (gr_text FAN1 (at 224.917 124.714 90) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (gr_text GND (at 219.583 66.802) (layer F.SilkS) (tstamp 6014ED20)
