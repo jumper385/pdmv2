@@ -1049,7 +1049,7 @@ U 1 1 60145520
 P 7700 3050
 F 0 "J4" H 7592 2525 50  0000 C CNN
 F 1 "Conn_01x06_Female" H 7592 2616 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical_SMD_Pin1Left" H 7700 3050 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical_SMD_Pin1Left" H 7700 3050 50  0001 C CNN
 F 3 "~" H 7700 3050 50  0001 C CNN
 	1    7700 3050
 	-1   0    0    1   
@@ -1073,7 +1073,7 @@ U 1 1 60199908
 P 9900 3150
 F 0 "J3" H 9792 2725 50  0000 C CNN
 F 1 "Conn_01x04_Female" H 9792 2816 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical_SMD_Pin1Left" H 9900 3150 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical_SMD_Pin1Left" H 9900 3150 50  0001 C CNN
 F 3 "~" H 9900 3150 50  0001 C CNN
 	1    9900 3150
 	-1   0    0    1   
