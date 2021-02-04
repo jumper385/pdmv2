@@ -867,17 +867,6 @@ Text Label 9950 1550 1    50   ~ 0
 _N
 Wire Wire Line
 	11050 1250 11050 1550
-$Comp
-L pdm-rescue:+3.3V-power #PWR0117
-U 1 1 60219DD9
-P 11050 1550
-F 0 "#PWR0117" H 11050 1400 50  0001 C CNN
-F 1 "+3.3V" H 11065 1723 50  0000 C CNN
-F 2 "" H 11050 1550 50  0001 C CNN
-F 3 "" H 11050 1550 50  0001 C CNN
-	1    11050 1550
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	10950 1250 10950 1550
 $Comp
@@ -1259,4 +1248,7 @@ F 4 "5.0SMDJ28ACT-ND" H 8650 1600 50  0001 C CNN "Digi-Key_PN"
 	1    8650 1600
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	10950 1550 11050 1550
+Connection ~ 10950 1550
 $EndSCHEMATC

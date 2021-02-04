@@ -335,4 +335,6 @@ Connection ~ 6400 3900
 Wire Wire Line
 	5650 3900 5300 3900
 Connection ~ 5300 3900
+Text Notes 7050 4250 0    50   ~ 0
+25V Rated Tantalum
 $EndSCHEMATC
