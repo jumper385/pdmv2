@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/Users/henrychen/Documents/embedded/uwam_pdm_2021/pdm/pdm.sch</source>
-    <date>Tuesday, 26 January 2021 at 09:06:48 pm</date>
+    <date>Monday, 08 February 2021 at 11:54:59 pm</date>
     <tool>Eeschema (5.1.9-0-10_14)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -97,122 +97,133 @@
     </sheet>
   </design>
   <components>
-    <comp ref="C4">
+    <comp ref="C2">
       <value>16pF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="Digi-Key_PN">08051A200JAT2A</field>
+        <field name="Digi-Key_PN">478-3735-1-ND</field>
+        <field name="Mouser PN">603-CC805JRNPO9BN160</field>
       </fields>
       <libsource lib="pdm-rescue" part="C-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F9D5FE7</tstamp>
     </comp>
-    <comp ref="C5">
+    <comp ref="C3">
       <value>16pF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="Digi-Key_PN">08051A200JAT2A</field>
+        <field name="Digi-Key_PN">478-3735-1-ND</field>
+        <field name="Mouser PN">603-CC805JRNPO9BN160</field>
       </fields>
       <libsource lib="pdm-rescue" part="C-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F9D7172</tstamp>
     </comp>
-    <comp ref="C10">
+    <comp ref="C7">
       <value>4.7uF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="Digi-Key_PN">1276-1244-1-ND</field>
+        <field name="Mouser PN">603-CC0805KFX5R8BB47</field>
       </fields>
       <libsource lib="pdm-rescue" part="C-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5FA0A8C4</tstamp>
     </comp>
-    <comp ref="C8">
+    <comp ref="C5">
       <value>1uF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="Digi-Key_PN">T494A106M020AT</field>
+        <field name="Digi-Key_PN">1276-6471-1-ND</field>
+        <field name="Mouser PN">603-CC0805MKX58BB105</field>
       </fields>
       <libsource lib="pdm-rescue" part="C-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5FA6B51B</tstamp>
     </comp>
-    <comp ref="C2">
+    <comp ref="C1">
       <value>0.1uF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="Digi-Key_PN">CL21B104KBCNNNC</field>
+        <field name="Digi-Key_PN">1276-1003-1-ND</field>
+        <field name="Mouser PN">603-CC0805MRX77BB104</field>
       </fields>
       <libsource lib="pdm-rescue" part="C-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F96A74C</tstamp>
     </comp>
-    <comp ref="U2">
+    <comp ref="U1">
       <value>SN65HVD233</value>
       <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
       <datasheet>http://www.ti.com/lit/ds/symlink/sn65hvd234.pdf</datasheet>
       <fields>
         <field name="Digi-Key_PN">296-35967-1-ND</field>
+        <field name="Mouser PN">595-SN65HVD233QDRQ1</field>
       </fields>
       <libsource lib="pdm-rescue" part="SN65HVD233-Interface_CAN_LIN" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F965A3B</tstamp>
     </comp>
-    <comp ref="C7">
+    <comp ref="C4">
       <value>0.1uF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="Digi-Key_PN">CL21B104KBCNNNC</field>
+        <field name="Digi-Key_PN">1276-1003-1-ND</field>
+        <field name="Mouser PN">603-CC0805MRX77BB104</field>
       </fields>
       <libsource lib="pdm-rescue" part="C-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5FA81303</tstamp>
     </comp>
-    <comp ref="C9">
+    <comp ref="C6">
       <value>0.1uF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="Digi-Key_PN">CL21B104KBCNNNC</field>
+        <field name="Digi-Key_PN">1276-1003-1-ND</field>
+        <field name="Mouser PN">603-CC0805MRX77BB104</field>
       </fields>
       <libsource lib="pdm-rescue" part="C-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5FA888F4</tstamp>
     </comp>
-    <comp ref="U3">
+    <comp ref="U2">
       <value>STM32F042G6Ux</value>
       <footprint>Package_DFN_QFN:QFN-28_4x4mm_P0.5mm</footprint>
       <datasheet>http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00105814.pdf</datasheet>
       <fields>
         <field name="Digi-Key_PN">497-17345-ND</field>
+        <field name="Mouser PN">511-STM32F042G6U6</field>
       </fields>
       <libsource lib="pdm-rescue" part="STM32F042G6Ux-MCU_ST_STM32F0" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F9A341D</tstamp>
     </comp>
-    <comp ref="D3">
+    <comp ref="D2">
       <value>LED</value>
       <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="Digi-Key_PN">516-1431-1-ND</field>
+        <field name="Mouser PN">630-HSMA-C170-T0000</field>
       </fields>
       <libsource lib="pdm-rescue" part="LED-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5FD0618B</tstamp>
     </comp>
-    <comp ref="R6">
-      <value>600R</value>
+    <comp ref="R4">
+      <value>120R</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="Digi-Key_PN">A126352CT-ND</field>
+        <field name="Mouser PN">603-RC0805JR-07120RL</field>
       </fields>
       <libsource lib="pdm-rescue" part="R-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
@@ -229,12 +240,13 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5FD13197</tstamp>
     </comp>
-    <comp ref="R5">
+    <comp ref="R3">
       <value>10k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="Digi-Key_PN">RNCP0805FTD10K0CT-ND</field>
+        <field name="Mouser PN">603-AC0805FR-0710K5L</field>
       </fields>
       <libsource lib="pdm-rescue" part="R-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
@@ -256,12 +268,13 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>6002ED89</tstamp>
     </comp>
-    <comp ref="J2">
+    <comp ref="J4">
       <value>Conn_01x12_Male</value>
       <footprint>DT13-12PB-B016:TE_DT13-12PB-B016</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="Digi-Key_PN">1734-1635-ND</field>
+        <field name="Mouser PN">571-DT13-12PB-B016</field>
       </fields>
       <libsource lib="Connector" part="Conn_01x12_Male" description="Generic connector, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
@@ -273,6 +286,7 @@
       <datasheet>~</datasheet>
       <fields>
         <field name="Digi-Key_PN">RNCP0805FTD10K0CT-ND</field>
+        <field name="Mouser PN">603-AC0805FR-0710K5L</field>
       </fields>
       <libsource lib="pdm-rescue" part="R-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
@@ -284,6 +298,7 @@
       <datasheet>~</datasheet>
       <fields>
         <field name="Digi-Key_PN">1734-1024-ND</field>
+        <field name="Mouser PN">571-DT13-4P</field>
       </fields>
       <libsource lib="Connector" part="Conn_01x04_Male" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
@@ -321,23 +336,25 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>600B22DD</tstamp>
     </comp>
-    <comp ref="C16">
+    <comp ref="C8">
       <value>0.1uF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="Digi-Key_PN">CL21B104KBCNNNC</field>
+        <field name="Digi-Key_PN">1276-1003-1-ND</field>
+        <field name="Mouser PN">603-CC0805MRX77BB104</field>
       </fields>
       <libsource lib="pdm-rescue" part="C-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>60085B5A</tstamp>
     </comp>
-    <comp ref="R4">
+    <comp ref="R1">
       <value>120R</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="Digi-Key_PN">A129738CT-ND</field>
+        <field name="Mouser PN">279-CPF-A-0805B120RE</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
@@ -356,13 +373,14 @@
         <field name="Family">Crystals</field>
         <field name="MPN">NX3225GD-8MHZ-STD-CRA-3</field>
         <field name="Manufacturer">NDK America, Inc.</field>
+        <field name="Mouser PN">344-NX3225GD8MCRA3</field>
         <field name="Status">Active</field>
       </fields>
       <libsource lib="dk_Crystals" part="NX3225GD-8MHZ-STD-CRA-3" description="CRYSTAL 8.0000MHZ 8PF SMD"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>60080B08</tstamp>
     </comp>
-    <comp ref="J4">
+    <comp ref="J2">
       <value>Conn_01x06_Female</value>
       <footprint>Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical_SMD_Pin1Left</footprint>
       <datasheet>~</datasheet>
@@ -383,17 +401,6 @@
       <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>60199908</tstamp>
-    </comp>
-    <comp ref="Q11">
-      <value>Q_PMOS_DSG</value>
-      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
-      <datasheet>https://www.vishay.com/docs/65594/sud50p04-08.pdf</datasheet>
-      <fields>
-        <field name="Digi-Key_PN">SUD50P04-08-GE3CT-ND</field>
-      </fields>
-      <libsource lib="Device" part="Q_PMOS_GDS" description="P-MOSFET transistor, gate/drain/source"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>60318C08</tstamp>
     </comp>
     <comp ref="M1">
       <value>Fan</value>
@@ -417,139 +424,65 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>60370FB0</tstamp>
     </comp>
-    <comp ref="U6">
-      <value>BTS443P</value>
-      <footprint>Package_TO_SOT_SMD:TO-252-4</footprint>
-      <datasheet>http://www.infineon.com/dgdl/Infineon-BTS443P-DS-v01_00-EN.pdf?fileId=5546d4625a888733015aa9afbc5035d5</datasheet>
+    <comp ref="D1">
+      <value>D</value>
+      <footprint>digikey-footprints:DO-214AB</footprint>
+      <datasheet>https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_5_0smdj_datasheet.pdf.pdf</datasheet>
       <fields>
-        <field name="Digi-Key_PN">BTS443PAUMA1CT-ND</field>
+        <field name="Digi-Key_PN">5.0SMDJ28ACT-ND</field>
+        <field name="Mouser PN">576-5.0SMDJ28A</field>
       </fields>
-      <libsource lib="pdm-rescue" part="BTS443P-Power_Management" description=""/>
-      <sheetpath names="/sheet5F955F69/" tstamps="/5F955F6E/"/>
-      <tstamp>5F95464C</tstamp>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601BD890</tstamp>
     </comp>
-    <comp ref="R23">
-      <value>1K5</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Digi-Key_PN">A106057CT-ND</field>
-      </fields>
-      <libsource lib="pdm-rescue" part="R-Device" description=""/>
-      <sheetpath names="/sheet5F955F69/" tstamps="/5F955F6E/"/>
-      <tstamp>5F95465A</tstamp>
-    </comp>
-    <comp ref="F3">
-      <value>Fuse</value>
-      <footprint>pdm_v2:fuseHolder</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="pdm-rescue" part="Fuse-Device" description=""/>
-      <sheetpath names="/sheet5F955F69/" tstamps="/5F955F6E/"/>
-      <tstamp>5F95466C</tstamp>
-    </comp>
-    <comp ref="R25">
+    <comp ref="R11">
       <value>2k2</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="Digi-Key_PN">A106060CT-ND</field>
+        <field name="Digi-Key_PN">RNCP0805FTD10K0CT-ND</field>
+        <field name="Mouser PN">RT0805FRE072K2L</field>
       </fields>
       <libsource lib="pdm-rescue" part="R-Device" description=""/>
       <sheetpath names="/sheet5F955F69/" tstamps="/5F955F6E/"/>
-      <tstamp>5F954690</tstamp>
+      <tstamp>601665FB</tstamp>
     </comp>
-    <comp ref="R26">
-      <value>220R</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Digi-Key_PN">311-220CRCT-ND</field>
-      </fields>
-      <libsource lib="pdm-rescue" part="R-Device" description=""/>
-      <sheetpath names="/sheet5F955F69/" tstamps="/5F955F6E/"/>
-      <tstamp>5F954672</tstamp>
-    </comp>
-    <comp ref="R24">
-      <value>680R</value>
+    <comp ref="R8">
+      <value>850</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="Digi-Key_PN">A129747CT-ND</field>
+        <field name="Mouser PN">667-ERJ-6ENF8660V</field>
       </fields>
       <libsource lib="pdm-rescue" part="R-Device" description=""/>
       <sheetpath names="/sheet5F955F69/" tstamps="/5F955F6E/"/>
       <tstamp>5F986EB2</tstamp>
     </comp>
-    <comp ref="D6">
+    <comp ref="D3">
       <value>LED</value>
       <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="Digi-Key_PN">516-1431-1-ND</field>
+        <field name="Mouser PN">630-HSMR-C170-R0000</field>
       </fields>
       <libsource lib="pdm-rescue" part="LED-Device" description=""/>
       <sheetpath names="/sheet5F955F69/" tstamps="/5F955F6E/"/>
       <tstamp>5F98650F</tstamp>
     </comp>
-    <comp ref="R27">
-      <value>2k2</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+    <comp ref="Q3">
+      <value>BC817</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="Digi-Key_PN">A106060CT-ND</field>
+        <field name="Digi-Key_PN">1727-6186-1-ND</field>
+        <field name="Mouser PN">771-BC817K-40HVL</field>
       </fields>
-      <libsource lib="pdm-rescue" part="R-Device" description=""/>
+      <libsource lib="pdm-rescue" part="Q_NPN_BCE-Device" description=""/>
       <sheetpath names="/sheet5F955F69/" tstamps="/5F955F6E/"/>
-      <tstamp>5FDFC164</tstamp>
-    </comp>
-    <comp ref="TP6">
-      <value>TestPoint_Probe</value>
-      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="pdm-rescue" part="TestPoint_Probe-Connector" description=""/>
-      <sheetpath names="/sheet5F955F69/" tstamps="/5F955F6E/"/>
-      <tstamp>5FFEFF01</tstamp>
-    </comp>
-    <comp ref="TP5">
-      <value>TestPoint_Probe</value>
-      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="pdm-rescue" part="TestPoint_Probe-Connector" description=""/>
-      <sheetpath names="/sheet5F955F69/" tstamps="/5F955F6E/"/>
-      <tstamp>5FFF1F4F</tstamp>
-    </comp>
-    <comp ref="C1">
-      <value>1uF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Digi-Key_PN">T494A106M020AT</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/sheet5F955F69/" tstamps="/5F955F6E/"/>
-      <tstamp>6007317B</tstamp>
-    </comp>
-    <comp ref="R3">
-      <value>10k</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Digi-Key_PN">RNCP0805FTD10K0CT-ND</field>
-      </fields>
-      <libsource lib="pdm-rescue" part="R-Device" description=""/>
-      <sheetpath names="/sheet5F955F69/" tstamps="/5F955F6E/"/>
-      <tstamp>60187A80</tstamp>
-    </comp>
-    <comp ref="R1">
-      <value>2k8</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Digi-Key_PN">311-2.80KCRCT-ND</field>
-      </fields>
-      <libsource lib="pdm-rescue" part="R-Device" description=""/>
-      <sheetpath names="/sheet5F955F69/" tstamps="/5F955F6E/"/>
-      <tstamp>60189F37</tstamp>
+      <tstamp>5F982D06</tstamp>
     </comp>
     <comp ref="Q1">
       <value>BC817</value>
@@ -557,551 +490,166 @@
       <datasheet>https://www.onsemi.com/pub/Collateral/BC818-D.pdf</datasheet>
       <fields>
         <field name="Digi-Key_PN">1727-6186-1-ND</field>
+        <field name="Mouser PN">771-BC817K-40HVL</field>
       </fields>
       <libsource lib="Transistor_BJT" part="BC817" description="0.8A Ic, 45V Vce, NPN Transistor, SOT-23"/>
       <sheetpath names="/sheet5F955F69/" tstamps="/5F955F6E/"/>
       <tstamp>6018FB48</tstamp>
     </comp>
-    <comp ref="Q6">
-      <value>BC817</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23_Handsoldering</footprint>
+    <comp ref="R5">
+      <value>2k2</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="Digi-Key_PN">1727-6186-1-ND</field>
+        <field name="Digi-Key_PN">311-2.80KCRCT-ND</field>
+        <field name="Mouser PN">RT0805FRE072K2L</field>
       </fields>
-      <libsource lib="pdm-rescue" part="Q_NPN_BCE-Device" description=""/>
+      <libsource lib="pdm-rescue" part="R-Device" description=""/>
       <sheetpath names="/sheet5F955F69/" tstamps="/5F955F6E/"/>
-      <tstamp>5F982D06</tstamp>
+      <tstamp>60189F37</tstamp>
     </comp>
-    <comp ref="U7">
-      <value>BTS443P</value>
-      <footprint>Package_TO_SOT_SMD:TO-252-4</footprint>
-      <datasheet>http://www.infineon.com/dgdl/Infineon-BTS443P-DS-v01_00-EN.pdf?fileId=5546d4625a888733015aa9afbc5035d5</datasheet>
-      <fields>
-        <field name="Digi-Key_PN">BTS443PAUMA1CT-ND</field>
-      </fields>
-      <libsource lib="pdm-rescue" part="BTS443P-Power_Management" description=""/>
-      <sheetpath names="/sheet5F95602F/" tstamps="/5F956034/"/>
-      <tstamp>5F95464C</tstamp>
-    </comp>
-    <comp ref="R30">
-      <value>1K5</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Digi-Key_PN">A106057CT-ND</field>
-      </fields>
-      <libsource lib="pdm-rescue" part="R-Device" description=""/>
-      <sheetpath names="/sheet5F95602F/" tstamps="/5F956034/"/>
-      <tstamp>5F95465A</tstamp>
-    </comp>
-    <comp ref="F4">
-      <value>Fuse</value>
-      <footprint>pdm_v2:fuseHolder</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="pdm-rescue" part="Fuse-Device" description=""/>
-      <sheetpath names="/sheet5F95602F/" tstamps="/5F956034/"/>
-      <tstamp>5F95466C</tstamp>
-    </comp>
-    <comp ref="R32">
-      <value>2k2</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Digi-Key_PN">A106060CT-ND</field>
-      </fields>
-      <libsource lib="pdm-rescue" part="R-Device" description=""/>
-      <sheetpath names="/sheet5F95602F/" tstamps="/5F956034/"/>
-      <tstamp>5F954690</tstamp>
-    </comp>
-    <comp ref="R33">
-      <value>220R</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Digi-Key_PN">311-220CRCT-ND</field>
-      </fields>
-      <libsource lib="pdm-rescue" part="R-Device" description=""/>
-      <sheetpath names="/sheet5F95602F/" tstamps="/5F956034/"/>
-      <tstamp>5F954672</tstamp>
-    </comp>
-    <comp ref="R31">
-      <value>680R</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Digi-Key_PN">A129747CT-ND</field>
-      </fields>
-      <libsource lib="pdm-rescue" part="R-Device" description=""/>
-      <sheetpath names="/sheet5F95602F/" tstamps="/5F956034/"/>
-      <tstamp>5F986EB2</tstamp>
-    </comp>
-    <comp ref="D7">
-      <value>LED</value>
-      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Digi-Key_PN">516-1431-1-ND</field>
-      </fields>
-      <libsource lib="pdm-rescue" part="LED-Device" description=""/>
-      <sheetpath names="/sheet5F95602F/" tstamps="/5F956034/"/>
-      <tstamp>5F98650F</tstamp>
-    </comp>
-    <comp ref="R34">
-      <value>2k2</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Digi-Key_PN">A106060CT-ND</field>
-      </fields>
-      <libsource lib="pdm-rescue" part="R-Device" description=""/>
-      <sheetpath names="/sheet5F95602F/" tstamps="/5F956034/"/>
-      <tstamp>5FDFC164</tstamp>
-    </comp>
-    <comp ref="TP8">
-      <value>TestPoint_Probe</value>
-      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="pdm-rescue" part="TestPoint_Probe-Connector" description=""/>
-      <sheetpath names="/sheet5F95602F/" tstamps="/5F956034/"/>
-      <tstamp>5FFEFF01</tstamp>
-    </comp>
-    <comp ref="TP7">
-      <value>TestPoint_Probe</value>
-      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="pdm-rescue" part="TestPoint_Probe-Connector" description=""/>
-      <sheetpath names="/sheet5F95602F/" tstamps="/5F956034/"/>
-      <tstamp>5FFF1F4F</tstamp>
-    </comp>
-    <comp ref="C12">
-      <value>1uF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Digi-Key_PN">T494A106M020AT</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/sheet5F95602F/" tstamps="/5F956034/"/>
-      <tstamp>6007317B</tstamp>
-    </comp>
-    <comp ref="R8">
+    <comp ref="R6">
       <value>10k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="Digi-Key_PN">RNCP0805FTD10K0CT-ND</field>
+        <field name="Mouser PN">603-AC0805FR-0710K5L</field>
       </fields>
       <libsource lib="pdm-rescue" part="R-Device" description=""/>
-      <sheetpath names="/sheet5F95602F/" tstamps="/5F956034/"/>
+      <sheetpath names="/sheet5F955F69/" tstamps="/5F955F6E/"/>
       <tstamp>60187A80</tstamp>
     </comp>
-    <comp ref="R7">
-      <value>2k8</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+    <comp ref="C9">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="Digi-Key_PN">311-2.80KCRCT-ND</field>
+        <field name="Digi-Key_PN">1276-6471-1-ND</field>
+        <field name="Mouser PN">603-CC0805MKX58BB105</field>
       </fields>
-      <libsource lib="pdm-rescue" part="R-Device" description=""/>
-      <sheetpath names="/sheet5F95602F/" tstamps="/5F956034/"/>
-      <tstamp>60189F37</tstamp>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/sheet5F955F69/" tstamps="/5F955F6E/"/>
+      <tstamp>6007317B</tstamp>
     </comp>
-    <comp ref="Q3">
-      <value>BC817</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
-      <datasheet>https://www.onsemi.com/pub/Collateral/BC818-D.pdf</datasheet>
-      <fields>
-        <field name="Digi-Key_PN">1727-6186-1-ND</field>
-      </fields>
-      <libsource lib="Transistor_BJT" part="BC817" description="0.8A Ic, 45V Vce, NPN Transistor, SOT-23"/>
-      <sheetpath names="/sheet5F95602F/" tstamps="/5F956034/"/>
-      <tstamp>6018FB48</tstamp>
-    </comp>
-    <comp ref="Q8">
-      <value>BC817</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23_Handsoldering</footprint>
+    <comp ref="TP1">
+      <value>TestPoint_Probe</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
       <datasheet>~</datasheet>
-      <fields>
-        <field name="Digi-Key_PN">1727-6186-1-ND</field>
-      </fields>
-      <libsource lib="pdm-rescue" part="Q_NPN_BCE-Device" description=""/>
-      <sheetpath names="/sheet5F95602F/" tstamps="/5F956034/"/>
-      <tstamp>5F982D06</tstamp>
-    </comp>
-    <comp ref="U8">
-      <value>BTS443P</value>
-      <footprint>Package_TO_SOT_SMD:TO-252-4</footprint>
-      <datasheet>http://www.infineon.com/dgdl/Infineon-BTS443P-DS-v01_00-EN.pdf?fileId=5546d4625a888733015aa9afbc5035d5</datasheet>
-      <fields>
-        <field name="Digi-Key_PN">BTS443PAUMA1CT-ND</field>
-      </fields>
-      <libsource lib="pdm-rescue" part="BTS443P-Power_Management" description=""/>
-      <sheetpath names="/sheet5F9560CD/" tstamps="/5F9560D2/"/>
-      <tstamp>5F95464C</tstamp>
-    </comp>
-    <comp ref="R37">
-      <value>1K5</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Digi-Key_PN">A106057CT-ND</field>
-      </fields>
-      <libsource lib="pdm-rescue" part="R-Device" description=""/>
-      <sheetpath names="/sheet5F9560CD/" tstamps="/5F9560D2/"/>
-      <tstamp>5F95465A</tstamp>
-    </comp>
-    <comp ref="F5">
-      <value>Fuse</value>
-      <footprint>pdm_v2:fuseHolder</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="pdm-rescue" part="Fuse-Device" description=""/>
-      <sheetpath names="/sheet5F9560CD/" tstamps="/5F9560D2/"/>
-      <tstamp>5F95466C</tstamp>
-    </comp>
-    <comp ref="R39">
-      <value>2k2</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Digi-Key_PN">A106060CT-ND</field>
-      </fields>
-      <libsource lib="pdm-rescue" part="R-Device" description=""/>
-      <sheetpath names="/sheet5F9560CD/" tstamps="/5F9560D2/"/>
-      <tstamp>5F954690</tstamp>
-    </comp>
-    <comp ref="R40">
-      <value>220R</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Digi-Key_PN">311-220CRCT-ND</field>
-      </fields>
-      <libsource lib="pdm-rescue" part="R-Device" description=""/>
-      <sheetpath names="/sheet5F9560CD/" tstamps="/5F9560D2/"/>
-      <tstamp>5F954672</tstamp>
-    </comp>
-    <comp ref="R38">
-      <value>680R</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Digi-Key_PN">A129747CT-ND</field>
-      </fields>
-      <libsource lib="pdm-rescue" part="R-Device" description=""/>
-      <sheetpath names="/sheet5F9560CD/" tstamps="/5F9560D2/"/>
-      <tstamp>5F986EB2</tstamp>
-    </comp>
-    <comp ref="D8">
-      <value>LED</value>
-      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Digi-Key_PN">516-1431-1-ND</field>
-      </fields>
-      <libsource lib="pdm-rescue" part="LED-Device" description=""/>
-      <sheetpath names="/sheet5F9560CD/" tstamps="/5F9560D2/"/>
-      <tstamp>5F98650F</tstamp>
-    </comp>
-    <comp ref="R41">
-      <value>2k2</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Digi-Key_PN">A106060CT-ND</field>
-      </fields>
-      <libsource lib="pdm-rescue" part="R-Device" description=""/>
-      <sheetpath names="/sheet5F9560CD/" tstamps="/5F9560D2/"/>
-      <tstamp>5FDFC164</tstamp>
+      <libsource lib="pdm-rescue" part="TestPoint_Probe-Connector" description=""/>
+      <sheetpath names="/sheet5F955F69/" tstamps="/5F955F6E/"/>
+      <tstamp>5FFF1F4F</tstamp>
     </comp>
     <comp ref="Vout_TP1">
       <value>TestPoint_Probe</value>
       <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
       <datasheet>~</datasheet>
       <libsource lib="pdm-rescue" part="TestPoint_Probe-Connector" description=""/>
-      <sheetpath names="/sheet5F9560CD/" tstamps="/5F9560D2/"/>
+      <sheetpath names="/sheet5F955F69/" tstamps="/5F955F6E/"/>
       <tstamp>5FFEFF01</tstamp>
     </comp>
-    <comp ref="Sense_TP1">
-      <value>TestPoint_Probe</value>
-      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="pdm-rescue" part="TestPoint_Probe-Connector" description=""/>
-      <sheetpath names="/sheet5F9560CD/" tstamps="/5F9560D2/"/>
-      <tstamp>5FFF1F4F</tstamp>
-    </comp>
-    <comp ref="C13">
-      <value>1uF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Digi-Key_PN">T494A106M020AT</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/sheet5F9560CD/" tstamps="/5F9560D2/"/>
-      <tstamp>6007317B</tstamp>
-    </comp>
-    <comp ref="R15">
-      <value>10k</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Digi-Key_PN">RNCP0805FTD10K0CT-ND</field>
-      </fields>
-      <libsource lib="pdm-rescue" part="R-Device" description=""/>
-      <sheetpath names="/sheet5F9560CD/" tstamps="/5F9560D2/"/>
-      <tstamp>60187A80</tstamp>
-    </comp>
-    <comp ref="R14">
-      <value>2k8</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Digi-Key_PN">311-2.80KCRCT-ND</field>
-      </fields>
-      <libsource lib="pdm-rescue" part="R-Device" description=""/>
-      <sheetpath names="/sheet5F9560CD/" tstamps="/5F9560D2/"/>
-      <tstamp>60189F37</tstamp>
-    </comp>
-    <comp ref="Q5">
-      <value>BC817</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
-      <datasheet>https://www.onsemi.com/pub/Collateral/BC818-D.pdf</datasheet>
-      <fields>
-        <field name="Digi-Key_PN">1727-6186-1-ND</field>
-      </fields>
-      <libsource lib="Transistor_BJT" part="BC817" description="0.8A Ic, 45V Vce, NPN Transistor, SOT-23"/>
-      <sheetpath names="/sheet5F9560CD/" tstamps="/5F9560D2/"/>
-      <tstamp>6018FB48</tstamp>
-    </comp>
-    <comp ref="Q10">
-      <value>BC817</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23_Handsoldering</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Digi-Key_PN">1727-6186-1-ND</field>
-      </fields>
-      <libsource lib="pdm-rescue" part="Q_NPN_BCE-Device" description=""/>
-      <sheetpath names="/sheet5F9560CD/" tstamps="/5F9560D2/"/>
-      <tstamp>5F982D06</tstamp>
-    </comp>
-    <comp ref="U5">
-      <value>BTS443P</value>
-      <footprint>Package_TO_SOT_SMD:TO-252-4</footprint>
-      <datasheet>http://www.infineon.com/dgdl/Infineon-BTS443P-DS-v01_00-EN.pdf?fileId=5546d4625a888733015aa9afbc5035d5</datasheet>
-      <fields>
-        <field name="Digi-Key_PN">BTS443PAUMA1CT-ND</field>
-      </fields>
-      <libsource lib="pdm-rescue" part="BTS443P-Power_Management" description=""/>
-      <sheetpath names="/fuse_block/" tstamps="/5F94FFF3/"/>
-      <tstamp>5F95464C</tstamp>
-    </comp>
-    <comp ref="R16">
-      <value>1K5</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Digi-Key_PN">A106057CT-ND</field>
-      </fields>
-      <libsource lib="pdm-rescue" part="R-Device" description=""/>
-      <sheetpath names="/fuse_block/" tstamps="/5F94FFF3/"/>
-      <tstamp>5F95465A</tstamp>
-    </comp>
-    <comp ref="F2">
-      <value>Fuse</value>
-      <footprint>pdm_v2:fuseHolder</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="pdm-rescue" part="Fuse-Device" description=""/>
-      <sheetpath names="/fuse_block/" tstamps="/5F94FFF3/"/>
-      <tstamp>5F95466C</tstamp>
-    </comp>
-    <comp ref="R18">
+    <comp ref="R12">
       <value>2k2</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="Digi-Key_PN">A106060CT-ND</field>
+        <field name="Mouser PN">RT0805FRE072K2L</field>
       </fields>
       <libsource lib="pdm-rescue" part="R-Device" description=""/>
-      <sheetpath names="/fuse_block/" tstamps="/5F94FFF3/"/>
-      <tstamp>5F954690</tstamp>
+      <sheetpath names="/sheet5F955F69/" tstamps="/5F955F6E/"/>
+      <tstamp>5FDFC164</tstamp>
     </comp>
-    <comp ref="R19">
+    <comp ref="R10">
       <value>220R</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="Digi-Key_PN">311-220CRCT-ND</field>
+        <field name="Mouser PN">603-RT0805FRE10220RL</field>
       </fields>
       <libsource lib="pdm-rescue" part="R-Device" description=""/>
-      <sheetpath names="/fuse_block/" tstamps="/5F94FFF3/"/>
+      <sheetpath names="/sheet5F955F69/" tstamps="/5F955F6E/"/>
       <tstamp>5F954672</tstamp>
     </comp>
-    <comp ref="R17">
-      <value>680R</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Digi-Key_PN">A129747CT-ND</field>
-      </fields>
-      <libsource lib="pdm-rescue" part="R-Device" description=""/>
-      <sheetpath names="/fuse_block/" tstamps="/5F94FFF3/"/>
-      <tstamp>5F986EB2</tstamp>
-    </comp>
-    <comp ref="D5">
-      <value>LED</value>
-      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Digi-Key_PN">516-1431-1-ND</field>
-      </fields>
-      <libsource lib="pdm-rescue" part="LED-Device" description=""/>
-      <sheetpath names="/fuse_block/" tstamps="/5F94FFF3/"/>
-      <tstamp>5F98650F</tstamp>
-    </comp>
-    <comp ref="R20">
+    <comp ref="R9">
       <value>2k2</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="Digi-Key_PN">A106060CT-ND</field>
+        <field name="Mouser PN">RT0805FRE072K2L</field>
       </fields>
       <libsource lib="pdm-rescue" part="R-Device" description=""/>
-      <sheetpath names="/fuse_block/" tstamps="/5F94FFF3/"/>
-      <tstamp>5FDFC164</tstamp>
-    </comp>
-    <comp ref="TP4">
-      <value>TestPoint_Probe</value>
-      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="pdm-rescue" part="TestPoint_Probe-Connector" description=""/>
-      <sheetpath names="/fuse_block/" tstamps="/5F94FFF3/"/>
-      <tstamp>5FFEFF01</tstamp>
-    </comp>
-    <comp ref="TP3">
-      <value>TestPoint_Probe</value>
-      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="pdm-rescue" part="TestPoint_Probe-Connector" description=""/>
-      <sheetpath names="/fuse_block/" tstamps="/5F94FFF3/"/>
-      <tstamp>5FFF1F4F</tstamp>
-    </comp>
-    <comp ref="C14">
-      <value>1uF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Digi-Key_PN">T494A106M020AT</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/fuse_block/" tstamps="/5F94FFF3/"/>
-      <tstamp>6007317B</tstamp>
-    </comp>
-    <comp ref="R22">
-      <value>10k</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Digi-Key_PN">RNCP0805FTD10K0CT-ND</field>
-      </fields>
-      <libsource lib="pdm-rescue" part="R-Device" description=""/>
-      <sheetpath names="/fuse_block/" tstamps="/5F94FFF3/"/>
-      <tstamp>60187A80</tstamp>
-    </comp>
-    <comp ref="R21">
-      <value>2k8</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Digi-Key_PN">311-2.80KCRCT-ND</field>
-      </fields>
-      <libsource lib="pdm-rescue" part="R-Device" description=""/>
-      <sheetpath names="/fuse_block/" tstamps="/5F94FFF3/"/>
-      <tstamp>60189F37</tstamp>
-    </comp>
-    <comp ref="Q7">
-      <value>BC817</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
-      <datasheet>https://www.onsemi.com/pub/Collateral/BC818-D.pdf</datasheet>
-      <fields>
-        <field name="Digi-Key_PN">1727-6186-1-ND</field>
-      </fields>
-      <libsource lib="Transistor_BJT" part="BC817" description="0.8A Ic, 45V Vce, NPN Transistor, SOT-23"/>
-      <sheetpath names="/fuse_block/" tstamps="/5F94FFF3/"/>
-      <tstamp>6018FB48</tstamp>
-    </comp>
-    <comp ref="Q4">
-      <value>BC817</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23_Handsoldering</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Digi-Key_PN">1727-6186-1-ND</field>
-      </fields>
-      <libsource lib="pdm-rescue" part="Q_NPN_BCE-Device" description=""/>
-      <sheetpath names="/fuse_block/" tstamps="/5F94FFF3/"/>
-      <tstamp>5F982D06</tstamp>
-    </comp>
-    <comp ref="U4">
-      <value>BTS443P</value>
-      <footprint>Package_TO_SOT_SMD:TO-252-4</footprint>
-      <datasheet>http://www.infineon.com/dgdl/Infineon-BTS443P-DS-v01_00-EN.pdf?fileId=5546d4625a888733015aa9afbc5035d5</datasheet>
-      <fields>
-        <field name="Digi-Key_PN">BTS443PAUMA1CT-ND</field>
-      </fields>
-      <libsource lib="pdm-rescue" part="BTS443P-Power_Management" description=""/>
-      <sheetpath names="/sheet5F955EDF/" tstamps="/5F955EE4/"/>
-      <tstamp>5F95464C</tstamp>
-    </comp>
-    <comp ref="R9">
-      <value>1K5</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Digi-Key_PN">A106057CT-ND</field>
-      </fields>
-      <libsource lib="pdm-rescue" part="R-Device" description=""/>
-      <sheetpath names="/sheet5F955EDF/" tstamps="/5F955EE4/"/>
-      <tstamp>5F95465A</tstamp>
+      <sheetpath names="/sheet5F955F69/" tstamps="/5F955F6E/"/>
+      <tstamp>5F954690</tstamp>
     </comp>
     <comp ref="F1">
       <value>Fuse</value>
       <footprint>pdm_v2:fuseHolder</footprint>
       <datasheet>~</datasheet>
       <libsource lib="pdm-rescue" part="Fuse-Device" description=""/>
-      <sheetpath names="/sheet5F955EDF/" tstamps="/5F955EE4/"/>
+      <sheetpath names="/sheet5F955F69/" tstamps="/5F955F6E/"/>
       <tstamp>5F95466C</tstamp>
     </comp>
-    <comp ref="R11">
+    <comp ref="R7">
+      <value>1K5</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">A106057CT-ND</field>
+        <field name="Mouser PN">603-RT0805FRE101K5L</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="R-Device" description=""/>
+      <sheetpath names="/sheet5F955F69/" tstamps="/5F955F6E/"/>
+      <tstamp>5F95465A</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>BTS443P</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-4</footprint>
+      <datasheet>http://www.infineon.com/dgdl/Infineon-BTS443P-DS-v01_00-EN.pdf?fileId=5546d4625a888733015aa9afbc5035d5</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">BTS443PAUMA1CT-ND</field>
+        <field name="Mouser PN">726-BTS443P</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="BTS443P-Power_Management" description=""/>
+      <sheetpath names="/sheet5F955F69/" tstamps="/5F955F6E/"/>
+      <tstamp>5F95464C</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>BC817</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BC817_SER.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">1727-6186-1-ND</field>
+        <field name="Mouser PN">771-BC817K-40HVL</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="Q_NPN_BCE-Device" description=""/>
+      <sheetpath names="/sheet5F955F69/" tstamps="/5F955F6E/"/>
+      <tstamp>6015A889</tstamp>
+    </comp>
+    <comp ref="R19">
       <value>2k2</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="Digi-Key_PN">A106060CT-ND</field>
+        <field name="Digi-Key_PN">RNCP0805FTD10K0CT-ND</field>
+        <field name="Mouser PN">RT0805FRE072K2L</field>
       </fields>
       <libsource lib="pdm-rescue" part="R-Device" description=""/>
-      <sheetpath names="/sheet5F955EDF/" tstamps="/5F955EE4/"/>
-      <tstamp>5F954690</tstamp>
+      <sheetpath names="/sheet5F95602F/" tstamps="/5F956034/"/>
+      <tstamp>601665FB</tstamp>
     </comp>
-    <comp ref="R12">
-      <value>220R</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Digi-Key_PN">311-220CRCT-ND</field>
-      </fields>
-      <libsource lib="pdm-rescue" part="R-Device" description=""/>
-      <sheetpath names="/sheet5F955EDF/" tstamps="/5F955EE4/"/>
-      <tstamp>5F954672</tstamp>
-    </comp>
-    <comp ref="R10">
-      <value>680R</value>
+    <comp ref="R16">
+      <value>850</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="Digi-Key_PN">A129747CT-ND</field>
+        <field name="Mouser PN">667-ERJ-6ENF8660V</field>
       </fields>
       <libsource lib="pdm-rescue" part="R-Device" description=""/>
-      <sheetpath names="/sheet5F955EDF/" tstamps="/5F955EE4/"/>
+      <sheetpath names="/sheet5F95602F/" tstamps="/5F956034/"/>
       <tstamp>5F986EB2</tstamp>
     </comp>
     <comp ref="D4">
@@ -1110,31 +658,649 @@
       <datasheet>~</datasheet>
       <fields>
         <field name="Digi-Key_PN">516-1431-1-ND</field>
+        <field name="Mouser PN">630-HSMR-C170-R0000</field>
       </fields>
       <libsource lib="pdm-rescue" part="LED-Device" description=""/>
-      <sheetpath names="/sheet5F955EDF/" tstamps="/5F955EE4/"/>
+      <sheetpath names="/sheet5F95602F/" tstamps="/5F956034/"/>
       <tstamp>5F98650F</tstamp>
+    </comp>
+    <comp ref="Q6">
+      <value>BC817</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">1727-6186-1-ND</field>
+        <field name="Mouser PN">771-BC817K-40HVL</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="Q_NPN_BCE-Device" description=""/>
+      <sheetpath names="/sheet5F95602F/" tstamps="/5F956034/"/>
+      <tstamp>5F982D06</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>BC817</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BC818-D.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">1727-6186-1-ND</field>
+        <field name="Mouser PN">771-BC817K-40HVL</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="BC817" description="0.8A Ic, 45V Vce, NPN Transistor, SOT-23"/>
+      <sheetpath names="/sheet5F95602F/" tstamps="/5F956034/"/>
+      <tstamp>6018FB48</tstamp>
     </comp>
     <comp ref="R13">
       <value>2k2</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="Digi-Key_PN">A106060CT-ND</field>
+        <field name="Digi-Key_PN">311-2.80KCRCT-ND</field>
+        <field name="Mouser PN">RT0805FRE072K2L</field>
       </fields>
       <libsource lib="pdm-rescue" part="R-Device" description=""/>
-      <sheetpath names="/sheet5F955EDF/" tstamps="/5F955EE4/"/>
-      <tstamp>5FDFC164</tstamp>
+      <sheetpath names="/sheet5F95602F/" tstamps="/5F956034/"/>
+      <tstamp>60189F37</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">RNCP0805FTD10K0CT-ND</field>
+        <field name="Mouser PN">603-AC0805FR-0710K5L</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="R-Device" description=""/>
+      <sheetpath names="/sheet5F95602F/" tstamps="/5F956034/"/>
+      <tstamp>60187A80</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">1276-6471-1-ND</field>
+        <field name="Mouser PN">603-CC0805MKX58BB105</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/sheet5F95602F/" tstamps="/5F956034/"/>
+      <tstamp>6007317B</tstamp>
     </comp>
     <comp ref="TP2">
       <value>TestPoint_Probe</value>
       <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
       <datasheet>~</datasheet>
       <libsource lib="pdm-rescue" part="TestPoint_Probe-Connector" description=""/>
-      <sheetpath names="/sheet5F955EDF/" tstamps="/5F955EE4/"/>
+      <sheetpath names="/sheet5F95602F/" tstamps="/5F956034/"/>
+      <tstamp>5FFF1F4F</tstamp>
+    </comp>
+    <comp ref="Vout_TP2">
+      <value>TestPoint_Probe</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pdm-rescue" part="TestPoint_Probe-Connector" description=""/>
+      <sheetpath names="/sheet5F95602F/" tstamps="/5F956034/"/>
       <tstamp>5FFEFF01</tstamp>
     </comp>
-    <comp ref="TP1">
+    <comp ref="R20">
+      <value>2k2</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">A106060CT-ND</field>
+        <field name="Mouser PN">RT0805FRE072K2L</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="R-Device" description=""/>
+      <sheetpath names="/sheet5F95602F/" tstamps="/5F956034/"/>
+      <tstamp>5FDFC164</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>220R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">311-220CRCT-ND</field>
+        <field name="Mouser PN">603-RT0805FRE10220RL</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="R-Device" description=""/>
+      <sheetpath names="/sheet5F95602F/" tstamps="/5F956034/"/>
+      <tstamp>5F954672</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>2k2</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">A106060CT-ND</field>
+        <field name="Mouser PN">RT0805FRE072K2L</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="R-Device" description=""/>
+      <sheetpath names="/sheet5F95602F/" tstamps="/5F956034/"/>
+      <tstamp>5F954690</tstamp>
+    </comp>
+    <comp ref="F2">
+      <value>Fuse</value>
+      <footprint>pdm_v2:fuseHolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pdm-rescue" part="Fuse-Device" description=""/>
+      <sheetpath names="/sheet5F95602F/" tstamps="/5F956034/"/>
+      <tstamp>5F95466C</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>1K5</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">A106057CT-ND</field>
+        <field name="Mouser PN">603-RT0805FRE101K5L</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="R-Device" description=""/>
+      <sheetpath names="/sheet5F95602F/" tstamps="/5F956034/"/>
+      <tstamp>5F95465A</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>BTS443P</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-4</footprint>
+      <datasheet>http://www.infineon.com/dgdl/Infineon-BTS443P-DS-v01_00-EN.pdf?fileId=5546d4625a888733015aa9afbc5035d5</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">BTS443PAUMA1CT-ND</field>
+        <field name="Mouser PN">726-BTS443P</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="BTS443P-Power_Management" description=""/>
+      <sheetpath names="/sheet5F95602F/" tstamps="/5F956034/"/>
+      <tstamp>5F95464C</tstamp>
+    </comp>
+    <comp ref="Q5">
+      <value>BC817</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BC817_SER.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">1727-6186-1-ND</field>
+        <field name="Mouser PN">771-BC817K-40HVL</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="Q_NPN_BCE-Device" description=""/>
+      <sheetpath names="/sheet5F95602F/" tstamps="/5F956034/"/>
+      <tstamp>6015A889</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>2k2</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">RNCP0805FTD10K0CT-ND</field>
+        <field name="Mouser PN">RT0805FRE072K2L</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="R-Device" description=""/>
+      <sheetpath names="/sheet5F9560CD/" tstamps="/5F9560D2/"/>
+      <tstamp>601665FB</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>850</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">A129747CT-ND</field>
+        <field name="Mouser PN">667-ERJ-6ENF8660V</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="R-Device" description=""/>
+      <sheetpath names="/sheet5F9560CD/" tstamps="/5F9560D2/"/>
+      <tstamp>5F986EB2</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">516-1431-1-ND</field>
+        <field name="Mouser PN">630-HSMR-C170-R0000</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="LED-Device" description=""/>
+      <sheetpath names="/sheet5F9560CD/" tstamps="/5F9560D2/"/>
+      <tstamp>5F98650F</tstamp>
+    </comp>
+    <comp ref="Q9">
+      <value>BC817</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">1727-6186-1-ND</field>
+        <field name="Mouser PN">771-BC817K-40HVL</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="Q_NPN_BCE-Device" description=""/>
+      <sheetpath names="/sheet5F9560CD/" tstamps="/5F9560D2/"/>
+      <tstamp>5F982D06</tstamp>
+    </comp>
+    <comp ref="Q7">
+      <value>BC817</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BC818-D.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">1727-6186-1-ND</field>
+        <field name="Mouser PN">771-BC817K-40HVL</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="BC817" description="0.8A Ic, 45V Vce, NPN Transistor, SOT-23"/>
+      <sheetpath names="/sheet5F9560CD/" tstamps="/5F9560D2/"/>
+      <tstamp>6018FB48</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>2k2</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">311-2.80KCRCT-ND</field>
+        <field name="Mouser PN">RT0805FRE072K2L</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="R-Device" description=""/>
+      <sheetpath names="/sheet5F9560CD/" tstamps="/5F9560D2/"/>
+      <tstamp>60189F37</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">RNCP0805FTD10K0CT-ND</field>
+        <field name="Mouser PN">603-AC0805FR-0710K5L</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="R-Device" description=""/>
+      <sheetpath names="/sheet5F9560CD/" tstamps="/5F9560D2/"/>
+      <tstamp>60187A80</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">1276-6471-1-ND</field>
+        <field name="Mouser PN">603-CC0805MKX58BB105</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/sheet5F9560CD/" tstamps="/5F9560D2/"/>
+      <tstamp>6007317B</tstamp>
+    </comp>
+    <comp ref="TP3">
+      <value>TestPoint_Probe</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pdm-rescue" part="TestPoint_Probe-Connector" description=""/>
+      <sheetpath names="/sheet5F9560CD/" tstamps="/5F9560D2/"/>
+      <tstamp>5FFF1F4F</tstamp>
+    </comp>
+    <comp ref="Vout_TP3">
+      <value>TestPoint_Probe</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pdm-rescue" part="TestPoint_Probe-Connector" description=""/>
+      <sheetpath names="/sheet5F9560CD/" tstamps="/5F9560D2/"/>
+      <tstamp>5FFEFF01</tstamp>
+    </comp>
+    <comp ref="R28">
+      <value>2k2</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">A106060CT-ND</field>
+        <field name="Mouser PN">RT0805FRE072K2L</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="R-Device" description=""/>
+      <sheetpath names="/sheet5F9560CD/" tstamps="/5F9560D2/"/>
+      <tstamp>5FDFC164</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>220R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">311-220CRCT-ND</field>
+        <field name="Mouser PN">603-RT0805FRE10220RL</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="R-Device" description=""/>
+      <sheetpath names="/sheet5F9560CD/" tstamps="/5F9560D2/"/>
+      <tstamp>5F954672</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>2k2</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">A106060CT-ND</field>
+        <field name="Mouser PN">RT0805FRE072K2L</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="R-Device" description=""/>
+      <sheetpath names="/sheet5F9560CD/" tstamps="/5F9560D2/"/>
+      <tstamp>5F954690</tstamp>
+    </comp>
+    <comp ref="F3">
+      <value>Fuse</value>
+      <footprint>pdm_v2:fuseHolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pdm-rescue" part="Fuse-Device" description=""/>
+      <sheetpath names="/sheet5F9560CD/" tstamps="/5F9560D2/"/>
+      <tstamp>5F95466C</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>1K5</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">A106057CT-ND</field>
+        <field name="Mouser PN">603-RT0805FRE101K5L</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="R-Device" description=""/>
+      <sheetpath names="/sheet5F9560CD/" tstamps="/5F9560D2/"/>
+      <tstamp>5F95465A</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>BTS443P</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-4</footprint>
+      <datasheet>http://www.infineon.com/dgdl/Infineon-BTS443P-DS-v01_00-EN.pdf?fileId=5546d4625a888733015aa9afbc5035d5</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">BTS443PAUMA1CT-ND</field>
+        <field name="Mouser PN">726-BTS443P</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="BTS443P-Power_Management" description=""/>
+      <sheetpath names="/sheet5F9560CD/" tstamps="/5F9560D2/"/>
+      <tstamp>5F95464C</tstamp>
+    </comp>
+    <comp ref="Q8">
+      <value>BC817</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BC817_SER.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">1727-6186-1-ND</field>
+        <field name="Mouser PN">771-BC817K-40HVL</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="Q_NPN_BCE-Device" description=""/>
+      <sheetpath names="/sheet5F9560CD/" tstamps="/5F9560D2/"/>
+      <tstamp>6015A889</tstamp>
+    </comp>
+    <comp ref="R35">
+      <value>2k2</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">RNCP0805FTD10K0CT-ND</field>
+        <field name="Mouser PN">RT0805FRE072K2L</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="R-Device" description=""/>
+      <sheetpath names="/fuse_block/" tstamps="/5F94FFF3/"/>
+      <tstamp>601665FB</tstamp>
+    </comp>
+    <comp ref="R32">
+      <value>850</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">A129747CT-ND</field>
+        <field name="Mouser PN">667-ERJ-6ENF8660V</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="R-Device" description=""/>
+      <sheetpath names="/fuse_block/" tstamps="/5F94FFF3/"/>
+      <tstamp>5F986EB2</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">516-1431-1-ND</field>
+        <field name="Mouser PN">630-HSMR-C170-R0000</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="LED-Device" description=""/>
+      <sheetpath names="/fuse_block/" tstamps="/5F94FFF3/"/>
+      <tstamp>5F98650F</tstamp>
+    </comp>
+    <comp ref="Q12">
+      <value>BC817</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">1727-6186-1-ND</field>
+        <field name="Mouser PN">771-BC817K-40HVL</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="Q_NPN_BCE-Device" description=""/>
+      <sheetpath names="/fuse_block/" tstamps="/5F94FFF3/"/>
+      <tstamp>5F982D06</tstamp>
+    </comp>
+    <comp ref="Q10">
+      <value>BC817</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BC818-D.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">1727-6186-1-ND</field>
+        <field name="Mouser PN">771-BC817K-40HVL</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="BC817" description="0.8A Ic, 45V Vce, NPN Transistor, SOT-23"/>
+      <sheetpath names="/fuse_block/" tstamps="/5F94FFF3/"/>
+      <tstamp>6018FB48</tstamp>
+    </comp>
+    <comp ref="R29">
+      <value>2k2</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">311-2.80KCRCT-ND</field>
+        <field name="Mouser PN">RT0805FRE072K2L</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="R-Device" description=""/>
+      <sheetpath names="/fuse_block/" tstamps="/5F94FFF3/"/>
+      <tstamp>60189F37</tstamp>
+    </comp>
+    <comp ref="R30">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">RNCP0805FTD10K0CT-ND</field>
+        <field name="Mouser PN">603-AC0805FR-0710K5L</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="R-Device" description=""/>
+      <sheetpath names="/fuse_block/" tstamps="/5F94FFF3/"/>
+      <tstamp>60187A80</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">1276-6471-1-ND</field>
+        <field name="Mouser PN">603-CC0805MKX58BB105</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/fuse_block/" tstamps="/5F94FFF3/"/>
+      <tstamp>6007317B</tstamp>
+    </comp>
+    <comp ref="TP4">
+      <value>TestPoint_Probe</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pdm-rescue" part="TestPoint_Probe-Connector" description=""/>
+      <sheetpath names="/fuse_block/" tstamps="/5F94FFF3/"/>
+      <tstamp>5FFF1F4F</tstamp>
+    </comp>
+    <comp ref="Vout_TP4">
+      <value>TestPoint_Probe</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pdm-rescue" part="TestPoint_Probe-Connector" description=""/>
+      <sheetpath names="/fuse_block/" tstamps="/5F94FFF3/"/>
+      <tstamp>5FFEFF01</tstamp>
+    </comp>
+    <comp ref="R36">
+      <value>2k2</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">A106060CT-ND</field>
+        <field name="Mouser PN">RT0805FRE072K2L</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="R-Device" description=""/>
+      <sheetpath names="/fuse_block/" tstamps="/5F94FFF3/"/>
+      <tstamp>5FDFC164</tstamp>
+    </comp>
+    <comp ref="R34">
+      <value>220R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">311-220CRCT-ND</field>
+        <field name="Mouser PN">603-RT0805FRE10220RL</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="R-Device" description=""/>
+      <sheetpath names="/fuse_block/" tstamps="/5F94FFF3/"/>
+      <tstamp>5F954672</tstamp>
+    </comp>
+    <comp ref="R33">
+      <value>2k2</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">A106060CT-ND</field>
+        <field name="Mouser PN">RT0805FRE072K2L</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="R-Device" description=""/>
+      <sheetpath names="/fuse_block/" tstamps="/5F94FFF3/"/>
+      <tstamp>5F954690</tstamp>
+    </comp>
+    <comp ref="F4">
+      <value>Fuse</value>
+      <footprint>pdm_v2:fuseHolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pdm-rescue" part="Fuse-Device" description=""/>
+      <sheetpath names="/fuse_block/" tstamps="/5F94FFF3/"/>
+      <tstamp>5F95466C</tstamp>
+    </comp>
+    <comp ref="R31">
+      <value>1K5</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">A106057CT-ND</field>
+        <field name="Mouser PN">603-RT0805FRE101K5L</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="R-Device" description=""/>
+      <sheetpath names="/fuse_block/" tstamps="/5F94FFF3/"/>
+      <tstamp>5F95465A</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>BTS443P</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-4</footprint>
+      <datasheet>http://www.infineon.com/dgdl/Infineon-BTS443P-DS-v01_00-EN.pdf?fileId=5546d4625a888733015aa9afbc5035d5</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">BTS443PAUMA1CT-ND</field>
+        <field name="Mouser PN">726-BTS443P</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="BTS443P-Power_Management" description=""/>
+      <sheetpath names="/fuse_block/" tstamps="/5F94FFF3/"/>
+      <tstamp>5F95464C</tstamp>
+    </comp>
+    <comp ref="Q11">
+      <value>BC817</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BC817_SER.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">1727-6186-1-ND</field>
+        <field name="Mouser PN">771-BC817K-40HVL</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="Q_NPN_BCE-Device" description=""/>
+      <sheetpath names="/fuse_block/" tstamps="/5F94FFF3/"/>
+      <tstamp>6015A889</tstamp>
+    </comp>
+    <comp ref="R43">
+      <value>2k2</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">RNCP0805FTD10K0CT-ND</field>
+        <field name="Mouser PN">RT0805FRE072K2L</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="R-Device" description=""/>
+      <sheetpath names="/sheet5F955EDF/" tstamps="/5F955EE4/"/>
+      <tstamp>601665FB</tstamp>
+    </comp>
+    <comp ref="R40">
+      <value>850</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">A129747CT-ND</field>
+        <field name="Mouser PN">667-ERJ-6ENF8660V</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="R-Device" description=""/>
+      <sheetpath names="/sheet5F955EDF/" tstamps="/5F955EE4/"/>
+      <tstamp>5F986EB2</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">516-1431-1-ND</field>
+        <field name="Mouser PN">630-HSMR-C170-R0000</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="LED-Device" description=""/>
+      <sheetpath names="/sheet5F955EDF/" tstamps="/5F955EE4/"/>
+      <tstamp>5F98650F</tstamp>
+    </comp>
+    <comp ref="Q15">
+      <value>BC817</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">1727-6186-1-ND</field>
+        <field name="Mouser PN">771-BC817K-40HVL</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="Q_NPN_BCE-Device" description=""/>
+      <sheetpath names="/sheet5F955EDF/" tstamps="/5F955EE4/"/>
+      <tstamp>5F982D06</tstamp>
+    </comp>
+    <comp ref="Q13">
+      <value>BC817</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BC818-D.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">1727-6186-1-ND</field>
+        <field name="Mouser PN">771-BC817K-40HVL</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="BC817" description="0.8A Ic, 45V Vce, NPN Transistor, SOT-23"/>
+      <sheetpath names="/sheet5F955EDF/" tstamps="/5F955EE4/"/>
+      <tstamp>6018FB48</tstamp>
+    </comp>
+    <comp ref="R37">
+      <value>2k2</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">311-2.80KCRCT-ND</field>
+        <field name="Mouser PN">RT0805FRE072K2L</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="R-Device" description=""/>
+      <sheetpath names="/sheet5F955EDF/" tstamps="/5F955EE4/"/>
+      <tstamp>60189F37</tstamp>
+    </comp>
+    <comp ref="R38">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">RNCP0805FTD10K0CT-ND</field>
+        <field name="Mouser PN">603-AC0805FR-0710K5L</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="R-Device" description=""/>
+      <sheetpath names="/sheet5F955EDF/" tstamps="/5F955EE4/"/>
+      <tstamp>60187A80</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">1276-6471-1-ND</field>
+        <field name="Mouser PN">603-CC0805MKX58BB105</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/sheet5F955EDF/" tstamps="/5F955EE4/"/>
+      <tstamp>6007317B</tstamp>
+    </comp>
+    <comp ref="TP5">
       <value>TestPoint_Probe</value>
       <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
       <datasheet>~</datasheet>
@@ -1142,117 +1308,155 @@
       <sheetpath names="/sheet5F955EDF/" tstamps="/5F955EE4/"/>
       <tstamp>5FFF1F4F</tstamp>
     </comp>
-    <comp ref="C15">
-      <value>1uF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+    <comp ref="Vout_TP5">
+      <value>TestPoint_Probe</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
       <datasheet>~</datasheet>
-      <fields>
-        <field name="Digi-Key_PN">T494A106M020AT</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <libsource lib="pdm-rescue" part="TestPoint_Probe-Connector" description=""/>
       <sheetpath names="/sheet5F955EDF/" tstamps="/5F955EE4/"/>
-      <tstamp>6007317B</tstamp>
+      <tstamp>5FFEFF01</tstamp>
     </comp>
-    <comp ref="R29">
-      <value>10k</value>
+    <comp ref="R44">
+      <value>2k2</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="Digi-Key_PN">RNCP0805FTD10K0CT-ND</field>
+        <field name="Digi-Key_PN">A106060CT-ND</field>
+        <field name="Mouser PN">RT0805FRE072K2L</field>
       </fields>
       <libsource lib="pdm-rescue" part="R-Device" description=""/>
       <sheetpath names="/sheet5F955EDF/" tstamps="/5F955EE4/"/>
-      <tstamp>60187A80</tstamp>
+      <tstamp>5FDFC164</tstamp>
     </comp>
-    <comp ref="R28">
-      <value>2k8</value>
+    <comp ref="R42">
+      <value>220R</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="Digi-Key_PN">311-2.80KCRCT-ND</field>
+        <field name="Digi-Key_PN">311-220CRCT-ND</field>
+        <field name="Mouser PN">603-RT0805FRE10220RL</field>
       </fields>
       <libsource lib="pdm-rescue" part="R-Device" description=""/>
       <sheetpath names="/sheet5F955EDF/" tstamps="/5F955EE4/"/>
-      <tstamp>60189F37</tstamp>
+      <tstamp>5F954672</tstamp>
     </comp>
-    <comp ref="Q9">
+    <comp ref="R41">
+      <value>2k2</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">A106060CT-ND</field>
+        <field name="Mouser PN">RT0805FRE072K2L</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="R-Device" description=""/>
+      <sheetpath names="/sheet5F955EDF/" tstamps="/5F955EE4/"/>
+      <tstamp>5F954690</tstamp>
+    </comp>
+    <comp ref="F5">
+      <value>Fuse</value>
+      <footprint>pdm_v2:fuseHolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pdm-rescue" part="Fuse-Device" description=""/>
+      <sheetpath names="/sheet5F955EDF/" tstamps="/5F955EE4/"/>
+      <tstamp>5F95466C</tstamp>
+    </comp>
+    <comp ref="R39">
+      <value>1K5</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">A106057CT-ND</field>
+        <field name="Mouser PN">603-RT0805FRE101K5L</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="R-Device" description=""/>
+      <sheetpath names="/sheet5F955EDF/" tstamps="/5F955EE4/"/>
+      <tstamp>5F95465A</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>BTS443P</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-4</footprint>
+      <datasheet>http://www.infineon.com/dgdl/Infineon-BTS443P-DS-v01_00-EN.pdf?fileId=5546d4625a888733015aa9afbc5035d5</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">BTS443PAUMA1CT-ND</field>
+        <field name="Mouser PN">726-BTS443P</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="BTS443P-Power_Management" description=""/>
+      <sheetpath names="/sheet5F955EDF/" tstamps="/5F955EE4/"/>
+      <tstamp>5F95464C</tstamp>
+    </comp>
+    <comp ref="Q14">
       <value>BC817</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
-      <datasheet>https://www.onsemi.com/pub/Collateral/BC818-D.pdf</datasheet>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BC817_SER.pdf</datasheet>
       <fields>
         <field name="Digi-Key_PN">1727-6186-1-ND</field>
-      </fields>
-      <libsource lib="Transistor_BJT" part="BC817" description="0.8A Ic, 45V Vce, NPN Transistor, SOT-23"/>
-      <sheetpath names="/sheet5F955EDF/" tstamps="/5F955EE4/"/>
-      <tstamp>6018FB48</tstamp>
-    </comp>
-    <comp ref="Q2">
-      <value>BC817</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23_Handsoldering</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Digi-Key_PN">1727-6186-1-ND</field>
+        <field name="Mouser PN">771-BC817K-40HVL</field>
       </fields>
       <libsource lib="pdm-rescue" part="Q_NPN_BCE-Device" description=""/>
       <sheetpath names="/sheet5F955EDF/" tstamps="/5F955EE4/"/>
-      <tstamp>5F982D06</tstamp>
+      <tstamp>6015A889</tstamp>
     </comp>
-    <comp ref="C6">
+    <comp ref="C15">
       <value>10u</value>
       <footprint>Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A_Pad1.58x1.35mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="Digi-Key_PN">T491B226K020AT</field>
+        <field name="Digi-Key_PN">399-3734-1-ND</field>
+        <field name="Mouser PN">80-T495A105M25ATE4K</field>
       </fields>
       <libsource lib="pdm-rescue" part="CP-Device" description=""/>
       <sheetpath names="/voltage_regulator/" tstamps="/60112AE4/"/>
       <tstamp>60117477</tstamp>
     </comp>
-    <comp ref="D1">
+    <comp ref="D8">
       <value>LED</value>
       <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="Digi-Key_PN">516-1431-1-ND</field>
+        <field name="Mouser PN">630-HSMA-C170-T0000</field>
       </fields>
       <libsource lib="pdm-rescue" part="LED-Device" description=""/>
       <sheetpath names="/voltage_regulator/" tstamps="/60112AE4/"/>
       <tstamp>60117483</tstamp>
     </comp>
-    <comp ref="R35">
-      <value>600R</value>
+    <comp ref="R45">
+      <value>850</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="Digi-Key_PN">A126352CT-ND</field>
+        <field name="Mouser PN">667-ERJ-6ENF8660V</field>
       </fields>
       <libsource lib="pdm-rescue" part="R-Device" description=""/>
       <sheetpath names="/voltage_regulator/" tstamps="/60112AE4/"/>
       <tstamp>60117489</tstamp>
     </comp>
-    <comp ref="D2">
+    <comp ref="D9">
       <value>LED</value>
       <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="Digi-Key_PN">516-1431-1-ND</field>
+        <field name="Mouser PN">630-HSMA-C170-T0000</field>
       </fields>
       <libsource lib="pdm-rescue" part="LED-Device" description=""/>
       <sheetpath names="/voltage_regulator/" tstamps="/60112AE4/"/>
       <tstamp>60117496</tstamp>
     </comp>
-    <comp ref="R36">
-      <value>600R</value>
+    <comp ref="R46">
+      <value>120R</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="Digi-Key_PN">A126352CT-ND</field>
+        <field name="Mouser PN">603-RC0805JR-07120RL</field>
       </fields>
       <libsource lib="pdm-rescue" part="R-Device" description=""/>
       <sheetpath names="/voltage_regulator/" tstamps="/60112AE4/"/>
       <tstamp>6011749C</tstamp>
     </comp>
-    <comp ref="TP9">
+    <comp ref="TP6">
       <value>TestPoint_Probe</value>
       <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
       <datasheet>~</datasheet>
@@ -1260,23 +1464,25 @@
       <sheetpath names="/voltage_regulator/" tstamps="/60112AE4/"/>
       <tstamp>601174B8</tstamp>
     </comp>
-    <comp ref="C3">
+    <comp ref="C14">
       <value>0.1uF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="Digi-Key_PN">CL21B104KBCNNNC</field>
+        <field name="Digi-Key_PN">1276-1003-1-ND</field>
+        <field name="Mouser PN">603-CC0805MRX77BB104</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/voltage_regulator/" tstamps="/60112AE4/"/>
       <tstamp>60108663</tstamp>
     </comp>
-    <comp ref="U1">
+    <comp ref="U8">
       <value>LM2937xS</value>
       <footprint>Package_TO_SOT_SMD:TO-263-3_TabPin2</footprint>
       <datasheet>http://www.ti.com/lit/ds/symlink/lm2937.pdf</datasheet>
       <fields>
         <field name="Digi-Key_PN">LM2937ESX-3.3/NOPBCT-ND</field>
+        <field name="Mouser PN">926-LM2937ESX33NOPB</field>
       </fields>
       <libsource lib="Regulator_Linear" part="LM2937xS" description="500-mA Low Dropout Regulator, TO-263"/>
       <sheetpath names="/voltage_regulator/" tstamps="/60112AE4/"/>
@@ -1377,17 +1583,22 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Device" part="Q_PMOS_GDS">
-      <description>P-MOSFET transistor, gate/drain/source</description>
+    <libpart lib="Device" part="D">
+      <description>Diode</description>
       <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
       <fields>
-        <field name="Reference">Q</field>
-        <field name="Value">Q_PMOS_GDS</field>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
       </fields>
       <pins>
-        <pin num="1" name="G" type="input"/>
-        <pin num="2" name="D" type="passive"/>
-        <pin num="3" name="S" type="passive"/>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Device" part="R">
@@ -1711,430 +1922,472 @@
   </libraries>
   <nets>
     <net code="1" name="/_N">
+      <node ref="U1" pin="7"/>
       <node ref="CANL_Test1" pin="1"/>
-      <node ref="J2" pin="12"/>
-      <node ref="R4" pin="1"/>
+      <node ref="J4" pin="12"/>
+      <node ref="R1" pin="1"/>
       <node ref="J3" pin="4"/>
-      <node ref="U2" pin="7"/>
     </net>
     <net code="2" name="/_P">
+      <node ref="U1" pin="6"/>
       <node ref="J3" pin="3"/>
+      <node ref="R1" pin="2"/>
       <node ref="CANH_TP1" pin="1"/>
-      <node ref="J2" pin="11"/>
-      <node ref="R4" pin="2"/>
-      <node ref="U2" pin="6"/>
+      <node ref="J4" pin="11"/>
     </net>
-    <net code="3" name="Net-(C4-Pad1)">
-      <node ref="C4" pin="1"/>
-      <node ref="C5" pin="1"/>
+    <net code="3" name="Net-(C2-Pad1)">
+      <node ref="C2" pin="1"/>
+      <node ref="C3" pin="1"/>
     </net>
     <net code="4" name="/OSC_N">
-      <node ref="U3" pin="2"/>
-      <node ref="C5" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="U2" pin="2"/>
       <node ref="XTAL1" pin="2"/>
     </net>
     <net code="5" name="/OSC_P">
-      <node ref="U3" pin="3"/>
-      <node ref="C4" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="U2" pin="3"/>
       <node ref="XTAL1" pin="1"/>
     </net>
     <net code="6" name="+3V3">
-      <node ref="U2" pin="3"/>
-      <node ref="C6" pin="1"/>
-      <node ref="C2" pin="1"/>
-      <node ref="R36" pin="2"/>
-      <node ref="J3" pin="2"/>
-      <node ref="R20" pin="2"/>
-      <node ref="R41" pin="2"/>
-      <node ref="R13" pin="2"/>
       <node ref="U1" pin="3"/>
-      <node ref="R27" pin="2"/>
-      <node ref="J2" pin="1"/>
-      <node ref="C8" pin="1"/>
+      <node ref="R44" pin="2"/>
+      <node ref="R12" pin="2"/>
+      <node ref="R20" pin="2"/>
+      <node ref="R36" pin="2"/>
+      <node ref="R28" pin="2"/>
       <node ref="C7" pin="1"/>
-      <node ref="R34" pin="2"/>
-      <node ref="C9" pin="1"/>
+      <node ref="J3" pin="2"/>
+      <node ref="C5" pin="1"/>
+      <node ref="C15" pin="1"/>
+      <node ref="R46" pin="2"/>
+      <node ref="C4" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="C6" pin="1"/>
       <node ref="SW1" pin="2"/>
-      <node ref="U3" pin="17"/>
-      <node ref="U3" pin="18"/>
-      <node ref="U3" pin="5"/>
-      <node ref="C10" pin="1"/>
+      <node ref="U2" pin="17"/>
+      <node ref="U2" pin="18"/>
+      <node ref="U2" pin="5"/>
+      <node ref="U8" pin="3"/>
     </net>
     <net code="7" name="GND">
-      <node ref="R33" pin="2"/>
-      <node ref="C10" pin="2"/>
-      <node ref="D5" pin="1"/>
-      <node ref="U3" pin="16"/>
-      <node ref="D3" pin="1"/>
-      <node ref="D7" pin="1"/>
-      <node ref="C8" pin="2"/>
-      <node ref="C12" pin="2"/>
-      <node ref="R30" pin="1"/>
-      <node ref="Q3" pin="2"/>
-      <node ref="Q10" pin="3"/>
-      <node ref="Q8" pin="3"/>
-      <node ref="Q1" pin="2"/>
-      <node ref="R37" pin="1"/>
-      <node ref="C1" pin="2"/>
-      <node ref="R19" pin="2"/>
-      <node ref="D6" pin="1"/>
-      <node ref="Q5" pin="2"/>
-      <node ref="C9" pin="2"/>
-      <node ref="C7" pin="2"/>
-      <node ref="R26" pin="2"/>
-      <node ref="C13" pin="2"/>
-      <node ref="R23" pin="1"/>
-      <node ref="Q6" pin="3"/>
-      <node ref="Q2" pin="3"/>
-      <node ref="Q9" pin="2"/>
-      <node ref="J2" pin="2"/>
-      <node ref="C15" pin="2"/>
-      <node ref="D4" pin="1"/>
-      <node ref="R2" pin="1"/>
-      <node ref="C14" pin="2"/>
-      <node ref="R16" pin="1"/>
-      <node ref="C2" pin="2"/>
-      <node ref="D8" pin="1"/>
-      <node ref="R12" pin="2"/>
-      <node ref="J1" pin="1"/>
+      <node ref="Q5" pin="3"/>
       <node ref="U1" pin="2"/>
-      <node ref="R9" pin="1"/>
-      <node ref="Q4" pin="3"/>
-      <node ref="C16" pin="2"/>
-      <node ref="U2" pin="2"/>
-      <node ref="Q7" pin="2"/>
-      <node ref="C6" pin="2"/>
-      <node ref="U2" pin="5"/>
-      <node ref="U2" pin="8"/>
-      <node ref="D1" pin="1"/>
-      <node ref="R40" pin="2"/>
-      <node ref="C3" pin="2"/>
-      <node ref="J4" pin="3"/>
-      <node ref="J3" pin="1"/>
-      <node ref="M2" pin="2"/>
-      <node ref="M1" pin="2"/>
+      <node ref="Q8" pin="3"/>
+      <node ref="R31" pin="1"/>
+      <node ref="U2" pin="16"/>
       <node ref="D2" pin="1"/>
-      <node ref="Q11" pin="1"/>
+      <node ref="U1" pin="5"/>
+      <node ref="Q14" pin="3"/>
+      <node ref="C6" pin="2"/>
+      <node ref="R39" pin="1"/>
+      <node ref="R42" pin="2"/>
+      <node ref="R23" pin="1"/>
+      <node ref="U8" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="Q13" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="Q3" pin="3"/>
+      <node ref="Q15" pin="3"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="R10" pin="2"/>
+      <node ref="R7" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="R26" pin="2"/>
+      <node ref="Q11" pin="3"/>
+      <node ref="C11" pin="2"/>
+      <node ref="D9" pin="1"/>
+      <node ref="D8" pin="1"/>
+      <node ref="J4" pin="1"/>
+      <node ref="J4" pin="2"/>
+      <node ref="C15" pin="2"/>
+      <node ref="Q2" pin="3"/>
+      <node ref="R34" pin="2"/>
+      <node ref="Q6" pin="3"/>
+      <node ref="R2" pin="1"/>
+      <node ref="D1" pin="2"/>
+      <node ref="Q7" pin="2"/>
+      <node ref="Q9" pin="3"/>
+      <node ref="Q4" pin="2"/>
+      <node ref="J1" pin="1"/>
+      <node ref="C12" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="U1" pin="8"/>
+      <node ref="C5" pin="2"/>
+      <node ref="Q12" pin="3"/>
+      <node ref="R18" pin="2"/>
+      <node ref="J2" pin="3"/>
+      <node ref="J3" pin="1"/>
+      <node ref="Q10" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="R15" pin="1"/>
+      <node ref="M1" pin="2"/>
+      <node ref="M2" pin="2"/>
     </net>
     <net code="8" name="/SWDIO">
-      <node ref="U3" pin="21"/>
-      <node ref="J4" pin="4"/>
+      <node ref="J2" pin="4"/>
+      <node ref="U2" pin="21"/>
     </net>
     <net code="9" name="/SWCLK">
-      <node ref="U3" pin="22"/>
-      <node ref="J4" pin="2"/>
+      <node ref="U2" pin="22"/>
+      <node ref="J2" pin="2"/>
     </net>
     <net code="10" name="/NRST">
-      <node ref="U3" pin="4"/>
-      <node ref="J4" pin="5"/>
+      <node ref="J2" pin="5"/>
+      <node ref="U2" pin="4"/>
       <node ref="R2" pin="2"/>
     </net>
     <net code="11" name="/canrx">
-      <node ref="U2" pin="4"/>
-      <node ref="U3" pin="19"/>
+      <node ref="U1" pin="4"/>
+      <node ref="U2" pin="19"/>
     </net>
     <net code="12" name="/cantx">
-      <node ref="U2" pin="1"/>
-      <node ref="U3" pin="20"/>
+      <node ref="U2" pin="20"/>
+      <node ref="U1" pin="1"/>
     </net>
     <net code="13" name="/act1">
-      <node ref="R21" pin="1"/>
-      <node ref="U3" pin="12"/>
+      <node ref="U2" pin="12"/>
+      <node ref="R35" pin="2"/>
+      <node ref="R29" pin="1"/>
     </net>
     <net code="14" name="/act2">
-      <node ref="R28" pin="1"/>
-      <node ref="U3" pin="23"/>
+      <node ref="U2" pin="23"/>
+      <node ref="R37" pin="1"/>
+      <node ref="R43" pin="2"/>
     </net>
     <net code="15" name="/act3">
-      <node ref="R1" pin="1"/>
-      <node ref="U3" pin="25"/>
+      <node ref="U2" pin="25"/>
+      <node ref="R11" pin="2"/>
+      <node ref="R5" pin="1"/>
     </net>
     <net code="16" name="/sense1">
-      <node ref="U3" pin="8"/>
-      <node ref="U5" pin="4"/>
-      <node ref="R16" pin="2"/>
-      <node ref="C14" pin="1"/>
-      <node ref="TP3" pin="1"/>
+      <node ref="U2" pin="8"/>
+      <node ref="R31" pin="2"/>
+      <node ref="C12" pin="1"/>
+      <node ref="TP4" pin="1"/>
+      <node ref="U6" pin="4"/>
     </net>
     <net code="17" name="/sense2">
-      <node ref="U4" pin="4"/>
-      <node ref="TP1" pin="1"/>
-      <node ref="C15" pin="1"/>
-      <node ref="U3" pin="9"/>
-      <node ref="R9" pin="2"/>
+      <node ref="C13" pin="1"/>
+      <node ref="TP5" pin="1"/>
+      <node ref="R39" pin="2"/>
+      <node ref="U7" pin="4"/>
+      <node ref="U2" pin="9"/>
     </net>
     <net code="18" name="/sense3">
-      <node ref="C1" pin="1"/>
-      <node ref="TP5" pin="1"/>
-      <node ref="U6" pin="4"/>
-      <node ref="R23" pin="2"/>
-      <node ref="U3" pin="10"/>
+      <node ref="C9" pin="1"/>
+      <node ref="TP1" pin="1"/>
+      <node ref="U3" pin="4"/>
+      <node ref="R7" pin="2"/>
+      <node ref="U2" pin="10"/>
     </net>
     <net code="19" name="/sense4">
-      <node ref="U3" pin="6"/>
-      <node ref="C12" pin="1"/>
-      <node ref="TP7" pin="1"/>
-      <node ref="U7" pin="4"/>
-      <node ref="R30" pin="2"/>
+      <node ref="TP2" pin="1"/>
+      <node ref="R15" pin="2"/>
+      <node ref="U4" pin="4"/>
+      <node ref="C10" pin="1"/>
+      <node ref="U2" pin="6"/>
     </net>
     <net code="20" name="/sense5">
-      <node ref="U3" pin="7"/>
-      <node ref="R37" pin="2"/>
-      <node ref="U8" pin="4"/>
-      <node ref="C13" pin="1"/>
-      <node ref="Sense_TP1" pin="1"/>
+      <node ref="U2" pin="7"/>
+      <node ref="C11" pin="1"/>
+      <node ref="TP3" pin="1"/>
+      <node ref="R23" pin="2"/>
+      <node ref="U5" pin="4"/>
     </net>
     <net code="21" name="/act5">
-      <node ref="R14" pin="1"/>
-      <node ref="U3" pin="1"/>
+      <node ref="R27" pin="2"/>
+      <node ref="U2" pin="1"/>
+      <node ref="R21" pin="1"/>
     </net>
     <net code="22" name="/act4">
-      <node ref="U3" pin="27"/>
-      <node ref="R7" pin="1"/>
+      <node ref="R13" pin="1"/>
+      <node ref="U2" pin="27"/>
+      <node ref="R19" pin="2"/>
     </net>
     <net code="23" name="/fuse1">
-      <node ref="R20" pin="1"/>
-      <node ref="Q4" pin="2"/>
-      <node ref="U3" pin="11"/>
+      <node ref="Q12" pin="2"/>
+      <node ref="U2" pin="11"/>
+      <node ref="R36" pin="1"/>
     </net>
     <net code="24" name="/fuse4">
-      <node ref="U3" pin="26"/>
-      <node ref="R34" pin="1"/>
-      <node ref="Q8" pin="2"/>
+      <node ref="U2" pin="26"/>
+      <node ref="Q6" pin="2"/>
+      <node ref="R20" pin="1"/>
     </net>
     <net code="25" name="/fuse3">
-      <node ref="R27" pin="1"/>
-      <node ref="U3" pin="24"/>
-      <node ref="Q6" pin="2"/>
+      <node ref="R12" pin="1"/>
+      <node ref="Q3" pin="2"/>
+      <node ref="U2" pin="24"/>
     </net>
     <net code="26" name="/LED_DEBUG">
-      <node ref="R6" pin="2"/>
-      <node ref="U3" pin="14"/>
+      <node ref="R4" pin="2"/>
+      <node ref="U2" pin="14"/>
     </net>
     <net code="27" name="/DEBUG_BUTTON">
-      <node ref="R5" pin="1"/>
-      <node ref="U3" pin="15"/>
+      <node ref="R3" pin="1"/>
+      <node ref="U2" pin="15"/>
     </net>
-    <net code="28" name="Net-(D3-Pad2)">
-      <node ref="D3" pin="2"/>
-      <node ref="R6" pin="1"/>
+    <net code="28" name="Net-(D2-Pad2)">
+      <node ref="R4" pin="1"/>
+      <node ref="D2" pin="2"/>
     </net>
-    <net code="29" name="Net-(C16-Pad1)">
+    <net code="29" name="Net-(C8-Pad1)">
+      <node ref="C8" pin="1"/>
       <node ref="SW1" pin="1"/>
-      <node ref="C16" pin="1"/>
-      <node ref="R5" pin="2"/>
+      <node ref="R3" pin="2"/>
     </net>
     <net code="30" name="/vout3">
-      <node ref="R25" pin="2"/>
-      <node ref="F3" pin="1"/>
-      <node ref="TP6" pin="1"/>
-      <node ref="R24" pin="1"/>
-      <node ref="J2" pin="4"/>
-      <node ref="J2" pin="9"/>
+      <node ref="F1" pin="1"/>
+      <node ref="Vout_TP1" pin="1"/>
+      <node ref="J4" pin="9"/>
+      <node ref="J4" pin="4"/>
+      <node ref="R8" pin="1"/>
+      <node ref="R9" pin="2"/>
     </net>
     <net code="31" name="/vout4">
-      <node ref="J2" pin="8"/>
-      <node ref="J2" pin="5"/>
-      <node ref="R31" pin="1"/>
-      <node ref="TP8" pin="1"/>
-      <node ref="F4" pin="1"/>
-      <node ref="R32" pin="2"/>
+      <node ref="R16" pin="1"/>
+      <node ref="Vout_TP2" pin="1"/>
+      <node ref="R17" pin="2"/>
+      <node ref="F2" pin="1"/>
+      <node ref="J4" pin="5"/>
+      <node ref="J4" pin="8"/>
     </net>
     <net code="32" name="/fuse5">
-      <node ref="R41" pin="1"/>
-      <node ref="U3" pin="28"/>
-      <node ref="Q10" pin="2"/>
+      <node ref="U2" pin="28"/>
+      <node ref="Q9" pin="2"/>
+      <node ref="R28" pin="1"/>
     </net>
     <net code="33" name="/vout5">
-      <node ref="J2" pin="6"/>
-      <node ref="J2" pin="7"/>
-      <node ref="F5" pin="1"/>
-      <node ref="R39" pin="2"/>
-      <node ref="R38" pin="1"/>
-      <node ref="Vout_TP1" pin="1"/>
-    </net>
-    <net code="34" name="/vout1">
-      <node ref="R17" pin="1"/>
-      <node ref="TP4" pin="1"/>
-      <node ref="F2" pin="1"/>
-      <node ref="R18" pin="2"/>
-      <node ref="J2" pin="10"/>
-    </net>
-    <net code="35" name="/fuse2">
-      <node ref="R13" pin="1"/>
-      <node ref="U3" pin="13"/>
-      <node ref="Q2" pin="2"/>
-    </net>
-    <net code="36" name="/vout2">
-      <node ref="J2" pin="3"/>
-      <node ref="F1" pin="1"/>
-      <node ref="R11" pin="2"/>
-      <node ref="TP2" pin="1"/>
-      <node ref="R10" pin="1"/>
-    </net>
-    <net code="37" name="+12V">
-      <node ref="U1" pin="1"/>
-      <node ref="C3" pin="1"/>
-      <node ref="U8" pin="3"/>
-      <node ref="U7" pin="3"/>
-      <node ref="TP9" pin="1"/>
-      <node ref="U6" pin="3"/>
-      <node ref="Q11" pin="3"/>
-      <node ref="M1" pin="1"/>
-      <node ref="M2" pin="1"/>
-      <node ref="R35" pin="2"/>
-      <node ref="U4" pin="3"/>
-      <node ref="U5" pin="3"/>
-    </net>
-    <net code="38" name="Net-(J4-Pad1)">
-      <node ref="J4" pin="1"/>
-    </net>
-    <net code="39" name="Net-(J4-Pad6)">
+      <node ref="F3" pin="1"/>
+      <node ref="R25" pin="2"/>
+      <node ref="Vout_TP3" pin="1"/>
+      <node ref="R24" pin="1"/>
+      <node ref="J4" pin="7"/>
       <node ref="J4" pin="6"/>
     </net>
-    <net code="40" name="/vin">
-      <node ref="Q11" pin="2"/>
-      <node ref="J1" pin="4"/>
-      <node ref="J1" pin="3"/>
+    <net code="34" name="/vout1">
+      <node ref="J4" pin="10"/>
+      <node ref="Vout_TP4" pin="1"/>
+      <node ref="F4" pin="1"/>
+      <node ref="R32" pin="1"/>
+      <node ref="R33" pin="2"/>
+    </net>
+    <net code="35" name="/fuse2">
+      <node ref="Q15" pin="2"/>
+      <node ref="R44" pin="1"/>
+      <node ref="U2" pin="13"/>
+    </net>
+    <net code="36" name="/vout2">
+      <node ref="Vout_TP5" pin="1"/>
+      <node ref="R41" pin="2"/>
+      <node ref="F5" pin="1"/>
+      <node ref="J4" pin="3"/>
+      <node ref="R40" pin="1"/>
+    </net>
+    <net code="37" name="Net-(J2-Pad1)">
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="38" name="Net-(J2-Pad6)">
+      <node ref="J2" pin="6"/>
+    </net>
+    <net code="39" name="+12V">
       <node ref="J1" pin="2"/>
+      <node ref="J1" pin="3"/>
+      <node ref="J1" pin="4"/>
+      <node ref="U3" pin="3"/>
+      <node ref="U8" pin="1"/>
+      <node ref="C14" pin="1"/>
+      <node ref="U7" pin="3"/>
+      <node ref="M1" pin="1"/>
+      <node ref="M2" pin="1"/>
+      <node ref="U4" pin="3"/>
+      <node ref="TP6" pin="1"/>
+      <node ref="U5" pin="3"/>
+      <node ref="U6" pin="3"/>
+      <node ref="D1" pin="1"/>
+      <node ref="R45" pin="2"/>
     </net>
-    <net code="41" name="/fuse_block/out">
-      <node ref="U5" pin="1"/>
+    <net code="40" name="/fuse_block/out">
+      <node ref="F4" pin="2"/>
+      <node ref="U6" pin="1"/>
+      <node ref="U6" pin="5"/>
+    </net>
+    <net code="41" name="Net-(Q12-Pad1)">
+      <node ref="Q12" pin="1"/>
+      <node ref="R34" pin="1"/>
+      <node ref="R33" pin="1"/>
+    </net>
+    <net code="42" name="Net-(R30-Pad2)">
+      <node ref="U6" pin="2"/>
+      <node ref="R30" pin="2"/>
+    </net>
+    <net code="43" name="Net-(Q10-Pad1)">
+      <node ref="Q10" pin="1"/>
+      <node ref="R29" pin="2"/>
+    </net>
+    <net code="44" name="Net-(Q10-Pad3)">
+      <node ref="Q10" pin="3"/>
+      <node ref="R30" pin="1"/>
+    </net>
+    <net code="45" name="Net-(D6-Pad1)">
+      <node ref="D6" pin="1"/>
+      <node ref="Q11" pin="2"/>
+    </net>
+    <net code="46" name="Net-(D6-Pad2)">
+      <node ref="R32" pin="2"/>
+      <node ref="D6" pin="2"/>
+    </net>
+    <net code="47" name="Net-(Q11-Pad1)">
+      <node ref="Q11" pin="1"/>
+      <node ref="R35" pin="1"/>
+    </net>
+    <net code="48" name="/sheet5F955EDF/out">
+      <node ref="U7" pin="5"/>
+      <node ref="F5" pin="2"/>
+      <node ref="U7" pin="1"/>
+    </net>
+    <net code="49" name="Net-(Q15-Pad1)">
+      <node ref="Q15" pin="1"/>
+      <node ref="R41" pin="1"/>
+      <node ref="R42" pin="1"/>
+    </net>
+    <net code="50" name="Net-(Q13-Pad3)">
+      <node ref="R38" pin="1"/>
+      <node ref="Q13" pin="3"/>
+    </net>
+    <net code="51" name="Net-(R38-Pad2)">
+      <node ref="U7" pin="2"/>
+      <node ref="R38" pin="2"/>
+    </net>
+    <net code="52" name="Net-(Q14-Pad1)">
+      <node ref="Q14" pin="1"/>
+      <node ref="R43" pin="1"/>
+    </net>
+    <net code="53" name="Net-(D7-Pad1)">
+      <node ref="Q14" pin="2"/>
+      <node ref="D7" pin="1"/>
+    </net>
+    <net code="54" name="Net-(D7-Pad2)">
+      <node ref="R40" pin="2"/>
+      <node ref="D7" pin="2"/>
+    </net>
+    <net code="55" name="Net-(Q13-Pad1)">
+      <node ref="Q13" pin="1"/>
+      <node ref="R37" pin="2"/>
+    </net>
+    <net code="56" name="/sheet5F955F69/out">
+      <node ref="F1" pin="2"/>
+      <node ref="U3" pin="1"/>
+      <node ref="U3" pin="5"/>
+    </net>
+    <net code="57" name="Net-(Q3-Pad1)">
+      <node ref="Q3" pin="1"/>
+      <node ref="R9" pin="1"/>
+      <node ref="R10" pin="1"/>
+    </net>
+    <net code="58" name="Net-(Q1-Pad3)">
+      <node ref="Q1" pin="3"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="59" name="Net-(R6-Pad2)">
+      <node ref="U3" pin="2"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="60" name="Net-(Q2-Pad1)">
+      <node ref="R11" pin="1"/>
+      <node ref="Q2" pin="1"/>
+    </net>
+    <net code="61" name="Net-(D3-Pad1)">
+      <node ref="Q2" pin="2"/>
+      <node ref="D3" pin="1"/>
+    </net>
+    <net code="62" name="Net-(D3-Pad2)">
+      <node ref="R8" pin="2"/>
+      <node ref="D3" pin="2"/>
+    </net>
+    <net code="63" name="Net-(Q1-Pad1)">
+      <node ref="Q1" pin="1"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="64" name="/sheet5F95602F/out">
+      <node ref="U4" pin="1"/>
+      <node ref="U4" pin="5"/>
       <node ref="F2" pin="2"/>
-      <node ref="U5" pin="5"/>
     </net>
-    <net code="42" name="Net-(Q4-Pad1)">
+    <net code="65" name="Net-(Q6-Pad1)">
+      <node ref="R17" pin="1"/>
       <node ref="R18" pin="1"/>
+      <node ref="Q6" pin="1"/>
+    </net>
+    <net code="66" name="Net-(Q4-Pad3)">
+      <node ref="R14" pin="1"/>
+      <node ref="Q4" pin="3"/>
+    </net>
+    <net code="67" name="Net-(R14-Pad2)">
+      <node ref="U4" pin="2"/>
+      <node ref="R14" pin="2"/>
+    </net>
+    <net code="68" name="Net-(Q5-Pad1)">
       <node ref="R19" pin="1"/>
+      <node ref="Q5" pin="1"/>
+    </net>
+    <net code="69" name="Net-(D4-Pad1)">
+      <node ref="D4" pin="1"/>
+      <node ref="Q5" pin="2"/>
+    </net>
+    <net code="70" name="Net-(D4-Pad2)">
+      <node ref="R16" pin="2"/>
+      <node ref="D4" pin="2"/>
+    </net>
+    <net code="71" name="Net-(Q4-Pad1)">
+      <node ref="R13" pin="2"/>
       <node ref="Q4" pin="1"/>
     </net>
-    <net code="43" name="Net-(D5-Pad2)">
-      <node ref="R17" pin="2"/>
-      <node ref="D5" pin="2"/>
+    <net code="72" name="/sheet5F9560CD/out">
+      <node ref="F3" pin="2"/>
+      <node ref="U5" pin="1"/>
+      <node ref="U5" pin="5"/>
     </net>
-    <net code="44" name="Net-(Q7-Pad3)">
-      <node ref="R22" pin="1"/>
-      <node ref="Q7" pin="3"/>
+    <net code="73" name="Net-(Q9-Pad1)">
+      <node ref="R26" pin="1"/>
+      <node ref="R25" pin="1"/>
+      <node ref="Q9" pin="1"/>
     </net>
-    <net code="45" name="Net-(R22-Pad2)">
+    <net code="74" name="Net-(R22-Pad2)">
       <node ref="R22" pin="2"/>
       <node ref="U5" pin="2"/>
     </net>
-    <net code="46" name="Net-(Q7-Pad1)">
-      <node ref="R21" pin="2"/>
+    <net code="75" name="Net-(Q7-Pad1)">
       <node ref="Q7" pin="1"/>
+      <node ref="R21" pin="2"/>
     </net>
-    <net code="47" name="/sheet5F955EDF/out">
-      <node ref="U4" pin="1"/>
-      <node ref="U4" pin="5"/>
-      <node ref="F1" pin="2"/>
+    <net code="76" name="Net-(Q7-Pad3)">
+      <node ref="Q7" pin="3"/>
+      <node ref="R22" pin="1"/>
     </net>
-    <net code="48" name="Net-(Q2-Pad1)">
-      <node ref="R12" pin="1"/>
-      <node ref="Q2" pin="1"/>
-      <node ref="R11" pin="1"/>
+    <net code="77" name="Net-(D5-Pad1)">
+      <node ref="D5" pin="1"/>
+      <node ref="Q8" pin="2"/>
     </net>
-    <net code="49" name="Net-(D4-Pad2)">
-      <node ref="D4" pin="2"/>
-      <node ref="R10" pin="2"/>
-    </net>
-    <net code="50" name="Net-(Q9-Pad3)">
-      <node ref="Q9" pin="3"/>
-      <node ref="R29" pin="1"/>
-    </net>
-    <net code="51" name="Net-(R29-Pad2)">
-      <node ref="R29" pin="2"/>
-      <node ref="U4" pin="2"/>
-    </net>
-    <net code="52" name="Net-(Q9-Pad1)">
-      <node ref="Q9" pin="1"/>
-      <node ref="R28" pin="2"/>
-    </net>
-    <net code="53" name="Net-(Q1-Pad1)">
-      <node ref="R1" pin="2"/>
-      <node ref="Q1" pin="1"/>
-    </net>
-    <net code="54" name="/sheet5F955F69/out">
-      <node ref="U6" pin="1"/>
-      <node ref="U6" pin="5"/>
-      <node ref="F3" pin="2"/>
-    </net>
-    <net code="55" name="Net-(Q6-Pad1)">
-      <node ref="R25" pin="1"/>
-      <node ref="Q6" pin="1"/>
-      <node ref="R26" pin="1"/>
-    </net>
-    <net code="56" name="Net-(D6-Pad2)">
+    <net code="78" name="Net-(D5-Pad2)">
       <node ref="R24" pin="2"/>
-      <node ref="D6" pin="2"/>
+      <node ref="D5" pin="2"/>
     </net>
-    <net code="57" name="Net-(Q1-Pad3)">
-      <node ref="Q1" pin="3"/>
-      <node ref="R3" pin="1"/>
-    </net>
-    <net code="58" name="Net-(R3-Pad2)">
-      <node ref="U6" pin="2"/>
-      <node ref="R3" pin="2"/>
-    </net>
-    <net code="59" name="Net-(Q3-Pad1)">
-      <node ref="R7" pin="2"/>
-      <node ref="Q3" pin="1"/>
-    </net>
-    <net code="60" name="Net-(R8-Pad2)">
-      <node ref="R8" pin="2"/>
-      <node ref="U7" pin="2"/>
-    </net>
-    <net code="61" name="Net-(Q3-Pad3)">
-      <node ref="R8" pin="1"/>
-      <node ref="Q3" pin="3"/>
-    </net>
-    <net code="62" name="Net-(D7-Pad2)">
-      <node ref="R31" pin="2"/>
-      <node ref="D7" pin="2"/>
-    </net>
-    <net code="63" name="Net-(Q8-Pad1)">
-      <node ref="R33" pin="1"/>
+    <net code="79" name="Net-(Q8-Pad1)">
+      <node ref="R27" pin="1"/>
       <node ref="Q8" pin="1"/>
-      <node ref="R32" pin="1"/>
     </net>
-    <net code="64" name="/sheet5F95602F/out">
-      <node ref="U7" pin="1"/>
-      <node ref="F4" pin="2"/>
-      <node ref="U7" pin="5"/>
-    </net>
-    <net code="65" name="Net-(R15-Pad2)">
-      <node ref="R15" pin="2"/>
-      <node ref="U8" pin="2"/>
-    </net>
-    <net code="66" name="/sheet5F9560CD/out">
-      <node ref="U8" pin="1"/>
-      <node ref="U8" pin="5"/>
-      <node ref="F5" pin="2"/>
-    </net>
-    <net code="67" name="Net-(Q5-Pad1)">
-      <node ref="R14" pin="2"/>
-      <node ref="Q5" pin="1"/>
-    </net>
-    <net code="68" name="Net-(Q5-Pad3)">
-      <node ref="Q5" pin="3"/>
-      <node ref="R15" pin="1"/>
-    </net>
-    <net code="69" name="Net-(D8-Pad2)">
+    <net code="80" name="Net-(D8-Pad2)">
+      <node ref="R45" pin="1"/>
       <node ref="D8" pin="2"/>
-      <node ref="R38" pin="2"/>
     </net>
-    <net code="70" name="Net-(Q10-Pad1)">
-      <node ref="R40" pin="1"/>
-      <node ref="R39" pin="1"/>
-      <node ref="Q10" pin="1"/>
-    </net>
-    <net code="71" name="Net-(D1-Pad2)">
-      <node ref="D1" pin="2"/>
-      <node ref="R35" pin="1"/>
-    </net>
-    <net code="72" name="Net-(D2-Pad2)">
-      <node ref="R36" pin="1"/>
-      <node ref="D2" pin="2"/>
+    <net code="81" name="Net-(D9-Pad2)">
+      <node ref="R46" pin="1"/>
+      <node ref="D9" pin="2"/>
     </net>
   </nets>
 </export>

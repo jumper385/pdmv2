@@ -1,4 +1,4 @@
-update=Thursday, 04 February 2021 at 08:39:33 pm
+update=Tuesday, 09 February 2021 at 12:07:56 am
 version=1
 last_client=kicad
 [general]
@@ -77,7 +77,7 @@ OthersTextSizeH=1
 OthersTextSizeThickness=0.15
 OthersTextItalic=0
 OthersTextUpright=1
-SolderMaskClearance=0.05
+SolderMaskClearance=0
 SolderMaskMinWidth=0
 SolderPasteClearance=0
 SolderPasteRatio=-0

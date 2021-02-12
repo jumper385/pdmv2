@@ -1,0 +1,28 @@
+reference,quantity,type,package,value,unit,datasheet
+C1 C4 C6 C8 C14 ,5,capacitor,0805,0.1,uF,
+C15 ,1,capacitor,0805,10,uF,
+C2 C3 ,2,capacitor,0805,16,pF,
+C5 C9 C10 C11 C12 C13 ,6,capacitor,0805,1,uF,
+C7 ,1,capacitor,0805,4.7,uF,
+D1 ,1,diode,DO214AB,D,5.0SMDJ28A,https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_5_0smdj_datasheet.pdf.pdf
+D2 D3 D4 D5 D6 D7 D8 D9 ,8,led,0805,Blue,Colour,
+F1 F2 F3 F4 F5 ,5,fuse,holder,Fuse Holder,model,
+J1 ,1,connector,femaleHeaderSMD,1x4,pin,
+J2 ,1,connector,femaleHeaderSMD,1x6,pin,
+J3 ,1,connector,DT134P,2x2,pin,
+J4 ,1,connector,DT1312P,2x6,pin,
+M1 M2 ,2,connector,jst,2,pin,
+Q1 Q2 Q3 Q4 Q5 Q6 Q7 Q8 Q9 Q10 Q11 Q12 Q13 Q14 Q15 ,15,transistor,sot23,BC817,model,
+R1 ,1,resistor,0805,120,R,
+R10 R18 R26 R34 R42 ,5,resistor,0805,220,R,
+R5 R9 R11 R12 R13 R17 R19 R20 R21 R25 R27 R28 R29 R33 R35 R36 R37 R41 R43 R44 ,20,resistor,0805,2k2,R,
+R2 R3 R6 R14 R22 R30 R38 ,7,resistor,0805,10k,R,
+R4 R46 ,2,resistor,0805,120,R,
+R7 R15 R23 R31 R39 ,5,resistor,0805,1K5,R,
+R8 R16 R24 R32 R40 R45 ,6,resistor,0805,850,R,
+SW1 ,1,button,,6mm,model,
+U1 ,1,ic,soic8,SN65HVD233,model,http://www.ti.com/lit/ds/symlink/sn65hvd234.pdf
+U2 ,1,mcu,qfn28,STM32F042G6U6,model,http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00105814.pdf
+U3 U4 U5 U6 U7 ,5,ic,to2524,BTS443P,model,http://www.infineon.com/dgdl/Infineon-BTS443P-DS-v01_00-EN.pdf?fileId=5546d4625a888733015aa9afbc5035d5
+U8 ,1,lvr,to2633,LM2937,model,http://www.ti.com/lit/ds/symlink/lm2937.pdf
+XTAL1 ,1,osc,misc,8,MHz,http://www.ndk.com/images/products/catalog/c_NX3225GD-STD-CRA-3_e.pdf
