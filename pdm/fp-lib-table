@@ -2,4 +2,6 @@
   (lib (name pdm_v2)(type KiCad)(uri ${KIPRJMOD}/pdm_v2.pretty)(options "")(descr ""))
   (lib (name DT13-12PB-B016)(type KiCad)(uri ${KIPRJMOD}/DT13-12PB-B016)(options "")(descr ""))
   (lib (name DT13-4P)(type KiCad)(uri ${KIPRJMOD}/DT13-4P)(options "")(descr ""))
+  (lib (name BSC005N03LS5IATMA1)(type KiCad)(uri /Users/henrychen/Dev/embedded/hardware/uwam_pdm_2021/BSC005N03LS5IATMA1.pretty)(options "")(descr ""))
+  (lib (name rubycon_calp)(type KiCad)(uri /Users/henrychen/Dev/embedded/hardware/uwam_pdm_2021/rubycon_calp.pretty)(options "")(descr ""))
 )
