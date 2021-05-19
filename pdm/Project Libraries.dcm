@@ -1,3 +1,7 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP SIR681DP
+F https://www.vishay.com/docs/66833/sir681dp.pdf
+$ENDCMP
+#
 #End Doc Library
