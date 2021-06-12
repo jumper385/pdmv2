@@ -268,7 +268,7 @@ canrx
 Text Label 1950 3400 2    50   ~ 0
 OSC_P
 Wire Wire Line
-	800  3400 800  4100
+	800  3400 800  3700
 Text Label 1950 4100 2    50   ~ 0
 OSC_N
 Text Label 4450 1200 0    50   ~ 0
@@ -427,48 +427,6 @@ Text Label 3500 1550 2    50   ~ 0
 _N
 Text Label 3500 1850 2    50   ~ 0
 _P
-Wire Wire Line
-	6750 10550 7050 10550
-Wire Wire Line
-	6750 10450 7050 10450
-Text Label 7050 10550 2    50   ~ 0
-_P
-Text Label 7050 10450 2    50   ~ 0
-_N
-$Comp
-L pdm-rescue:TestPoint_Probe-Connector CANH_TP?
-U 1 1 6002DB6D
-P 7050 10550
-AR Path="/5F955F6E/6002DB6D" Ref="CANH_TP?"  Part="1" 
-AR Path="/5F955EE4/6002DB6D" Ref="CANH_TP?"  Part="1" 
-AR Path="/5F94FFF3/6002DB6D" Ref="CANH_TP?"  Part="1" 
-AR Path="/5F956034/6002DB6D" Ref="CANH_TP?"  Part="1" 
-AR Path="/5F9560D2/6002DB6D" Ref="CANH_TP?"  Part="1" 
-AR Path="/6002DB6D" Ref="CANH_TP1"  Part="1" 
-F 0 "CANH_TP1" V 7100 11050 50  0000 R CNN
-F 1 "CANH_Test1" V 7000 11050 50  0000 R CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 7250 10550 50  0001 C CNN
-F 3 "~" H 7250 10550 50  0001 C CNN
-	1    7050 10550
-	0    1    -1   0   
-$EndComp
-$Comp
-L pdm-rescue:TestPoint_Probe-Connector CANL_Test?
-U 1 1 6002ED89
-P 7050 10450
-AR Path="/5F955F6E/6002ED89" Ref="CANL_Test?"  Part="1" 
-AR Path="/5F955EE4/6002ED89" Ref="CANL_Test?"  Part="1" 
-AR Path="/5F94FFF3/6002ED89" Ref="CANL_Test?"  Part="1" 
-AR Path="/5F956034/6002ED89" Ref="CANL_Test?"  Part="1" 
-AR Path="/5F9560D2/6002ED89" Ref="CANL_Test?"  Part="1" 
-AR Path="/6002ED89" Ref="CANL_Test1"  Part="1" 
-F 0 "CANL_Test1" V 7100 10950 50  0000 R CNN
-F 1 "CANL_TP" V 7200 10950 50  0000 R CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 7250 10450 50  0001 C CNN
-F 3 "~" H 7250 10450 50  0001 C CNN
-	1    7050 10450
-	0    1    -1   0   
-$EndComp
 Wire Wire Line
 	5600 1200 5800 1200
 Wire Wire Line
@@ -666,7 +624,7 @@ U 1 1 60087C69
 P 2800 1700
 F 0 "R1" H 2870 1746 50  0000 L CNN
 F 1 "120R" H 2870 1655 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" V 2730 1700 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2730 1700 50  0001 C CNN
 F 3 "~" H 2800 1700 50  0001 C CNN
 F 4 "A129738CT-ND" H 2800 1700 50  0001 C CNN "Digi-Key_PN"
 F 5 "279-CPF-A-0805B120RE" H 2800 1700 50  0001 C CNN "Mouser PN"
@@ -674,11 +632,7 @@ F 5 "279-CPF-A-0805B120RE" H 2800 1700 50  0001 C CNN "Mouser PN"
 	1    0    0    -1  
 $EndComp
 Connection ~ 2800 1550
-Wire Wire Line
-	2800 1550 3500 1550
 Connection ~ 2800 1850
-Wire Wire Line
-	2800 1850 3500 1850
 Wire Wire Line
 	7000 9000 7000 9300
 Text Label 7000 9300 1    50   ~ 0
@@ -687,48 +641,6 @@ Wire Wire Line
 	6800 9000 6800 9300
 Text Label 6800 9300 1    50   ~ 0
 vout4
-$Comp
-L Connector:Conn_01x04_Female J3
-U 1 1 60199908
-P 6550 10650
-F 0 "J3" H 6442 10225 50  0000 C CNN
-F 1 "Conn_01x04_Female" H 6442 10316 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical_SMD_Pin1Left" H 6550 10650 50  0001 C CNN
-F 3 "~" H 6550 10650 50  0001 C CNN
-F 4 "S5596-ND" H 6550 10650 50  0001 C CNN "Digi-Key_PN"
-	1    6550 10650
-	-1   0    0    1   
-$EndComp
-$Comp
-L pdm-rescue:GND-power #PWR034
-U 1 1 601B4F51
-P 6900 10850
-F 0 "#PWR034" H 6900 10600 50  0001 C CNN
-F 1 "GND" H 6905 10677 50  0000 C CNN
-F 2 "" H 6900 10850 50  0001 C CNN
-F 3 "" H 6900 10850 50  0001 C CNN
-	1    6900 10850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6750 10750 6900 10750
-Wire Wire Line
-	6900 10750 6900 10850
-$Comp
-L pdm-rescue:+3.3V-power #PWR035
-U 1 1 601B929E
-P 7100 10850
-F 0 "#PWR035" H 7100 10700 50  0001 C CNN
-F 1 "+3.3V" H 7115 11023 50  0000 C CNN
-F 2 "" H 7100 10850 50  0001 C CNN
-F 3 "" H 7100 10850 50  0001 C CNN
-	1    7100 10850
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	6750 10650 7100 10650
-Wire Wire Line
-	7100 10650 7100 10850
 Wire Wire Line
 	5250 8850 5300 8850
 Wire Wire Line
@@ -743,88 +655,8 @@ Wire Wire Line
 	5300 8950 5300 9050
 Text Label 5550 9050 0    50   ~ 0
 vin
-$Comp
-L Motor:Fan M1
-U 1 1 6036FA12
-P 1650 10500
-F 0 "M1" H 1808 10596 50  0000 L CNN
-F 1 "Fan" H 1808 10505 50  0000 L CNN
-F 2 "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical" H 1650 10510 50  0001 C CNN
-F 3 "~" H 1650 10510 50  0001 C CNN
-F 4 "455-1657-ND" H 1650 10500 50  0001 C CNN "Digi-Key_PN"
-	1    1650 10500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Motor:Fan M2
-U 1 1 60370FB0
-P 2250 10500
-F 0 "M2" H 2408 10596 50  0000 L CNN
-F 1 "Fan" H 2408 10505 50  0000 L CNN
-F 2 "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical" H 2250 10510 50  0001 C CNN
-F 3 "~" H 2250 10510 50  0001 C CNN
-F 4 "455-1657-ND" H 2250 10500 50  0001 C CNN "Digi-Key_PN"
-	1    2250 10500
-	1    0    0    -1  
-$EndComp
-$Comp
-L pdm-rescue:GND-power #PWR013
-U 1 1 6037A85D
-P 1650 10900
-F 0 "#PWR013" H 1650 10650 50  0001 C CNN
-F 1 "GND" H 1655 10727 50  0000 C CNN
-F 2 "" H 1650 10900 50  0001 C CNN
-F 3 "" H 1650 10900 50  0001 C CNN
-	1    1650 10900
-	1    0    0    -1  
-$EndComp
-$Comp
-L pdm-rescue:GND-power #PWR020
-U 1 1 6037ADE0
-P 2250 10900
-F 0 "#PWR020" H 2250 10650 50  0001 C CNN
-F 1 "GND" H 2255 10727 50  0000 C CNN
-F 2 "" H 2250 10900 50  0001 C CNN
-F 3 "" H 2250 10900 50  0001 C CNN
-	1    2250 10900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2250 10900 2250 10700
-Wire Wire Line
-	1650 10700 1650 10900
-$Comp
-L power:+12V #PWR012
-U 1 1 60383D24
-P 1650 10050
-F 0 "#PWR012" H 1650 9900 50  0001 C CNN
-F 1 "+12V" V 1665 10178 50  0000 L CNN
-F 2 "" H 1650 10050 50  0001 C CNN
-F 3 "" H 1650 10050 50  0001 C CNN
-	1    1650 10050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1650 10050 1650 10200
-$Comp
-L power:+12V #PWR019
-U 1 1 603A6BCD
-P 2250 10050
-F 0 "#PWR019" H 2250 9900 50  0001 C CNN
-F 1 "+12V" V 2265 10178 50  0000 L CNN
-F 2 "" H 2250 10050 50  0001 C CNN
-F 3 "" H 2250 10050 50  0001 C CNN
-	1    2250 10050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2250 10050 2250 10200
 Text Notes 950  9850 2    50   ~ 10
 MISC
-Text Notes 1750 9950 0    50   ~ 0
-Input Fan
-Text Notes 2400 9950 0    50   ~ 0
-Output Fan
 Text Notes 4800 8400 0    50   ~ 0
 add est / suppression diode in paralell with vin
 Wire Wire Line
@@ -860,17 +692,6 @@ $EndComp
 Wire Wire Line
 	7400 9300 7500 9300
 Connection ~ 7400 9300
-$Comp
-L Mechanical:MountingHole RarePepe1
-U 1 1 6021F03F
-P 800 10050
-F 0 "RarePepe1" H 900 10096 50  0000 L CNN
-F 1 "RarePepe" H 900 10005 50  0000 L CNN
-F 2 "pdm_v2:rarepepe" H 800 10050 50  0001 C CNN
-F 3 "~" H 800 10050 50  0001 C CNN
-	1    800  10050
-	1    0    0    -1  
-$EndComp
 $Sheet
 S 6250 2000 800  400 
 U 60F4D95A
@@ -905,22 +726,20 @@ fuse5
 $Comp
 L pdm-rescue:+12V-power #PWR07
 U 1 1 60FF776C
-P 1400 6850
+P 1400 6750
 AR Path="/60FF776C" Ref="#PWR07"  Part="1" 
 AR Path="/60112AE4/60FF776C" Ref="#PWR?"  Part="1" 
-F 0 "#PWR07" H 1400 6700 50  0001 C CNN
-F 1 "+12V" H 1415 7023 50  0000 C CNN
-F 2 "" H 1400 6850 50  0001 C CNN
-F 3 "" H 1400 6850 50  0001 C CNN
-	1    1400 6850
+F 0 "#PWR07" H 1400 6600 50  0001 C CNN
+F 1 "+12V" H 1415 6923 50  0000 C CNN
+F 2 "" H 1400 6750 50  0001 C CNN
+F 3 "" H 1400 6750 50  0001 C CNN
+	1    1400 6750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1400 6850 1400 6900
+	1400 6750 1400 6850
 Wire Wire Line
 	1750 7200 1750 7050
-Wire Wire Line
-	1750 7600 1750 7550
 $Comp
 L pdm-rescue:GND-power #PWR014
 U 1 1 60FF7775
@@ -950,23 +769,19 @@ $EndComp
 Connection ~ 1400 6950
 Wire Wire Line
 	1400 6950 1400 7050
-Connection ~ 1750 7550
-Wire Wire Line
-	1750 7550 1750 7500
 $Comp
 L pdm-rescue:PWR_FLAG-power #FLG02
 U 1 1 60FF7785
-P 1450 7550
+P 1450 7600
 AR Path="/60FF7785" Ref="#FLG02"  Part="1" 
 AR Path="/60112AE4/60FF7785" Ref="#FLG?"  Part="1" 
-F 0 "#FLG02" H 1450 7625 50  0001 C CNN
-F 1 "PWR_FLAG" H 1450 7723 50  0000 C CNN
-F 2 "" H 1450 7550 50  0001 C CNN
-F 3 "~" H 1450 7550 50  0001 C CNN
-	1    1450 7550
+F 0 "#FLG02" H 1450 7675 50  0001 C CNN
+F 1 "PWR_FLAG" H 1450 7773 50  0000 C CNN
+F 2 "" H 1450 7600 50  0001 C CNN
+F 3 "~" H 1450 7600 50  0001 C CNN
+	1    1450 7600
 	-1   0    0    1   
 $EndComp
-Connection ~ 1450 7550
 Wire Wire Line
 	3200 7000 3200 7200
 Wire Wire Line
@@ -1008,7 +823,7 @@ AR Path="/60FF77BD" Ref="D1"  Part="1"
 AR Path="/60112AE4/60FF77BD" Ref="D?"  Part="1" 
 F 0 "D1" H 2843 6917 50  0000 C CNN
 F 1 "LED" H 2843 6826 50  0000 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2850 6700 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 2850 6700 50  0001 C CNN
 F 3 "~" H 2850 6700 50  0001 C CNN
 F 4 "516-1431-1-ND" H 2850 6700 50  0001 C CNN "Digi-Key_PN"
 F 5 "630-HSMA-C170-T0000" H 2850 6700 50  0001 C CNN "Mouser PN"
@@ -1023,7 +838,7 @@ AR Path="/60FF77C5" Ref="R2"  Part="1"
 AR Path="/60112AE4/60FF77C5" Ref="R?"  Part="1" 
 F 0 "R2" H 2950 7000 50  0000 L CNN
 F 1 "120R" V 2850 6900 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 2780 7000 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2780 7000 50  0001 C CNN
 F 3 "~" H 2850 7000 50  0001 C CNN
 F 4 "A126352CT-ND" H 2850 7000 50  0001 C CNN "Digi-Key_PN"
 F 5 "603-RC0805JR-07120RL" H 2850 7000 50  0001 C CNN "Mouser PN"
@@ -1047,19 +862,10 @@ Wire Wire Line
 	2850 7200 3200 7200
 Wire Wire Line
 	1400 7050 1750 7050
-Wire Wire Line
-	1450 7550 1450 7450
-Wire Wire Line
-	1100 7450 1450 7450
-Connection ~ 1400 7050
-Wire Wire Line
-	1100 7150 1400 7150
-Wire Wire Line
-	1400 7150 1400 7050
 $Comp
 L pdm-rescue:TestPoint_Probe-Connector TP?
 U 1 1 60FF77DE
-P 1400 6900
+P 1400 6850
 AR Path="/5F955F6E/60FF77DE" Ref="TP?"  Part="1" 
 AR Path="/5F955EE4/60FF77DE" Ref="TP?"  Part="1" 
 AR Path="/5F94FFF3/60FF77DE" Ref="TP?"  Part="1" 
@@ -1067,46 +873,16 @@ AR Path="/5F956034/60FF77DE" Ref="TP?"  Part="1"
 AR Path="/5F9560D2/60FF77DE" Ref="TP?"  Part="1" 
 AR Path="/60FF77DE" Ref="TP1"  Part="1" 
 AR Path="/60112AE4/60FF77DE" Ref="TP?"  Part="1" 
-F 0 "TP1" H 1700 7000 50  0000 R CNN
-F 1 "TestPoint_Probe" H 2050 6900 50  0000 R CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 1600 6900 50  0001 C CNN
-F 3 "~" H 1600 6900 50  0001 C CNN
-	1    1400 6900
+F 0 "TP1" H 1700 6950 50  0000 R CNN
+F 1 "TestPoint_Probe" H 2050 6850 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 1600 6850 50  0001 C CNN
+F 3 "~" H 1600 6850 50  0001 C CNN
+	1    1400 6850
 	-1   0    0    -1  
 $EndComp
-Connection ~ 1400 6900
+Connection ~ 1400 6850
 Wire Wire Line
-	1400 6900 1400 6950
-Wire Wire Line
-	1450 7550 1750 7550
-$Comp
-L pdm-rescue:GND-power #PWR06
-U 1 1 60FF77E7
-P 1100 7550
-AR Path="/60FF77E7" Ref="#PWR06"  Part="1" 
-AR Path="/60112AE4/60FF77E7" Ref="#PWR?"  Part="1" 
-F 0 "#PWR06" H 1100 7300 50  0001 C CNN
-F 1 "GND" H 1105 7377 50  0000 C CNN
-F 2 "" H 1100 7550 50  0001 C CNN
-F 3 "" H 1100 7550 50  0001 C CNN
-	1    1100 7550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1100 7550 1100 7450
-$Comp
-L pdm-rescue:+12V-power #PWR05
-U 1 1 60FF77EE
-P 1100 7150
-AR Path="/60FF77EE" Ref="#PWR05"  Part="1" 
-AR Path="/60112AE4/60FF77EE" Ref="#PWR?"  Part="1" 
-F 0 "#PWR05" H 1100 7000 50  0001 C CNN
-F 1 "+12V" H 1115 7323 50  0000 C CNN
-F 2 "" H 1100 7150 50  0001 C CNN
-F 3 "" H 1100 7150 50  0001 C CNN
-	1    1100 7150
-	0    -1   -1   0   
-$EndComp
+	1400 6850 1400 6950
 Text Notes 800  8350 0    50   ~ 0
 Uses the TO-263 Package\nExpect 65 degrees with conservative estimates\nAssumes conservative current draw of 150 mA
 $Comp
@@ -1261,7 +1037,7 @@ L Device:C C10
 U 1 1 60E10980
 P 5950 10550
 F 0 "C10" H 6065 10596 50  0000 L CNN
-F 1 "C" H 6065 10505 50  0000 L CNN
+F 1 "1uF" H 6065 10505 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5988 10400 50  0001 C CNN
 F 3 "~" H 5950 10550 50  0001 C CNN
 	1    5950 10550
@@ -1318,22 +1094,22 @@ SWCLK
 Wire Wire Line
 	6550 3600 7200 3600
 Wire Wire Line
-	5250 5300 4650 5300
+	7800 5900 8400 5900
 Wire Wire Line
-	5250 5400 4650 5400
+	7800 5800 8400 5800
 Wire Wire Line
-	5250 5500 4650 5500
+	7800 5700 8400 5700
 Wire Wire Line
-	5250 5600 4650 5600
-Text Label 4650 5500 0    50   ~ 0
+	7800 5600 8400 5600
+Text Label 8400 5700 2    50   ~ 0
 sense5
-Text Label 4650 5600 0    50   ~ 0
+Text Label 8400 5600 2    50   ~ 0
 sense4
 Text Label 7200 3600 2    50   ~ 0
 sense3
-Text Label 4650 5300 0    50   ~ 0
+Text Label 8400 5900 2    50   ~ 0
 sense2
-Text Label 4650 5400 0    50   ~ 0
+Text Label 8400 5800 2    50   ~ 0
 sense1
 Connection ~ 5450 9050
 Wire Wire Line
@@ -1434,10 +1210,6 @@ F 3 "http://www.raltron.com/wp-content/uploads/2016/10/crystal_as-smd.pdf" H 140
 	1    1400 3750
 	0    1    1    0   
 $EndComp
-NoConn ~ 6550 5700
-NoConn ~ 6550 5600
-NoConn ~ 6550 5800
-NoConn ~ 6550 6200
 NoConn ~ 5250 5700
 NoConn ~ 5250 5800
 NoConn ~ 5250 5900
@@ -1450,7 +1222,6 @@ NoConn ~ 5250 6500
 NoConn ~ 5250 6600
 NoConn ~ 5250 6700
 NoConn ~ 5250 6800
-NoConn ~ 6550 5100
 NoConn ~ 6550 4800
 NoConn ~ 6550 4700
 NoConn ~ 6550 4600
@@ -1463,4 +1234,69 @@ NoConn ~ 6550 3700
 NoConn ~ 6550 3800
 NoConn ~ 5250 5100
 NoConn ~ 5250 4900
+Wire Wire Line
+	1750 7500 1750 7550
+Wire Wire Line
+	1450 7600 1450 7550
+Wire Wire Line
+	1450 7550 1750 7550
+Connection ~ 1750 7550
+Wire Wire Line
+	1750 7550 1750 7600
+$Comp
+L power:GND #PWR0101
+U 1 1 60D729C1
+P 650 3800
+F 0 "#PWR0101" H 650 3550 50  0001 C CNN
+F 1 "GND" H 655 3627 50  0000 C CNN
+F 2 "" H 650 3800 50  0001 C CNN
+F 3 "" H 650 3800 50  0001 C CNN
+	1    650  3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	650  3800 650  3700
+Wire Wire Line
+	650  3700 800  3700
+Connection ~ 800  3700
+Wire Wire Line
+	800  3700 800  4100
+$Comp
+L pdm-rescue:TestPoint_Probe-Connector CANL_Test?
+U 1 1 6002ED89
+P 3800 1550
+AR Path="/5F955F6E/6002ED89" Ref="CANL_Test?"  Part="1" 
+AR Path="/5F955EE4/6002ED89" Ref="CANL_Test?"  Part="1" 
+AR Path="/5F94FFF3/6002ED89" Ref="CANL_Test?"  Part="1" 
+AR Path="/5F956034/6002ED89" Ref="CANL_Test?"  Part="1" 
+AR Path="/5F9560D2/6002ED89" Ref="CANL_Test?"  Part="1" 
+AR Path="/6002ED89" Ref="CANL_Test1"  Part="1" 
+F 0 "CANL_Test1" V 3850 2050 50  0000 R CNN
+F 1 "CANL_TP" V 3950 2050 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4000 1550 50  0001 C CNN
+F 3 "~" H 4000 1550 50  0001 C CNN
+	1    3800 1550
+	0    1    -1   0   
+$EndComp
+$Comp
+L pdm-rescue:TestPoint_Probe-Connector CANH_TP?
+U 1 1 6002DB6D
+P 3800 1850
+AR Path="/5F955F6E/6002DB6D" Ref="CANH_TP?"  Part="1" 
+AR Path="/5F955EE4/6002DB6D" Ref="CANH_TP?"  Part="1" 
+AR Path="/5F94FFF3/6002DB6D" Ref="CANH_TP?"  Part="1" 
+AR Path="/5F956034/6002DB6D" Ref="CANH_TP?"  Part="1" 
+AR Path="/5F9560D2/6002DB6D" Ref="CANH_TP?"  Part="1" 
+AR Path="/6002DB6D" Ref="CANH_TP1"  Part="1" 
+F 0 "CANH_TP1" V 3850 2350 50  0000 R CNN
+F 1 "CANH_Test1" V 3750 2350 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4000 1850 50  0001 C CNN
+F 3 "~" H 4000 1850 50  0001 C CNN
+	1    3800 1850
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	2800 1550 3800 1550
+Wire Wire Line
+	2800 1850 3800 1850
 $EndSCHEMATC
