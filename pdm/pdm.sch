@@ -281,22 +281,12 @@ Text Label 2600 1650 0    50   ~ 0
 _N
 Text Label 2600 1750 0    50   ~ 0
 _P
-Text Label 7200 5900 2    50   ~ 0
-act3
-Text Label 7200 6800 2    50   ~ 0
+Text Label 4600 6200 0    50   ~ 0
 act2
-Text Label 7200 6700 2    50   ~ 0
-act1
 Wire Wire Line
-	6550 6800 7200 6800
+	5250 6200 4600 6200
 Wire Wire Line
-	6550 6300 7200 6300
-Wire Wire Line
-	6550 6700 7200 6700
-Wire Wire Line
-	6550 5400 7200 5400
-Text Label 7200 5400 2    50   ~ 0
-fuse3
+	5250 6100 4600 6100
 Text Notes 850  5550 1    50   ~ 0
 VDD
 Text Notes 1950 5550 1    50   ~ 0
@@ -509,9 +499,7 @@ F 3 "" H 5700 9050 50  0001 C CNN
 	1    5700 9050
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	6550 5900 7200 5900
-Text Label 7200 6300 2    50   ~ 0
+Text Label 4600 6100 0    50   ~ 0
 fuse2
 Wire Wire Line
 	6900 9000 6900 9300
@@ -783,7 +771,7 @@ F 3 "~" H 1450 7600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	3200 7000 3200 7200
+	3200 7000 3200 7100
 Wire Wire Line
 	3200 7650 3200 7750
 $Comp
@@ -1092,25 +1080,13 @@ SWDIO
 Text Label 7200 5000 2    50   ~ 0
 SWCLK
 Wire Wire Line
-	6550 3600 7200 3600
+	5250 6000 4600 6000
 Wire Wire Line
-	7800 5900 8400 5900
-Wire Wire Line
-	7800 5800 8400 5800
-Wire Wire Line
-	7800 5700 8400 5700
-Wire Wire Line
-	7800 5600 8400 5600
-Text Label 8400 5700 2    50   ~ 0
-sense5
-Text Label 8400 5600 2    50   ~ 0
+	5250 6300 4600 6300
+Text Label 4600 6300 0    50   ~ 0
 sense4
-Text Label 7200 3600 2    50   ~ 0
-sense3
-Text Label 8400 5900 2    50   ~ 0
+Text Label 4600 6000 0    50   ~ 0
 sense2
-Text Label 8400 5800 2    50   ~ 0
-sense1
 Connection ~ 5450 9050
 Wire Wire Line
 	5450 9050 5700 9050
@@ -1130,26 +1106,14 @@ Wire Wire Line
 Wire Wire Line
 	6150 3300 6150 3400
 Connection ~ 6050 3300
-Text Label 7200 5500 2    50   ~ 0
+Text Label 4600 6400 0    50   ~ 0
 fuse4
 Wire Wire Line
-	6550 6000 7200 6000
-Text Label 7200 6000 2    50   ~ 0
+	5250 6500 4600 6500
+Text Label 4600 6500 0    50   ~ 0
 act4
-Text Label 7200 5300 2    50   ~ 0
-fuse5
 Wire Wire Line
-	6550 5300 7200 5300
-Wire Wire Line
-	6550 6100 7200 6100
-Text Label 7200 6100 2    50   ~ 0
-act5
-Text Label 7200 6400 2    50   ~ 0
-fuse1
-Wire Wire Line
-	6550 6400 7200 6400
-Wire Wire Line
-	6550 5500 7200 5500
+	5250 6400 4600 6400
 Connection ~ 5900 3300
 Wire Wire Line
 	5900 3300 5950 3300
@@ -1210,30 +1174,6 @@ F 3 "http://www.raltron.com/wp-content/uploads/2016/10/crystal_as-smd.pdf" H 140
 	1    1400 3750
 	0    1    1    0   
 $EndComp
-NoConn ~ 5250 5700
-NoConn ~ 5250 5800
-NoConn ~ 5250 5900
-NoConn ~ 5250 6000
-NoConn ~ 5250 6100
-NoConn ~ 5250 6200
-NoConn ~ 5250 6300
-NoConn ~ 5250 6400
-NoConn ~ 5250 6500
-NoConn ~ 5250 6600
-NoConn ~ 5250 6700
-NoConn ~ 5250 6800
-NoConn ~ 6550 4800
-NoConn ~ 6550 4700
-NoConn ~ 6550 4600
-NoConn ~ 6550 4500
-NoConn ~ 6550 4400
-NoConn ~ 6550 4300
-NoConn ~ 6550 4200
-NoConn ~ 6550 4100
-NoConn ~ 6550 3700
-NoConn ~ 6550 3800
-NoConn ~ 5250 5100
-NoConn ~ 5250 4900
 Wire Wire Line
 	1750 7500 1750 7550
 Wire Wire Line
@@ -1299,4 +1239,63 @@ Wire Wire Line
 	2800 1550 3100 1550
 Wire Wire Line
 	2800 1850 3100 1850
+Wire Wire Line
+	6550 6800 7200 6800
+Text Label 7200 6800 2    50   ~ 0
+fuse1
+Text Label 7200 4400 2    50   ~ 0
+sense3
+Wire Wire Line
+	6550 4400 7200 4400
+Wire Wire Line
+	6550 4600 7200 4600
+Text Label 7200 4600 2    50   ~ 0
+act3
+Text Label 7200 4500 2    50   ~ 0
+fuse3
+Wire Wire Line
+	6550 4500 7200 4500
+Wire Wire Line
+	5250 5900 4600 5900
+Text Label 4600 5900 0    50   ~ 0
+act1
+Wire Wire Line
+	6550 6700 7200 6700
+Text Label 7200 6700 2    50   ~ 0
+sense1
+Text Label 7200 5700 2    50   ~ 0
+act5
+Wire Wire Line
+	6550 5800 7200 5800
+Text Label 7200 5800 2    50   ~ 0
+sense5
+Text Label 7200 5600 2    50   ~ 0
+fuse5
+Wire Wire Line
+	6550 5600 7200 5600
+Wire Wire Line
+	6550 5700 7200 5700
+$Comp
+L pdm-rescue:TestPoint_Probe-Connector TP?
+U 1 1 60ED4630
+P 3300 7100
+AR Path="/5F955F6E/60ED4630" Ref="TP?"  Part="1" 
+AR Path="/5F955EE4/60ED4630" Ref="TP?"  Part="1" 
+AR Path="/5F94FFF3/60ED4630" Ref="TP?"  Part="1" 
+AR Path="/5F956034/60ED4630" Ref="TP?"  Part="1" 
+AR Path="/5F9560D2/60ED4630" Ref="TP?"  Part="1" 
+AR Path="/60ED4630" Ref="TP2"  Part="1" 
+AR Path="/60112AE4/60ED4630" Ref="TP?"  Part="1" 
+F 0 "TP2" H 3600 7200 50  0000 R CNN
+F 1 "TestPoint_Probe" H 3950 7100 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 3500 7100 50  0001 C CNN
+F 3 "~" H 3500 7100 50  0001 C CNN
+	1    3300 7100
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	3300 7100 3200 7100
+Connection ~ 3200 7100
+Wire Wire Line
+	3200 7100 3200 7200
 $EndSCHEMATC
