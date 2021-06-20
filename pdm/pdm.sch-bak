@@ -25,7 +25,7 @@ F 0 "C2" H 1065 3446 50  0000 L CNN
 F 1 "16pF" H 1065 3355 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 988 3250 50  0001 C CNN
 F 3 "~" H 950 3400 50  0001 C CNN
-F 4 "" H 950 3400 50  0001 C CNN "Digi-Key_PN"
+F 4 "478-10292-2-ND" H 950 3400 50  0001 C CNN "Digi-Key_PN"
 F 5 "603-CC805JRNPO9BN160" H 950 3400 50  0001 C CNN "Mouser PN"
 	1    950  3400
 	0    -1   -1   0   
@@ -38,7 +38,7 @@ F 0 "C3" H 1065 4146 50  0000 L CNN
 F 1 "16pF" H 1065 4055 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 988 3950 50  0001 C CNN
 F 3 "~" H 950 4100 50  0001 C CNN
-F 4 "" H 950 4100 50  0001 C CNN "Digi-Key_PN"
+F 4 "478-10292-2-ND" H 950 4100 50  0001 C CNN "Digi-Key_PN"
 F 5 "603-CC805JRNPO9BN160" H 950 4100 50  0001 C CNN "Mouser PN"
 	1    950  4100
 	0    -1   -1   0   
@@ -254,12 +254,12 @@ VDD + VDDIO
 Text Notes 4450 900  0    50   ~ 10
 Fuse Blocks
 Wire Wire Line
-	6550 6500 7200 6500
+	6750 5800 7400 5800
 Wire Wire Line
-	6550 6600 7200 6600
-Text Label 7200 6500 2    50   ~ 0
+	6750 5900 7400 5900
+Text Label 7400 5800 2    50   ~ 0
 canrx
-Text Label 7200 6600 2    50   ~ 0
+Text Label 7400 5900 2    50   ~ 0
 cantx
 Text Label 1600 1550 0    50   ~ 0
 cantx
@@ -931,70 +931,42 @@ F 5 "CL10A106MA8NRNC" H 3200 7500 50  0001 C CNN "MFR_PN"
 	1    3200 7500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6550 4100 7200 4100
-Wire Wire Line
-	5750 3300 5850 3300
-Connection ~ 5750 3300
-Wire Wire Line
-	5750 3300 5750 3400
-Wire Wire Line
-	5850 3300 5900 3300
-Connection ~ 5850 3300
-Wire Wire Line
-	5850 3300 5850 3400
-Wire Wire Line
-	5950 3300 6050 3300
-Connection ~ 5950 3300
-Wire Wire Line
-	5950 3400 5950 3300
-Wire Wire Line
-	5650 3300 5650 3400
-Wire Wire Line
-	6050 3300 6050 3400
-Wire Wire Line
-	5650 3300 5750 3300
-Text Label 4650 4800 0    50   ~ 0
+Text Label 5150 5400 0    50   ~ 0
 OSC_P
-Text Label 4650 4700 0    50   ~ 0
+Text Label 5150 5300 0    50   ~ 0
 OSC_N
 Wire Wire Line
-	5250 4800 4650 4800
+	5750 5400 5150 5400
 Wire Wire Line
-	5250 4700 4650 4700
+	5750 5300 5150 5300
 Wire Wire Line
-	5900 3050 5900 3300
-Wire Wire Line
-	4650 3600 5250 3600
-Text Label 4650 3600 0    50   ~ 0
+	5150 4700 5750 4700
+Text Label 5150 4700 0    50   ~ 0
 NRST
 $Comp
 L pdm-rescue:+3.3V-power #PWR033
 U 1 1 609C443C
-P 5900 3050
-F 0 "#PWR033" H 5900 2900 50  0001 C CNN
-F 1 "+3.3V" H 5915 3223 50  0000 C CNN
-F 2 "" H 5900 3050 50  0001 C CNN
-F 3 "" H 5900 3050 50  0001 C CNN
-	1    5900 3050
+P 6250 4000
+F 0 "#PWR033" H 6250 3850 50  0001 C CNN
+F 1 "+3.3V" H 6265 4173 50  0000 C CNN
+F 2 "" H 6250 4000 50  0001 C CNN
+F 3 "" H 6250 4000 50  0001 C CNN
+	1    6250 4000
 	1    0    0    -1  
 $EndComp
-Connection ~ 5850 7050
 Wire Wire Line
-	5850 7300 5850 7050
+	6250 6700 6250 6450
 $Comp
 L pdm-rescue:GND-power #PWR032
 U 1 1 609CA691
-P 5850 7300
-F 0 "#PWR032" H 5850 7050 50  0001 C CNN
-F 1 "GND" H 5855 7127 50  0000 C CNN
-F 2 "" H 5850 7300 50  0001 C CNN
-F 3 "" H 5850 7300 50  0001 C CNN
-	1    5850 7300
+P 6250 6700
+F 0 "#PWR032" H 6250 6450 50  0001 C CNN
+F 1 "GND" H 6255 6527 50  0000 C CNN
+F 2 "" H 6250 6700 50  0001 C CNN
+F 3 "" H 6250 6700 50  0001 C CNN
+	1    6250 6700
 	1    0    0    -1  
 $EndComp
-Text Label 7200 4100 2    50   ~ 0
-DAC2
 $Comp
 L Connector:Conn_01x04_Female J2
 U 1 1 60DB7F19
@@ -1061,69 +1033,37 @@ Wire Wire Line
 Text Label 5700 10600 2    50   ~ 0
 SWCLK
 Wire Wire Line
-	6550 4900 7200 4900
+	6750 6000 7400 6000
 Wire Wire Line
-	6550 5000 7200 5000
+	6750 6100 7400 6100
 Text Label 5700 10500 2    50   ~ 0
 SWDIO
-Text Label 7200 4900 2    50   ~ 0
+Text Label 7400 6000 2    50   ~ 0
 SWDIO
-Text Label 7200 5000 2    50   ~ 0
+Text Label 7400 6100 2    50   ~ 0
 SWCLK
-Wire Wire Line
-	6550 4000 7200 4000
-Text Label 7200 4000 2    50   ~ 0
-sense2
 Connection ~ 5450 9050
 Wire Wire Line
 	5450 9050 5700 9050
-$Comp
-L MCU_ST_STM32L4:STM32L496RGTx U3
-U 1 1 60AC4335
-P 5950 5200
-F 0 "U3" H 5900 3311 50  0000 C CNN
-F 1 "STM32L496RGTx" H 5900 3220 50  0000 C CNN
-F 2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" H 5350 3500 50  0001 R CNN
-F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00284211.pdf" H 5950 5200 50  0001 C CNN
-	1    5950 5200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6050 3300 6150 3300
-Wire Wire Line
-	6150 3300 6150 3400
-Connection ~ 6050 3300
-Text Label 4600 6400 0    50   ~ 0
+Text Label 5100 5900 0    50   ~ 0
 fuse4
 Wire Wire Line
-	5250 6500 4600 6500
-Text Label 4600 6500 0    50   ~ 0
+	6750 5700 7400 5700
+Text Label 7400 5700 2    50   ~ 0
 act4
 Wire Wire Line
-	5250 6400 4600 6400
-Connection ~ 5900 3300
+	5750 5900 5100 5900
 Wire Wire Line
-	5900 3300 5950 3300
+	6150 6450 6250 6450
 Wire Wire Line
-	5850 7050 5950 7050
+	6150 6400 6150 6450
 Wire Wire Line
-	5650 7050 5750 7050
+	6250 6400 6250 6450
+Connection ~ 6250 6450
 Wire Wire Line
-	5650 7000 5650 7050
+	6250 6450 6350 6450
 Wire Wire Line
-	5750 7000 5750 7050
-Connection ~ 5750 7050
-Wire Wire Line
-	5750 7050 5850 7050
-Wire Wire Line
-	5850 7000 5850 7050
-Wire Wire Line
-	5950 7000 5950 7050
-Connection ~ 5950 7050
-Wire Wire Line
-	5950 7050 6050 7050
-Wire Wire Line
-	6050 7000 6050 7050
+	6350 6400 6350 6450
 Text Label 5950 1200 0    50   ~ 0
 act4
 Text Label 5950 1300 0    50   ~ 0
@@ -1157,7 +1097,8 @@ P 1400 3750
 F 0 "Y1" V 1354 3881 50  0000 L CNN
 F 1 "32Mhz" V 1445 3881 50  0000 L CNN
 F 2 "Crystal:Crystal_SMD_HC49-SD" H 1400 3750 50  0001 C CNN
-F 3 "http://www.raltron.com/wp-content/uploads/2016/10/crystal_as-smd.pdf" H 1400 3750 50  0001 C CNN
+F 3 "https://www.foxonline.com/wp-content/uploads/pdfs/C4SD.pdf" H 1400 3750 50  0001 C CNN
+F 4 "631-1010-2-ND" H 1400 3750 50  0001 C CNN "Digi-Key_PN"
 	1    1400 3750
 	0    1    1    0   
 $EndComp
@@ -1227,37 +1168,25 @@ Wire Wire Line
 Wire Wire Line
 	2800 1850 3100 1850
 Wire Wire Line
-	6550 6800 7200 6800
-Text Label 7200 6800 2    50   ~ 0
+	6750 6200 7400 6200
+Text Label 7400 6200 2    50   ~ 0
 fuse1
-Text Label 7200 3800 2    50   ~ 0
-sense3
 Wire Wire Line
-	6550 3800 7200 3800
-Wire Wire Line
-	6550 4600 7200 4600
-Text Label 7200 4600 2    50   ~ 0
+	6750 5400 7400 5400
+Text Label 7400 5400 2    50   ~ 0
 act3
-Text Label 7200 4500 2    50   ~ 0
+Text Label 7400 5300 2    50   ~ 0
 fuse3
 Wire Wire Line
-	6550 4500 7200 4500
-Wire Wire Line
-	6550 3900 7200 3900
-Text Label 7200 3900 2    50   ~ 0
-sense1
-Text Label 7200 5700 2    50   ~ 0
+	6750 5300 7400 5300
+Text Label 7400 5600 2    50   ~ 0
 act5
-Wire Wire Line
-	6550 3600 7200 3600
-Text Label 7200 3600 2    50   ~ 0
-sense5
-Text Label 7200 5600 2    50   ~ 0
+Text Label 7400 5500 2    50   ~ 0
 fuse5
 Wire Wire Line
-	6550 5600 7200 5600
+	6750 5500 7400 5500
 Wire Wire Line
-	6550 5700 7200 5700
+	6750 5600 7400 5600
 $Comp
 L pdm-rescue:TestPoint_Probe-Connector TP?
 U 1 1 60ED4630
@@ -1281,22 +1210,18 @@ Wire Wire Line
 Connection ~ 3200 7100
 Wire Wire Line
 	3200 7100 3200 7200
-Text Label 4600 5900 0    50   ~ 0
+Text Label 5100 5600 0    50   ~ 0
 act1
 Wire Wire Line
-	5250 5900 4600 5900
-Text Label 4600 6100 0    50   ~ 0
+	5750 5600 5100 5600
+Text Label 5100 5700 0    50   ~ 0
 fuse2
 Wire Wire Line
-	5250 6100 4600 6100
+	5750 5700 5100 5700
 Wire Wire Line
-	5250 6200 4600 6200
-Text Label 4600 6200 0    50   ~ 0
+	5750 5800 5100 5800
+Text Label 5100 5800 0    50   ~ 0
 act2
-Text Label 7200 3700 2    50   ~ 0
-sense4
-Wire Wire Line
-	6550 3700 7200 3700
 $Comp
 L Connector:Conn_01x02_Male J3
 U 1 1 60E89EA0
@@ -1316,4 +1241,52 @@ Wire Wire Line
 	2650 2150 2850 2150
 Wire Wire Line
 	2850 2050 2650 2050
+$Comp
+L MCU_ST_STM32L4:STM32L432KCUx U?
+U 1 1 60CFF808
+P 6250 5400
+F 0 "U?" H 6250 6481 50  0000 C CNN
+F 1 "STM32L432KCUx" H 6250 6390 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm" H 5850 4500 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00257205.pdf" H 6250 5400 50  0001 C CNN
+	1    6250 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 4800 7400 4800
+Text Label 7400 4800 2    50   ~ 0
+sense4
+Text Label 7400 4700 2    50   ~ 0
+sense5
+Wire Wire Line
+	6750 4700 7400 4700
+Text Label 7400 5000 2    50   ~ 0
+sense1
+Wire Wire Line
+	6750 5000 7400 5000
+Wire Wire Line
+	6750 4900 7400 4900
+Text Label 7400 4900 2    50   ~ 0
+sense3
+Text Label 7400 5100 2    50   ~ 0
+sense2
+Wire Wire Line
+	6750 5100 7400 5100
+Text Label 7400 5200 2    50   ~ 0
+DAC2
+Wire Wire Line
+	6750 5200 7400 5200
+Wire Wire Line
+	6250 4450 6150 4450
+Wire Wire Line
+	6150 4450 6150 4500
+Wire Wire Line
+	6250 4000 6250 4450
+Wire Wire Line
+	6250 4450 6250 4500
+Connection ~ 6250 4450
+Wire Wire Line
+	6250 4450 6350 4450
+Wire Wire Line
+	6350 4450 6350 4500
 $EndSCHEMATC
