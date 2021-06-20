@@ -281,12 +281,6 @@ Text Label 2600 1650 0    50   ~ 0
 _N
 Text Label 2600 1750 0    50   ~ 0
 _P
-Text Label 4600 6200 0    50   ~ 0
-act2
-Wire Wire Line
-	5250 6200 4600 6200
-Wire Wire Line
-	5250 6100 4600 6100
 Text Notes 850  5550 1    50   ~ 0
 VDD
 Text Notes 1950 5550 1    50   ~ 0
@@ -499,8 +493,6 @@ F 3 "" H 5700 9050 50  0001 C CNN
 	1    5700 9050
 	0    1    1    0   
 $EndComp
-Text Label 4600 6100 0    50   ~ 0
-fuse2
 Wire Wire Line
 	6900 9000 6900 9300
 Wire Wire Line
@@ -938,9 +930,7 @@ F 3 "~" H 3200 7500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6550 3900 7200 3900
-Wire Wire Line
-	6550 4000 7200 4000
+	6550 4100 7200 4100
 Wire Wire Line
 	5750 3300 5850 3300
 Connection ~ 5750 3300
@@ -1001,9 +991,7 @@ F 3 "" H 5850 7300 50  0001 C CNN
 	1    5850 7300
 	1    0    0    -1  
 $EndComp
-Text Label 7200 3900 2    50   ~ 0
-DAC1
-Text Label 7200 4000 2    50   ~ 0
+Text Label 7200 4100 2    50   ~ 0
 DAC2
 $Comp
 L Connector:Conn_01x04_Female J2
@@ -1080,12 +1068,8 @@ SWDIO
 Text Label 7200 5000 2    50   ~ 0
 SWCLK
 Wire Wire Line
-	5250 6000 4600 6000
-Wire Wire Line
-	5250 6300 4600 6300
-Text Label 4600 6300 0    50   ~ 0
-sense4
-Text Label 4600 6000 0    50   ~ 0
+	6550 4000 7200 4000
+Text Label 7200 4000 2    50   ~ 0
 sense2
 Connection ~ 5450 9050
 Wire Wire Line
@@ -1243,10 +1227,10 @@ Wire Wire Line
 	6550 6800 7200 6800
 Text Label 7200 6800 2    50   ~ 0
 fuse1
-Text Label 7200 4400 2    50   ~ 0
+Text Label 7200 3800 2    50   ~ 0
 sense3
 Wire Wire Line
-	6550 4400 7200 4400
+	6550 3800 7200 3800
 Wire Wire Line
 	6550 4600 7200 4600
 Text Label 7200 4600 2    50   ~ 0
@@ -1256,18 +1240,14 @@ fuse3
 Wire Wire Line
 	6550 4500 7200 4500
 Wire Wire Line
-	5250 5900 4600 5900
-Text Label 4600 5900 0    50   ~ 0
-act1
-Wire Wire Line
-	6550 6700 7200 6700
-Text Label 7200 6700 2    50   ~ 0
+	6550 3900 7200 3900
+Text Label 7200 3900 2    50   ~ 0
 sense1
 Text Label 7200 5700 2    50   ~ 0
 act5
 Wire Wire Line
-	6550 5800 7200 5800
-Text Label 7200 5800 2    50   ~ 0
+	6550 3600 7200 3600
+Text Label 7200 3600 2    50   ~ 0
 sense5
 Text Label 7200 5600 2    50   ~ 0
 fuse5
@@ -1298,4 +1278,39 @@ Wire Wire Line
 Connection ~ 3200 7100
 Wire Wire Line
 	3200 7100 3200 7200
+Text Label 4600 5900 0    50   ~ 0
+act1
+Wire Wire Line
+	5250 5900 4600 5900
+Text Label 4600 6100 0    50   ~ 0
+fuse2
+Wire Wire Line
+	5250 6100 4600 6100
+Wire Wire Line
+	5250 6200 4600 6200
+Text Label 4600 6200 0    50   ~ 0
+act2
+Text Label 7200 3700 2    50   ~ 0
+sense4
+Wire Wire Line
+	6550 3700 7200 3700
+$Comp
+L Connector:Conn_01x02_Male J?
+U 1 1 60E89EA0
+P 3050 2150
+F 0 "J?" H 3022 2032 50  0000 R CNN
+F 1 "Conn_01x02_Male" H 3022 2123 50  0000 R CNN
+F 2 "" H 3050 2150 50  0001 C CNN
+F 3 "~" H 3050 2150 50  0001 C CNN
+	1    3050 2150
+	-1   0    0    1   
+$EndComp
+Text Label 2650 2050 0    50   ~ 0
+_N
+Text Label 2650 2150 0    50   ~ 0
+_P
+Wire Wire Line
+	2650 2150 2850 2150
+Wire Wire Line
+	2850 2050 2650 2050
 $EndSCHEMATC
