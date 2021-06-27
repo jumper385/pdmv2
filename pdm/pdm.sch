@@ -931,14 +931,14 @@ F 5 "CL10A106MA8NRNC" H 3200 7500 50  0001 C CNN "MFR_PN"
 	1    3200 7500
 	1    0    0    -1  
 $EndComp
-Text Label 5150 5400 0    50   ~ 0
+Text Label 5100 5400 0    50   ~ 0
 OSC_P
-Text Label 5150 5300 0    50   ~ 0
+Text Label 5100 5300 0    50   ~ 0
 OSC_N
 Wire Wire Line
-	5750 5400 5150 5400
+	5750 5400 5100 5400
 Wire Wire Line
-	5750 5300 5150 5300
+	5750 5300 5100 5300
 Wire Wire Line
 	5150 4700 5750 4700
 Text Label 5150 4700 0    50   ~ 0
@@ -1045,14 +1045,14 @@ SWCLK
 Connection ~ 5450 9050
 Wire Wire Line
 	5450 9050 5700 9050
-Text Label 5100 5900 0    50   ~ 0
+Text Label 7400 6200 2    50   ~ 0
 fuse4
 Wire Wire Line
-	6750 5700 7400 5700
-Text Label 7400 5700 2    50   ~ 0
+	5750 5800 5100 5800
+Text Label 5100 5800 0    50   ~ 0
 act4
 Wire Wire Line
-	5750 5900 5100 5900
+	6750 6200 7400 6200
 Wire Wire Line
 	6150 6450 6250 6450
 Wire Wire Line
@@ -1168,25 +1168,9 @@ Wire Wire Line
 Wire Wire Line
 	2800 1850 3100 1850
 Wire Wire Line
-	6750 6200 7400 6200
-Text Label 7400 6200 2    50   ~ 0
-fuse1
-Wire Wire Line
-	6750 5400 7400 5400
-Text Label 7400 5400 2    50   ~ 0
-act3
-Text Label 7400 5300 2    50   ~ 0
-fuse3
-Wire Wire Line
 	6750 5300 7400 5300
-Text Label 7400 5600 2    50   ~ 0
-act5
-Text Label 7400 5500 2    50   ~ 0
-fuse5
-Wire Wire Line
-	6750 5500 7400 5500
-Wire Wire Line
-	6750 5600 7400 5600
+Text Label 7400 5300 2    50   ~ 0
+fuse1
 $Comp
 L pdm-rescue:TestPoint_Probe-Connector TP?
 U 1 1 60ED4630
@@ -1210,17 +1194,17 @@ Wire Wire Line
 Connection ~ 3200 7100
 Wire Wire Line
 	3200 7100 3200 7200
-Text Label 5100 5600 0    50   ~ 0
+Text Label 7400 5400 2    50   ~ 0
 act1
 Wire Wire Line
-	5750 5600 5100 5600
-Text Label 5100 5700 0    50   ~ 0
+	6750 5400 7400 5400
+Text Label 5100 5600 0    50   ~ 0
 fuse2
 Wire Wire Line
-	5750 5700 5100 5700
+	5750 5600 5100 5600
 Wire Wire Line
-	5750 5800 5100 5800
-Text Label 5100 5800 0    50   ~ 0
+	5750 5700 5100 5700
+Text Label 5100 5700 0    50   ~ 0
 act2
 $Comp
 L Connector:Conn_01x02_Male J3
@@ -1242,10 +1226,10 @@ Wire Wire Line
 Wire Wire Line
 	2850 2050 2650 2050
 $Comp
-L MCU_ST_STM32L4:STM32L432KCUx U?
+L MCU_ST_STM32L4:STM32L432KCUx U3
 U 1 1 60CFF808
 P 6250 5400
-F 0 "U?" H 6250 6481 50  0000 C CNN
+F 0 "U3" H 6250 6481 50  0000 C CNN
 F 1 "STM32L432KCUx" H 6250 6390 50  0000 C CNN
 F 2 "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm" H 5850 4500 50  0001 R CNN
 F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00257205.pdf" H 6250 5400 50  0001 C CNN
@@ -1260,18 +1244,18 @@ Text Label 7400 4700 2    50   ~ 0
 sense5
 Wire Wire Line
 	6750 4700 7400 4700
-Text Label 7400 5000 2    50   ~ 0
+Text Label 7400 5100 2    50   ~ 0
 sense1
 Wire Wire Line
-	6750 5000 7400 5000
+	6750 5100 7400 5100
 Wire Wire Line
 	6750 4900 7400 4900
 Text Label 7400 4900 2    50   ~ 0
 sense3
-Text Label 7400 5100 2    50   ~ 0
+Text Label 7400 5000 2    50   ~ 0
 sense2
 Wire Wire Line
-	6750 5100 7400 5100
+	6750 5000 7400 5000
 Text Label 7400 5200 2    50   ~ 0
 DAC2
 Wire Wire Line
@@ -1289,4 +1273,20 @@ Wire Wire Line
 	6250 4450 6350 4450
 Wire Wire Line
 	6350 4450 6350 4500
+Wire Wire Line
+	5750 5900 5100 5900
+Wire Wire Line
+	5750 6000 5100 6000
+Text Label 5100 6000 0    50   ~ 0
+fuse5
+Text Label 5100 5900 0    50   ~ 0
+act5
+Wire Wire Line
+	6750 5500 7400 5500
+Text Label 7400 5500 2    50   ~ 0
+fuse3
+Text Label 7400 5600 2    50   ~ 0
+act3
+Wire Wire Line
+	6750 5600 7400 5600
 $EndSCHEMATC

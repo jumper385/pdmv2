@@ -1,0 +1,43 @@
+Mon 21 Jun 2021 10:10:38 AWST
+error: could not copy... /Users/henrychen/Documents/.DS_Store
+error: could not copy... /Users/henrychen/Documents/.localized
+error: could not copy... /Users/henrychen/Documents/Fusion 360
+error: could not copy... /Users/henrychen/Documents/Autodesk
+error: could not copy... /Users/henrychen/Documents/Arduino
+error: could not copy... /Users/henrychen/Documents/GitHub
+error: could not copy... /Users/henrychen/Documents/LTspice
+error: could not copy... /Users/henrychen/Documents/MT5 Indicators
+error: could not copy... /Users/henrychen/Documents/Blackmagic Design
+error: could not copy... /Users/henrychen/Downloads/layout-20210519-mac-osx.dmg
+error: could not copy... /Users/henrychen/Downloads/micromachines-12-00064-v2 copy.pdf
+error: could not copy... /Users/henrychen/Downloads/IMG_6222.HEIC
+error: could not copy... /Users/henrychen/Downloads/IMG_6223.HEIC
+error: could not copy... /Users/henrychen/Downloads/2021_06_08-4_57-pm-Office-Lens.pdf
+error: could not copy... /Users/henrychen/Downloads/Rectangle0.47.dmg
+error: could not copy... /Users/henrychen/Downloads/.DS_Store
+error: could not copy... /Users/henrychen/Downloads/.localized
+error: could not copy... /Users/henrychen/Downloads/2.4_Assembly_Manual.pdf
+error: could not copy... /Users/henrychen/Downloads/ECG-LTSPICE.txt
+error: could not copy... /Users/henrychen/Downloads/Tutorial-7-Solution-Bipolar-junction-transistor1.pdf
+error: could not copy... /Users/henrychen/Downloads/Minimizing ECG Artifact guide 3306627_A_HR.pdf
+error: could not copy... /Users/henrychen/Downloads/Stock.docx
+error: could not copy... /Users/henrychen/Downloads/micromachines-12-00064-v2.pdf
+error: could not copy... /Users/henrychen/Downloads/ws2813-led-strip-specification.pdf
+error: could not copy... /Users/henrychen/Downloads/stm32f103c8.pdf
+error: could not copy... /Users/henrychen/Downloads/Tutorial-8-Solutions.pdf
+error: could not copy... /Users/henrychen/Downloads/Recreated-2020-Exam.docx
+error: could not copy... /Users/henrychen/Downloads/kicad-unified-20210607-010826-92c4596252.dmg
+error: could not copy... /Users/henrychen/Downloads/Tutorial-6-Solutions-corrected-2020-2.pdf
+error: could not copy... /Users/henrychen/Downloads/converter_pcb_layout_appli-e.pdf
+error: could not copy... /Users/henrychen/Downloads/Tutorial-9-Solutions.pdf
+error: could not copy... /Users/henrychen/Downloads/freerouting-1.4.4-macos-x64.dmg
+error: could not copy... /Users/henrychen/Downloads/SSM3K357R_datasheet_en_20210107.pdf
+error: could not copy... /Users/henrychen/Downloads/sunrom-874082.pdf
+error: could not copy... /Users/henrychen/Downloads/IMG_6220.HEIC
+error: could not copy... /Users/henrychen/Downloads/dev-clean.tar.gz
+error: could not copy... /Users/henrychen/Downloads/GitHubDesktop-x64.zip
+error: could not copy... /Users/henrychen/Downloads/8132489408167731_payment.pdf
+error: could not copy... /Users/henrychen/Desktop/.DS_Store
+error: could not copy... /Users/henrychen/Desktop/.localized
+error: could not copy... /Users/henrychen/Desktop/Datasheet - STM32L496xx - Ultra-low-power Arm® Cortex®-M4 32-bit MCU+FPU, 100 DMIPS, up to 1 MB Flash, 320 KB SRAM, USB OTG FS, audio, external SMPS.pdf
+error: could not copy... /Users/henrychen/Desktop/Screen Shot 2021-06-19 at 2.07.52 pm.png

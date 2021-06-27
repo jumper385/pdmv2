@@ -1,0 +1,32 @@
+Reference, Quantity, Value, Footprint, Datasheet, Digi-Key_PN, Mouser PN, MFR_PN,Unit Buy Amount,Order Amount,Total Buy Amount
+C12 C16 C18 C23 ,4,15uF,Capacitor_SMD:C_0805_2012Metric,~,445-14423-2-ND,,,6,3,18
+C19 ,1,0.47uF,Capacitor_SMD:C_0603_1608Metric,~,1276-1895-2-ND,,,2,3,6
+C2 C3 ,2,16pF,Capacitor_SMD:C_0603_1608Metric,~,478-10292-2-ND,603-CC805JRNPO9BN160,,3,3,9
+C5 C10 C11 C13 C14 C15 C17 C24 ,8,1uF,Capacitor_SMD:C_0603_1608Metric,~,1276-1859-2-ND,603-CC0805MKX58BB105,,13,3,39
+C1 C4 C6 C7 C8 ,5,0.1uF,Capacitor_SMD:C_0603_1608Metric,~,1276-1318-2-ND,603-CC0805KFX5R8BB47,,8,3,24
+C9 ,1,10uF,Capacitor_SMD:C_0603_1608Metric,~,1276-1869-1-ND,,CL10A106MA8NRNC,2,3,6
+D1 D3 D4 D5 D7 ,5,LED,LED_SMD:LED_0603_1608Metric,~,516-3541-1-ND,630-HSMA-C170-T0000,,8,3,24
+D2 ,1,D,Diode_SMD:D_SMC,https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_5_0smdj_datasheet.pdf.pdf,5.0SMDJ28ACT-ND,576-5.0SMDJ28A,,2,3,6
+D6 ,1,VS-20TQ045-M3,Package_TO_SOT_THT:TO-220-2_Vertical,http://www.smc-diodes.com/propdf/1N4148WS%20N0572%20REV.B.pdf,VS-20TQ045-M3-ND,,,2,3,6
+F1 F2 F3 F4 F5 ,5,Fuse,Fuse:Fuse_1206_3216Metric,~,486-1688-2-ND,,,8,3,24
+J1 ,1,Conn_01x04_Male,DT13-4P:TE_DT13-4P,~,1734-1024-ND,571-DT13-4P,,2,3,6
+J4 ,1,Conn_01x12_Male,DT13-12PB-B016:TE_DT13-12PB-B016,~,1734-1635-ND,571-DT13-12PB-B016,,2,3,6
+L1 ,1,3.3uH,pdm_v2:inductor-PA4349.103ANLT,https://media.digikey.com/pdf/Data%20Sheets/Pulse%20PDFs/PA4349.zzzANLT_Series_Rev2019.pdf,553-4048-1-ND,,,2,3,6
+Q15 ,1,Si7141DP,Package_SO:PowerPAK_SO-8_Single,https://www.vishay.com/docs/65596/si7141dp.pdf,SI7141DP-T1-GE3CT-ND,,,2,3,6
+Q1 Q2 Q3 Q4 Q5 Q6 Q7 Q8 Q9 Q10 Q11 Q12 Q13 Q14 ,14,2N7002E,Package_TO_SOT_SMD:SOT-23,http://www.diodes.com/assets/Datasheets/ds30376.pdf,2N7002E-FDICT-ND,,,22,3,66
+R1 R2 ,2,120R,Resistor_SMD:R_0603_1608Metric,~,CRGCQ0603F120R,279-CPF-A-0805B120RE,,3,3,9
+R32 ,1,221k,Resistor_SMD:R_0603_1608Metric,~,RMCF0603FT220KTR-ND,,,2,3,6
+R33 ,1,4.12k,Resistor_SMD:R_0603_1608Metric,~,RMCF0603FT4K12CT-ND,,,2,3,6
+R35 ,1,40k,Resistor_SMD:R_0603_1608Metric,~,RMCF0603FT40K2CT-ND,,,2,3,6
+R36 ,1,4.7k,Resistor_SMD:R_0603_1608Metric,~,RMCF0603FT4K70TR-ND,,,2,3,6
+R37 ,1,7.5k,Resistor_SMD:R_0603_1608Metric,~,RNCP0603FTD7K50TR-ND,,,2,3,6
+R3 R4 R7 R8 R10 R11 R12 R13 R16 R19 R20 R21 R22 R25 R28 R29 R30 R31 R38 R39 R42 R45 R46 ,23,10k,Resistor_SMD:R_0603_1608Metric,~,RNCP0805FTD10K0CT-ND,603-AC0805FR-0710K5L,,37,3,111
+R5 R14 R23 R40 ,4,1K5,Resistor_SMD:R_0603_1608Metric,~,P1.50KHTR-ND,603-RT0805FRE101K5L,,6,3,18
+R6 R15 R24 R41 ,4,850,Resistor_SMD:R_0603_1608Metric,~,311-845HRCT-ND,667-ERJ-6ENF8660V,,6,3,18
+R9 ,1,1k,Resistor_SMD:R_0603_1608Metric,~,RR08P1.0KDTR-ND,,,2,3,6
+U1 ,1,SN65HVD233,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,http://www.ti.com/lit/ds/symlink/sn65hvd234.pdf,296-23973-2-ND,595-SN65HVD233QDRQ1,,2,3,6
+U2 ,1,LM2937xS,Package_TO_SOT_SMD:TO-263-3_TabPin2,http://www.ti.com/lit/ds/symlink/lm2937.pdf,LM2937ESX-3.3/NOPBCT-ND,926-LM2937ESX33NOPB,,2,3,6
+U3 ,1,STM32L432KCUx,Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm,http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00257205.pdf,,,,2,3,6
+U4 U5 U6 U7 U10 ,5,BTS443P,Package_TO_SOT_SMD:TO-252-4,http://www.infineon.com/dgdl/Infineon-BTS443P-DS-v01_00-EN.pdf?fileId=5546d4625a888733015aa9afbc5035d5,BTS443PAUMA1CT-ND,726-BTS443P,,8,3,24
+U8 ,1,LM5085,Package_SON:WSON-8-1EP_3x3mm_P0.5mm_EP1.6x2.0mm,https://www.ti.com/lit/ds/symlink/lm5085.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1621953879740&ref_url=https%253A%252F%252Fau.mouser.com%252F,LM5085SD/NOPBTR-ND,,,2,3,6
+Y1 ,1,32Mhz,Crystal:Crystal_SMD_HC49-SD,https://www.foxonline.com/wp-content/uploads/pdfs/C4SD.pdf,631-1010-2-ND,,,2,3,6
