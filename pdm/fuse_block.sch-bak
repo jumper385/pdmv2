@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 6
+Sheet 3 6
 Title "PDM Board"
 Date "2021-01-14"
 Rev ""
@@ -92,7 +92,7 @@ Wire Wire Line
 	4550 4200 4550 4400
 Connection ~ 7950 3600
 Wire Wire Line
-	7950 3600 9050 3600
+	7950 3600 8700 3600
 Text HLabel 9050 3600 2    50   Output ~ 0
 Vout
 Connection ~ 4550 3700
@@ -474,9 +474,7 @@ Wire Wire Line
 	7600 2600 7600 2450
 Connection ~ 7600 2450
 Wire Wire Line
-	7600 2450 9050 2450
-Wire Wire Line
-	3000 3700 4550 3700
+	3000 3700 3450 3700
 Wire Wire Line
 	7950 4900 8450 4900
 Wire Wire Line
@@ -588,4 +586,66 @@ Wire Wire Line
 	8850 4650 8850 4600
 Wire Wire Line
 	8850 3900 8850 4300
+$Comp
+L Connector:TestPoint TP7
+U 1 1 60F5EFD6
+P 8700 3300
+AR Path="/5F94FFF3/60F5EFD6" Ref="TP7"  Part="1" 
+AR Path="/5F955F6E/60F5EFD6" Ref="TP4"  Part="1" 
+AR Path="/5F955EE4/60F5EFD6" Ref="TP10"  Part="1" 
+AR Path="/60D2AFFB/60F5EFD6" Ref="TP13"  Part="1" 
+F 0 "TP13" H 8758 3418 50  0000 L CNN
+F 1 "TestPoint" H 8758 3327 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 8900 3300 50  0001 C CNN
+F 3 "~" H 8900 3300 50  0001 C CNN
+	1    8700 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 3300 8700 3600
+Connection ~ 8700 3600
+Wire Wire Line
+	8700 3600 9050 3600
+Wire Wire Line
+	7600 2450 8700 2450
+$Comp
+L Connector:TestPoint TP6
+U 1 1 60F62FD8
+P 8700 2150
+AR Path="/5F94FFF3/60F62FD8" Ref="TP6"  Part="1" 
+AR Path="/5F955F6E/60F62FD8" Ref="TP3"  Part="1" 
+AR Path="/5F955EE4/60F62FD8" Ref="TP9"  Part="1" 
+AR Path="/60D2AFFB/60F62FD8" Ref="TP12"  Part="1" 
+F 0 "TP12" H 8758 2268 50  0000 L CNN
+F 1 "TestPoint" H 8758 2177 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 8900 2150 50  0001 C CNN
+F 3 "~" H 8900 2150 50  0001 C CNN
+	1    8700 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 2150 8700 2450
+Connection ~ 8700 2450
+Wire Wire Line
+	8700 2450 9050 2450
+$Comp
+L Connector:TestPoint TP8
+U 1 1 60F647E1
+P 3450 4000
+AR Path="/5F94FFF3/60F647E1" Ref="TP8"  Part="1" 
+AR Path="/5F955F6E/60F647E1" Ref="TP5"  Part="1" 
+AR Path="/5F955EE4/60F647E1" Ref="TP11"  Part="1" 
+AR Path="/60D2AFFB/60F647E1" Ref="TP14"  Part="1" 
+F 0 "TP14" H 3392 4026 50  0000 R CNN
+F 1 "TestPoint" H 3392 4117 50  0000 R CNN
+F 2 "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 3650 4000 50  0001 C CNN
+F 3 "~" H 3650 4000 50  0001 C CNN
+	1    3450 4000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3450 4000 3450 3700
+Connection ~ 3450 3700
+Wire Wire Line
+	3450 3700 4550 3700
 $EndSCHEMATC
