@@ -7,7 +7,7 @@
       "Application": "Pcbnew",
       "Version":     "(5.1.9-0-10_14)"
     },
-    "CreationDate":  "2021-07-17T22:03:01+08:00"
+    "CreationDate":  "2021-08-31T12:07:11+08:00"
   },
   "GeneralSpecs":
   {
@@ -41,7 +41,7 @@
       "PadToPad":  0.200,
       "PadToTrack":  0.200,
       "TrackToTrack":  0.200,
-      "MinLineWidth":  0.203,
+      "MinLineWidth":  0.200,
       "TrackToRegion":  0.200,
       "RegionToRegion":  0.200
     }
@@ -49,57 +49,57 @@
   "FilesAttributes":
   [
     {
-      "Path":  "pdm-F_Cu.gbr",
+      "Path":  "pdm-F_Cu.gtl",
       "FileFunction":  "Copper,L1,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "pdm-In1_Cu.gbr",
+      "Path":  "pdm-In1_Cu.g2",
       "FileFunction":  "Copper,L2,Inr",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "pdm-In2_Cu.gbr",
+      "Path":  "pdm-In2_Cu.g3",
       "FileFunction":  "Copper,L3,Inr",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "pdm-B_Cu.gbr",
+      "Path":  "pdm-B_Cu.gbl",
       "FileFunction":  "Copper,L4,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "pdm-F_Paste.gbr",
+      "Path":  "pdm-F_Paste.gtp",
       "FileFunction":  "SolderPaste,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "pdm-B_Paste.gbr",
+      "Path":  "pdm-B_Paste.gbp",
       "FileFunction":  "SolderPaste,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "pdm-F_SilkS.gbr",
+      "Path":  "pdm-F_SilkS.gto",
       "FileFunction":  "Legend,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "pdm-B_SilkS.gbr",
+      "Path":  "pdm-B_SilkS.gbo",
       "FileFunction":  "Legend,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "pdm-F_Mask.gbr",
+      "Path":  "pdm-F_Mask.gts",
       "FileFunction":  "SolderMask,Top",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "pdm-B_Mask.gbr",
+      "Path":  "pdm-B_Mask.gbs",
       "FileFunction":  "SolderMask,Bot",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "pdm-Edge_Cuts.gbr",
+      "Path":  "pdm-Edge_Cuts.gm1",
       "FileFunction":  "Profile",
       "FilePolarity":  "Positive"
     }

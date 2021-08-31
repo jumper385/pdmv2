@@ -176,12 +176,12 @@ VDD + VDDIO
 Text Notes 4450 900  0    50   ~ 10
 Fuse Blocks
 Wire Wire Line
-	6750 5800 7400 5800
+	6650 5850 7300 5850
 Wire Wire Line
-	6750 5900 7400 5900
-Text Label 7400 5800 2    50   ~ 0
+	6650 5950 7300 5950
+Text Label 7300 5850 2    50   ~ 0
 canrx
-Text Label 7400 5900 2    50   ~ 0
+Text Label 7300 5950 2    50   ~ 0
 cantx
 Text Label 1600 1550 0    50   ~ 0
 cantx
@@ -199,10 +199,6 @@ Text Label 4450 1700 0    50   ~ 0
 act2
 Text Label 4450 2200 0    50   ~ 0
 act3
-Text Label 2600 1650 0    50   ~ 0
-_N
-Text Label 2600 1750 0    50   ~ 0
-_P
 Text Notes 850  5550 1    50   ~ 0
 VDD
 Text Notes 1950 5550 1    50   ~ 0
@@ -303,10 +299,6 @@ F3 "sense" I L 4750 2300 50
 F4 "fuse" O R 5600 2200 50 
 F5 "Vout" O R 5600 2300 50 
 $EndSheet
-Text Label 3500 1550 2    50   ~ 0
-_N
-Text Label 3500 1850 2    50   ~ 0
-_P
 Wire Wire Line
 	5600 1200 5800 1200
 Wire Wire Line
@@ -517,8 +509,6 @@ F 3 "" H 1400 6750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1400 6750 1400 6850
-Wire Wire Line
 	1750 7200 1750 7050
 $Comp
 L pdm-rescue:GND-power #PWR014
@@ -612,9 +602,6 @@ Wire Wire Line
 	2850 7200 3200 7200
 Wire Wire Line
 	1400 7050 1750 7050
-Connection ~ 1400 6850
-Wire Wire Line
-	1400 6850 1400 6950
 Text Notes 800  8350 0    50   ~ 0
 Uses the TO-263 Package\nExpect 65 degrees with conservative estimates\nAssumes conservative current draw of 150 mA
 $Comp
@@ -631,7 +618,7 @@ F 3 "" H 2400 7700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2400 7700 2400 7500
+	2400 7700 2400 7600
 Wire Wire Line
 	2850 7150 2850 7200
 Wire Wire Line
@@ -640,72 +627,72 @@ Connection ~ 2850 7200
 Wire Wire Line
 	2100 7200 1750 7200
 Connection ~ 1750 7200
-Text Label 5100 5400 0    50   ~ 0
+Text Label 5000 5450 0    50   ~ 0
 OSC_P
-Text Label 5100 5300 0    50   ~ 0
+Text Label 5000 5350 0    50   ~ 0
 OSC_N
 Wire Wire Line
-	5750 5400 5100 5400
+	5650 5450 5000 5450
 Wire Wire Line
-	5750 5300 5100 5300
+	5650 5350 5000 5350
 Wire Wire Line
-	5150 4700 5750 4700
-Text Label 5150 4700 0    50   ~ 0
+	5050 4750 5650 4750
+Text Label 5050 4750 0    50   ~ 0
 NRST
 $Comp
 L pdm-rescue:+3.3V-power #PWR033
 U 1 1 609C443C
-P 6250 4000
-F 0 "#PWR033" H 6250 3850 50  0001 C CNN
-F 1 "+3.3V" H 6265 4173 50  0000 C CNN
-F 2 "" H 6250 4000 50  0001 C CNN
-F 3 "" H 6250 4000 50  0001 C CNN
-	1    6250 4000
+P 6150 4250
+F 0 "#PWR033" H 6150 4100 50  0001 C CNN
+F 1 "+3.3V" H 6165 4423 50  0000 C CNN
+F 2 "" H 6150 4250 50  0001 C CNN
+F 3 "" H 6150 4250 50  0001 C CNN
+	1    6150 4250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6250 6700 6250 6450
+	6150 6750 6150 6500
 $Comp
 L pdm-rescue:GND-power #PWR032
 U 1 1 609CA691
-P 6250 6700
-F 0 "#PWR032" H 6250 6450 50  0001 C CNN
-F 1 "GND" H 6255 6527 50  0000 C CNN
-F 2 "" H 6250 6700 50  0001 C CNN
-F 3 "" H 6250 6700 50  0001 C CNN
-	1    6250 6700
+P 6150 6750
+F 0 "#PWR032" H 6150 6500 50  0001 C CNN
+F 1 "GND" H 6155 6577 50  0000 C CNN
+F 2 "" H 6150 6750 50  0001 C CNN
+F 3 "" H 6150 6750 50  0001 C CNN
+	1    6150 6750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6750 6000 7400 6000
+	6650 6050 7300 6050
 Wire Wire Line
-	6750 6100 7400 6100
-Text Label 7400 6000 2    50   ~ 0
+	6650 6150 7300 6150
+Text Label 7300 6050 2    50   ~ 0
 SWDIO
-Text Label 7400 6100 2    50   ~ 0
+Text Label 7300 6150 2    50   ~ 0
 SWCLK
 Connection ~ 5450 9050
 Wire Wire Line
 	5450 9050 5700 9050
-Text Label 7400 6200 2    50   ~ 0
+Text Label 7300 6250 2    50   ~ 0
 fuse4
 Wire Wire Line
-	5750 5800 5100 5800
-Text Label 5100 5800 0    50   ~ 0
+	5650 5850 5000 5850
+Text Label 5000 5850 0    50   ~ 0
 act4
 Wire Wire Line
-	6750 6200 7400 6200
+	6650 6250 7300 6250
 Wire Wire Line
-	6150 6450 6250 6450
+	6050 6500 6150 6500
 Wire Wire Line
-	6150 6400 6150 6450
+	6050 6450 6050 6500
 Wire Wire Line
-	6250 6400 6250 6450
-Connection ~ 6250 6450
+	6150 6450 6150 6500
+Connection ~ 6150 6500
 Wire Wire Line
-	6250 6450 6350 6450
+	6150 6500 6250 6500
 Wire Wire Line
-	6350 6400 6350 6450
+	6250 6450 6250 6500
 Text Label 5950 1200 0    50   ~ 0
 act4
 Text Label 5950 1300 0    50   ~ 0
@@ -764,100 +751,93 @@ Wire Wire Line
 Wire Wire Line
 	2800 1850 3100 1850
 Wire Wire Line
-	6750 5300 7400 5300
-Text Label 7400 5300 2    50   ~ 0
+	6650 5350 7300 5350
+Text Label 7300 5350 2    50   ~ 0
 fuse1
 Wire Wire Line
 	3300 7100 3200 7100
 Connection ~ 3200 7100
 Wire Wire Line
 	3200 7100 3200 7200
-Text Label 7400 5400 2    50   ~ 0
+Text Label 7300 5450 2    50   ~ 0
 act1
 Wire Wire Line
-	6750 5400 7400 5400
-Text Label 5100 5600 0    50   ~ 0
+	6650 5450 7300 5450
+Text Label 5000 5650 0    50   ~ 0
 fuse2
 Wire Wire Line
-	5750 5600 5100 5600
+	5650 5650 5000 5650
 Wire Wire Line
-	5750 5700 5100 5700
-Text Label 5100 5700 0    50   ~ 0
+	5650 5750 5000 5750
+Text Label 5000 5750 0    50   ~ 0
 act2
-Text Label 2650 2050 0    50   ~ 0
-_N
-Text Label 2650 2150 0    50   ~ 0
-_P
 Wire Wire Line
 	2650 2150 2850 2150
 Wire Wire Line
 	2850 2050 2650 2050
 Wire Wire Line
-	6750 4800 7400 4800
-Text Label 7400 4800 2    50   ~ 0
+	6650 4850 7300 4850
+Text Label 7300 4850 2    50   ~ 0
 sense4
-Text Label 7400 4700 2    50   ~ 0
+Text Label 7300 4750 2    50   ~ 0
 sense5
 Wire Wire Line
-	6750 4700 7400 4700
-Text Label 7400 5100 2    50   ~ 0
+	6650 4750 7300 4750
+Text Label 7300 5150 2    50   ~ 0
 sense1
 Wire Wire Line
-	6750 5100 7400 5100
+	6650 5150 7300 5150
 Wire Wire Line
-	6750 4900 7400 4900
-Text Label 7400 4900 2    50   ~ 0
+	6650 4950 7300 4950
+Text Label 7300 4950 2    50   ~ 0
 sense3
-Text Label 7400 5000 2    50   ~ 0
+Text Label 7300 5050 2    50   ~ 0
 sense2
 Wire Wire Line
-	6750 5000 7400 5000
-Text Label 7400 5200 2    50   ~ 0
+	6650 5050 7300 5050
+Text Label 7300 5250 2    50   ~ 0
 DAC2
 Wire Wire Line
-	6750 5200 7400 5200
+	6650 5250 7300 5250
 Wire Wire Line
-	6250 4450 6150 4450
+	6150 4500 6050 4500
 Wire Wire Line
-	6150 4450 6150 4500
+	6050 4500 6050 4550
 Wire Wire Line
-	6250 4000 6250 4450
+	6150 4250 6150 4500
 Wire Wire Line
-	6250 4450 6250 4500
-Connection ~ 6250 4450
+	6150 4500 6150 4550
+Connection ~ 6150 4500
 Wire Wire Line
-	6250 4450 6350 4450
+	6150 4500 6250 4500
 Wire Wire Line
-	6350 4450 6350 4500
+	6250 4500 6250 4550
 Wire Wire Line
-	5750 5900 5100 5900
+	5650 5950 5000 5950
 Wire Wire Line
-	5750 6000 5100 6000
-Text Label 5100 6000 0    50   ~ 0
+	5650 6050 5000 6050
+Text Label 5000 6050 0    50   ~ 0
 fuse5
-Text Label 5100 5900 0    50   ~ 0
+Text Label 5000 5950 0    50   ~ 0
 act5
 Wire Wire Line
-	6750 5500 7400 5500
-Text Label 7400 5500 2    50   ~ 0
+	6650 5550 7300 5550
+Text Label 7300 5550 2    50   ~ 0
 fuse3
-Text Label 7400 5600 2    50   ~ 0
+Text Label 7300 5650 2    50   ~ 0
 act3
 Wire Wire Line
-	6750 5600 7400 5600
-NoConn ~ 5750 5100
-NoConn ~ 5750 6200
-NoConn ~ 5750 6100
-NoConn ~ 6750 5700
+	6650 5650 7300 5650
 $Comp
 L MCU_ST_STM32L4:STM32L432KCUx U3
 U 1 1 60CFF808
-P 6250 5400
-F 0 "U3" H 6250 6481 50  0000 C CNN
-F 1 "STM32L432KCUx" H 6250 6390 50  0000 C CNN
-F 2 "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm_ThermalVias" H 5850 4500 50  0001 R CNN
-F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00257205.pdf" H 6250 5400 50  0001 C CNN
-	1    6250 5400
+P 6150 5450
+F 0 "U3" H 6150 6531 50  0000 C CNN
+F 1 "STM32L432KCUx" H 6150 6440 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm_ThermalVias" H 5750 4550 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00257205.pdf" H 6150 5450 50  0001 C CNN
+F 4 "511-STM32L432KCU6" H 6150 5450 50  0001 C CNN "Mouser PN"
+	1    6150 5450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -884,7 +864,7 @@ AR Path="/60ED4630" Ref="TP2"  Part="1"
 AR Path="/60112AE4/60ED4630" Ref="TP?"  Part="1" 
 F 0 "TP2" H 3600 7200 50  0000 R CNN
 F 1 "TestPoint_Probe" H 3950 7100 50  0000 R CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 3500 7100 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 3500 7100 50  0001 C CNN
 F 3 "~" H 3500 7100 50  0001 C CNN
 	1    3300 7100
 	1    0    0    1   
@@ -932,6 +912,7 @@ F 1 "32Mhz" V 1445 3881 50  0000 L CNN
 F 2 "Crystal:Crystal_SMD_HC49-SD" H 1400 3750 50  0001 C CNN
 F 3 "https://www.foxonline.com/wp-content/uploads/pdfs/C4SD.pdf" H 1400 3750 50  0001 C CNN
 F 4 "631-1010-2-ND" H 1400 3750 50  0001 C CNN "Digi-Key_PN"
+F 5 "559-280LF-080" H 1400 3750 50  0001 C CNN "Mouser PN"
 	1    1400 3750
 	0    1    1    0   
 $EndComp
@@ -941,10 +922,11 @@ U 1 1 6102CE14
 P 3200 7500
 F 0 "C9" H 3315 7546 50  0000 L CNN
 F 1 "10uF" H 3315 7455 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 3238 7350 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3238 7350 50  0001 C CNN
 F 3 "~" H 3200 7500 50  0001 C CNN
 F 4 "1276-1869-1-ND" H 3200 7500 50  0001 C CNN "Digi-Key_PN"
 F 5 "CL10A106MA8NRNC" H 3200 7500 50  0001 C CNN "MFR_PN"
+F 6 "81-GRM21BR61E106MA3L" H 3200 7500 50  0001 C CNN "Mouser PN"
 	1    3200 7500
 	1    0    0    -1  
 $EndComp
@@ -974,27 +956,9 @@ F 1 "0.1uF" H 1865 7305 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 1788 7200 50  0001 C CNN
 F 3 "~" H 1750 7350 50  0001 C CNN
 F 4 "1276-1318-2-ND" H 1750 7350 50  0001 C CNN "Digi-Key_PN"
-F 5 "603-CC0805MRX77BB104" H 1750 7350 50  0001 C CNN "Mouser PN"
+F 5 "80-C0603C104K3RC7013" H 1750 7350 50  0001 C CNN "Mouser PN"
 	1    1750 7350
 	1    0    0    -1  
-$EndComp
-$Comp
-L pdm-rescue:TestPoint_Probe-Connector TP?
-U 1 1 60FF77DE
-P 1400 6850
-AR Path="/5F955F6E/60FF77DE" Ref="TP?"  Part="1" 
-AR Path="/5F955EE4/60FF77DE" Ref="TP?"  Part="1" 
-AR Path="/5F94FFF3/60FF77DE" Ref="TP?"  Part="1" 
-AR Path="/5F956034/60FF77DE" Ref="TP?"  Part="1" 
-AR Path="/5F9560D2/60FF77DE" Ref="TP?"  Part="1" 
-AR Path="/60FF77DE" Ref="TP1"  Part="1" 
-AR Path="/60112AE4/60FF77DE" Ref="TP?"  Part="1" 
-F 0 "TP1" H 1700 6950 50  0000 R CNN
-F 1 "TestPoint_Probe" H 2050 6850 50  0000 R CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 1600 6850 50  0001 C CNN
-F 3 "~" H 1600 6850 50  0001 C CNN
-	1    1400 6850
-	-1   0    0    -1  
 $EndComp
 $Comp
 L pdm-rescue:R-Device R2
@@ -1007,7 +971,7 @@ F 1 "120R" V 2850 6900 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 2780 7000 50  0001 C CNN
 F 3 "~" H 2850 7000 50  0001 C CNN
 F 4 "CRGCQ0603F120R" H 2850 7000 50  0001 C CNN "Digi-Key_PN"
-F 5 "603-RC0805JR-07120RL" H 2850 7000 50  0001 C CNN "Mouser PN"
+F 5 "755-ESR03EZPF1200" H 2850 7000 50  0001 C CNN "Mouser PN"
 	1    2850 7000
 	1    0    0    -1  
 $EndComp
@@ -1022,7 +986,7 @@ F 1 "LED" H 2843 6826 50  0000 C CNN
 F 2 "LED_SMD:LED_0603_1608Metric" H 2850 6700 50  0001 C CNN
 F 3 "~" H 2850 6700 50  0001 C CNN
 F 4 "516-3541-1-ND" H 2850 6700 50  0001 C CNN "Digi-Key_PN"
-F 5 "630-HSMA-C170-T0000" H 2850 6700 50  0001 C CNN "Mouser PN"
+F 5 "710-150060AS75000" H 2850 6700 50  0001 C CNN "Mouser PN"
 	1    2850 6700
 	0    1    1    0   
 $EndComp
@@ -1048,7 +1012,7 @@ F 1 "120R" H 2870 1655 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 2730 1700 50  0001 C CNN
 F 3 "~" H 2800 1700 50  0001 C CNN
 F 4 "CRGCQ0603F120R" H 2800 1700 50  0001 C CNN "Digi-Key_PN"
-F 5 "279-CPF-A-0805B120RE" H 2800 1700 50  0001 C CNN "Mouser PN"
+F 5 "755-ESR03EZPF1200" H 2800 1700 50  0001 C CNN "Mouser PN"
 	1    2800 1700
 	1    0    0    -1  
 $EndComp
@@ -1131,7 +1095,7 @@ F 1 "0.1uF" H 2265 5405 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 2188 5300 50  0001 C CNN
 F 3 "~" H 2150 5450 50  0001 C CNN
 F 4 "1276-1318-2-ND" H 2150 5450 50  0001 C CNN "Digi-Key_PN"
-F 5 "603-CC0805MRX77BB104" H 2150 5450 50  0001 C CNN "Mouser PN"
+F 5 "80-C0603C104K3RC7013" H 2150 5450 50  0001 C CNN "Mouser PN"
 	1    2150 5450
 	1    0    0    -1  
 $EndComp
@@ -1144,7 +1108,7 @@ F 1 "0.1uF" H 1165 5405 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 1088 5300 50  0001 C CNN
 F 3 "~" H 1050 5450 50  0001 C CNN
 F 4 "1276-1318-2-ND" H 1050 5450 50  0001 C CNN "Digi-Key_PN"
-F 5 "603-CC0805MRX77BB104" H 1050 5450 50  0001 C CNN "Mouser PN"
+F 5 "80-C0603C104K3RC7013" H 1050 5450 50  0001 C CNN "Mouser PN"
 	1    1050 5450
 	1    0    0    -1  
 $EndComp
@@ -1170,7 +1134,7 @@ F 1 "0.1uF" H 1015 1655 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 938 1550 50  0001 C CNN
 F 3 "~" H 900 1700 50  0001 C CNN
 F 4 "1276-1318-2-ND" H 900 1700 50  0001 C CNN "Digi-Key_PN"
-F 5 "603-CC0805MRX77BB104" H 900 1700 50  0001 C CNN "Mouser PN"
+F 5 "80-C0603C104K3RC7013" H 900 1700 50  0001 C CNN "Mouser PN"
 	1    900  1700
 	1    0    0    -1  
 $EndComp
@@ -1183,7 +1147,7 @@ F 1 "1uF" H 1665 5405 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 1588 5300 50  0001 C CNN
 F 3 "~" H 1550 5450 50  0001 C CNN
 F 4 "1276-1859-2-ND" H 1550 5450 50  0001 C CNN "Digi-Key_PN"
-F 5 "603-CC0805MKX58BB105" H 1550 5450 50  0001 C CNN "Mouser PN"
+F 5 "80-C0603C160J3HACTU" H 1550 5450 50  0001 C CNN "Mouser PN"
 	1    1550 5450
 	1    0    0    -1  
 $EndComp
@@ -1196,7 +1160,7 @@ F 1 "0.1uF" H 2965 5405 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 2888 5300 50  0001 C CNN
 F 3 "~" H 2850 5450 50  0001 C CNN
 F 4 "1276-1318-2-ND" H 2850 5450 50  0001 C CNN "Digi-Key_PN"
-F 5 "603-CC0805KFX5R8BB47" H 2850 5450 50  0001 C CNN "Mouser PN"
+F 5 "80-C0603C104K3RC7013" H 2850 5450 50  0001 C CNN "Mouser PN"
 	1    2850 5450
 	1    0    0    -1  
 $EndComp
@@ -1209,7 +1173,7 @@ F 1 "16pF" H 1065 4055 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 988 3950 50  0001 C CNN
 F 3 "~" H 950 4100 50  0001 C CNN
 F 4 "478-10292-2-ND" H 950 4100 50  0001 C CNN "Digi-Key_PN"
-F 5 "603-CC805JRNPO9BN160" H 950 4100 50  0001 C CNN "Mouser PN"
+F 5 "C0603C160J3HACTU" H 950 4100 50  0001 C CNN "Mouser PN"
 	1    950  4100
 	0    -1   -1   0   
 $EndComp
@@ -1222,142 +1186,45 @@ F 1 "16pF" H 1065 3355 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 988 3250 50  0001 C CNN
 F 3 "~" H 950 3400 50  0001 C CNN
 F 4 "478-10292-2-ND" H 950 3400 50  0001 C CNN "Digi-Key_PN"
-F 5 "603-CC805JRNPO9BN160" H 950 3400 50  0001 C CNN "Mouser PN"
+F 5 "C0603C160J3HACTU" H 950 3400 50  0001 C CNN "Mouser PN"
 	1    950  3400
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Connector:Conn_01x14_Female J2
-U 1 1 60FF58A4
-P 3400 9450
-F 0 "J2" H 3292 10235 50  0000 C CNN
-F 1 "Conn_01x14_Female" H 3292 10144 50  0000 C CNN
-F 2 "Connector_PinSocket_1.27mm:PinSocket_2x07_P1.27mm_Vertical_SMD" H 3400 9450 50  0001 C CNN
-F 3 "~" H 3400 9450 50  0001 C CNN
-F 4 "855-M50-3610742" H 3400 9450 50  0001 C CNN "Mouser PN"
-	1    3400 9450
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
-	3600 8850 3950 8850
+	3300 9600 3800 9600
 Wire Wire Line
-	3600 8950 3950 8950
-Wire Wire Line
-	3600 9150 4100 9150
-Wire Wire Line
-	3600 9350 4100 9350
-Wire Wire Line
-	3600 9550 3950 9550
-Wire Wire Line
-	3600 9650 3950 9650
-Wire Wire Line
-	3600 9750 3950 9750
-Wire Wire Line
-	3600 9850 4100 9850
-Wire Wire Line
-	3600 10050 3950 10050
-Wire Wire Line
-	3600 10150 3950 10150
-NoConn ~ 3950 8850
-NoConn ~ 3950 8950
-Text Label 4100 9050 2    50   ~ 0
-VCC
-Text Label 4100 9150 2    50   ~ 0
+	3300 9500 3800 9500
+Text Label 3800 9600 2    50   ~ 0
 SWDIO
-Text Label 4100 9250 2    50   ~ 0
-GND
-Text Label 4100 9350 2    50   ~ 0
+Text Label 3800 9500 2    50   ~ 0
 SWCLK
-Text Label 4100 9450 2    50   ~ 0
-GND
-Text Label 3950 9550 2    50   ~ 0
-SWO
-Text Label 3950 9650 2    50   ~ 0
-JCLK
-Text Label 3950 9750 2    50   ~ 0
-T_JTDI
-Text Label 4100 9850 2    50   ~ 0
-GNDDetect
-Text Label 4100 9950 2    50   ~ 0
+Text Label 3800 9300 2    50   ~ 0
 NRST
-Text Label 3950 10050 2    50   ~ 0
-VCP_RX
-Text Label 3950 10150 2    50   ~ 0
-VCP_TX
-NoConn ~ 3950 9750
-NoConn ~ 3950 9650
-NoConn ~ 3950 9550
-NoConn ~ 3950 10050
-NoConn ~ 3950 10150
-$Comp
-L pdm-rescue:GND-power #PWR0109
-U 1 1 61107CFD
-P 4350 9250
-F 0 "#PWR0109" H 4350 9000 50  0001 C CNN
-F 1 "GND" H 4355 9077 50  0000 C CNN
-F 2 "" H 4350 9250 50  0001 C CNN
-F 3 "" H 4350 9250 50  0001 C CNN
-	1    4350 9250
-	0    -1   -1   0   
-$EndComp
-$Comp
-L pdm-rescue:GND-power #PWR0110
-U 1 1 61108758
-P 4350 9450
-F 0 "#PWR0110" H 4350 9200 50  0001 C CNN
-F 1 "GND" H 4355 9277 50  0000 C CNN
-F 2 "" H 4350 9450 50  0001 C CNN
-F 3 "" H 4350 9450 50  0001 C CNN
-	1    4350 9450
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	3600 9450 4350 9450
-Wire Wire Line
-	3600 9250 4350 9250
-Wire Wire Line
-	4400 9050 4400 8950
-Wire Wire Line
-	3600 9050 4400 9050
-$Comp
-L power:+3V3 #PWR0111
-U 1 1 61129E69
-P 4400 8950
-F 0 "#PWR0111" H 4400 8800 50  0001 C CNN
-F 1 "+3V3" H 4415 9123 50  0000 C CNN
-F 2 "" H 4400 8950 50  0001 C CNN
-F 3 "" H 4400 8950 50  0001 C CNN
-	1    4400 8950
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:C C10
 U 1 1 6112B320
-P 4350 10300
-F 0 "C10" H 4465 10346 50  0000 L CNN
-F 1 "0.1pF " H 4465 10255 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4388 10150 50  0001 C CNN
-F 3 "~" H 4350 10300 50  0001 C CNN
-	1    4350 10300
+P 4000 9500
+F 0 "C10" H 4115 9546 50  0000 L CNN
+F 1 "0.1pF " H 4115 9455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4038 9350 50  0001 C CNN
+F 3 "~" H 4000 9500 50  0001 C CNN
+F 4 "791-RF18N0R1B500CT" H 4000 9500 50  0001 C CNN "Mouser PN"
+	1    4000 9500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4350 10150 4350 9950
-Wire Wire Line
-	3600 9950 4350 9950
+	4000 9350 4000 9300
 $Comp
 L pdm-rescue:GND-power #PWR0112
 U 1 1 611326A2
-P 4350 10600
-F 0 "#PWR0112" H 4350 10350 50  0001 C CNN
-F 1 "GND" H 4355 10427 50  0000 C CNN
-F 2 "" H 4350 10600 50  0001 C CNN
-F 3 "" H 4350 10600 50  0001 C CNN
-	1    4350 10600
+P 4000 9650
+F 0 "#PWR0112" H 4000 9400 50  0001 C CNN
+F 1 "GND" H 4005 9477 50  0000 C CNN
+F 2 "" H 4000 9650 50  0001 C CNN
+F 3 "" H 4000 9650 50  0001 C CNN
+	1    4000 9650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4350 10600 4350 10450
 $Comp
 L Mechanical:MountingHole H6
 U 1 1 60E0481B
@@ -1392,14 +1259,144 @@ F 3 "~" H 2000 10450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H8
 U 1 1 60FCFB00
 P 2000 10250
-F 0 "H?" H 2100 10296 50  0000 L CNN
+F 0 "H8" H 2100 10296 50  0000 L CNN
 F 1 "MountingHole" H 2100 10205 50  0000 L CNN
-F 2 "pdm_v2:Barcode" H 2000 10250 50  0001 C CNN
+F 2 "pdm_v2:meme-qr" H 2000 10250 50  0001 C CNN
 F 3 "~" H 2000 10250 50  0001 C CNN
 	1    2000 10250
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	5650 5150 4750 5150
+Wire Wire Line
+	4750 5150 4750 5450
+$Comp
+L power:GND #PWR0113
+U 1 1 611C3F7C
+P 4750 5450
+F 0 "#PWR0113" H 4750 5200 50  0001 C CNN
+F 1 "GND" H 4755 5277 50  0000 C CNN
+F 2 "" H 4750 5450 50  0001 C CNN
+F 3 "" H 4750 5450 50  0001 C CNN
+	1    4750 5450
+	1    0    0    -1  
+$EndComp
+Text Label 2650 2050 0    50   ~ 0
+_P
+Text Label 2650 2150 0    50   ~ 0
+_N
+Text Label 2600 1750 0    50   ~ 0
+_N
+Text Label 2600 1650 0    50   ~ 0
+_P
+Wire Wire Line
+	1400 6750 1400 6850
+$Comp
+L pdm-rescue:TestPoint_Probe-Connector TP?
+U 1 1 611FEF78
+P 1250 6850
+AR Path="/5F955F6E/611FEF78" Ref="TP?"  Part="1" 
+AR Path="/5F955EE4/611FEF78" Ref="TP?"  Part="1" 
+AR Path="/5F94FFF3/611FEF78" Ref="TP?"  Part="1" 
+AR Path="/5F956034/611FEF78" Ref="TP?"  Part="1" 
+AR Path="/5F9560D2/611FEF78" Ref="TP?"  Part="1" 
+AR Path="/611FEF78" Ref="TP1"  Part="1" 
+AR Path="/60112AE4/611FEF78" Ref="TP?"  Part="1" 
+F 0 "TP1" H 1550 6950 50  0000 R CNN
+F 1 "TestPoint_Probe" H 1900 6850 50  0000 R CNN
+F 2 "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 1450 6850 50  0001 C CNN
+F 3 "~" H 1450 6850 50  0001 C CNN
+	1    1250 6850
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 6850 1400 6850
+Connection ~ 1400 6850
+Wire Wire Line
+	1400 6850 1400 6950
+$Comp
+L pdm-rescue:TestPoint_Probe-Connector TP?
+U 1 1 612065E4
+P 2500 7600
+AR Path="/5F955F6E/612065E4" Ref="TP?"  Part="1" 
+AR Path="/5F955EE4/612065E4" Ref="TP?"  Part="1" 
+AR Path="/5F94FFF3/612065E4" Ref="TP?"  Part="1" 
+AR Path="/5F956034/612065E4" Ref="TP?"  Part="1" 
+AR Path="/5F9560D2/612065E4" Ref="TP?"  Part="1" 
+AR Path="/612065E4" Ref="TP20"  Part="1" 
+AR Path="/60112AE4/612065E4" Ref="TP?"  Part="1" 
+F 0 "TP20" H 2800 7700 50  0000 R CNN
+F 1 "TestPoint_Probe" H 3150 7600 50  0000 R CNN
+F 2 "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 2700 7600 50  0001 C CNN
+F 3 "~" H 2700 7600 50  0001 C CNN
+	1    2500 7600
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	2500 7600 2400 7600
+Connection ~ 2400 7600
+Wire Wire Line
+	2400 7600 2400 7500
+$Comp
+L power:+3V3 #PWR0109
+U 1 1 6123251D
+P 2700 8550
+F 0 "#PWR0109" H 2700 8400 50  0001 C CNN
+F 1 "+3V3" H 2715 8723 50  0000 C CNN
+F 2 "" H 2700 8550 50  0001 C CNN
+F 3 "" H 2700 8550 50  0001 C CNN
+	1    2700 8550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 8550 2700 8850
+$Comp
+L pdm-rescue:GND-power #PWR0110
+U 1 1 61239625
+P 2700 10150
+F 0 "#PWR0110" H 2700 9900 50  0001 C CNN
+F 1 "GND" H 2705 9977 50  0000 C CNN
+F 2 "" H 2700 10150 50  0001 C CNN
+F 3 "" H 2700 10150 50  0001 C CNN
+	1    2700 10150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 10150 2700 10050
+Wire Wire Line
+	2700 10050 2600 10050
+Wire Wire Line
+	2600 10050 2600 10000
+Wire Wire Line
+	2700 10000 2700 10050
+Connection ~ 2700 10050
+Wire Wire Line
+	2700 10050 2800 10050
+Wire Wire Line
+	2800 10050 2800 10000
+Wire Wire Line
+	3300 9300 4000 9300
+NoConn ~ 3300 9400
+NoConn ~ 2100 9300
+NoConn ~ 2100 9400
+NoConn ~ 2100 9500
+NoConn ~ 2100 9600
+$Comp
+L Project_Libraries:STLINK_V3 U9
+U 1 1 613028D9
+P 2700 9450
+F 0 "U9" H 2700 10231 50  0000 C CNN
+F 1 "STLINK_V3" H 2700 10140 50  0000 C CNN
+F 2 "pdm_v2:STM32_Programmer" H 2700 9450 50  0001 C CNN
+F 3 "" H 2700 9450 50  0001 C CNN
+F 4 "200-FTSH10501FDVK" H 2700 9450 50  0001 C CNN "Mouser PN"
+	1    2700 9450
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6650 5750
+NoConn ~ 5650 6150
+NoConn ~ 5650 6250
 $EndSCHEMATC

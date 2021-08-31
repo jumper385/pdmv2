@@ -9,4 +9,8 @@ $CMP SIR681DP
 F https://www.vishay.com/docs/66833/sir681dp.pdf
 $ENDCMP
 #
+$CMP STLINK_V3
+D ST Link Programming Header
+$ENDCMP
+#
 #End Doc Library

@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/Users/henrychen/Dev/embedded/hardware/uwam_pdm_2021/pdm/pdm.sch</source>
-    <date>Monday, 21 June 2021 at 09:43:37 am</date>
+    <date>Thursday, 19 August 2021 at 10:56:18 am</date>
     <tool>Eeschema (5.1.9-0-10_14)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -84,225 +84,73 @@
     </sheet>
   </design>
   <components>
-    <comp ref="C2">
-      <value>16pF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
+    <comp ref="U3">
+      <value>STM32L432KCUx</value>
+      <footprint>Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm_ThermalVias</footprint>
+      <datasheet>http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00257205.pdf</datasheet>
       <fields>
-        <field name="Digi-Key_PN">478-10292-2-ND</field>
-        <field name="Mouser PN">603-CC805JRNPO9BN160</field>
+        <field name="Mouser PN">511-STM32L432KCU6</field>
       </fields>
-      <libsource lib="pdm-rescue" part="C-Device" description=""/>
+      <libsource lib="MCU_ST_STM32L4" part="STM32L432KCUx" description="ARM Cortex-M4 MCU, 256KB flash, 64KB RAM, 80MHz, 1.71-3.6V, 26 GPIO, UFQFPN-32"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5F9D5FE7</tstamp>
+      <tstamp>60CFF808</tstamp>
     </comp>
-    <comp ref="C3">
-      <value>16pF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+    <comp ref="J3">
+      <value>Conn_01x02_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
       <datasheet>~</datasheet>
-      <fields>
-        <field name="Digi-Key_PN">478-10292-2-ND</field>
-        <field name="Mouser PN">603-CC805JRNPO9BN160</field>
-      </fields>
-      <libsource lib="pdm-rescue" part="C-Device" description=""/>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5F9D7172</tstamp>
+      <tstamp>60E89EA0</tstamp>
     </comp>
-    <comp ref="C8">
-      <value>0.1uF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Digi-Key_PN">1276-1318-2-ND</field>
-        <field name="Mouser PN">603-CC0805KFX5R8BB47</field>
-      </fields>
-      <libsource lib="pdm-rescue" part="C-Device" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FA0A8C4</tstamp>
-    </comp>
-    <comp ref="C5">
-      <value>1uF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Digi-Key_PN">1276-1859-2-ND</field>
-        <field name="Mouser PN">603-CC0805MKX58BB105</field>
-      </fields>
-      <libsource lib="pdm-rescue" part="C-Device" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FA6B51B</tstamp>
-    </comp>
-    <comp ref="C1">
-      <value>0.1uF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Digi-Key_PN">1276-1318-2-ND</field>
-        <field name="Mouser PN">603-CC0805MRX77BB104</field>
-      </fields>
-      <libsource lib="pdm-rescue" part="C-Device" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5F96A74C</tstamp>
-    </comp>
-    <comp ref="U1">
-      <value>SN65HVD233</value>
-      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
-      <datasheet>http://www.ti.com/lit/ds/symlink/sn65hvd234.pdf</datasheet>
-      <fields>
-        <field name="Digi-Key_PN">296-23973-2-ND</field>
-        <field name="Mouser PN">595-SN65HVD233QDRQ1</field>
-      </fields>
-      <libsource lib="pdm-rescue" part="SN65HVD233-Interface_CAN_LIN" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5F965A3B</tstamp>
-    </comp>
-    <comp ref="C4">
-      <value>0.1uF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Digi-Key_PN">1276-1318-2-ND</field>
-        <field name="Mouser PN">603-CC0805MRX77BB104</field>
-      </fields>
-      <libsource lib="pdm-rescue" part="C-Device" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FA81303</tstamp>
-    </comp>
-    <comp ref="C7">
-      <value>0.1uF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Digi-Key_PN">1276-1318-2-ND</field>
-        <field name="Mouser PN">603-CC0805MRX77BB104</field>
-      </fields>
-      <libsource lib="pdm-rescue" part="C-Device" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FA888F4</tstamp>
-    </comp>
-    <comp ref="J4">
-      <value>Conn_01x12_Male</value>
-      <footprint>DT13-12PB-B016:TE_DT13-12PB-B016</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Digi-Key_PN">1734-1635-ND</field>
-        <field name="Mouser PN">571-DT13-12PB-B016</field>
-      </fields>
-      <libsource lib="Connector" part="Conn_01x12_Male" description="Generic connector, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>6006C29A</tstamp>
-    </comp>
-    <comp ref="J1">
-      <value>Conn_01x04_Male</value>
-      <footprint>DT13-4P:TE_DT13-4P</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Digi-Key_PN">1734-1024-ND</field>
-        <field name="Mouser PN">571-DT13-4P</field>
-      </fields>
-      <libsource lib="Connector" part="Conn_01x04_Male" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>603F726E</tstamp>
-    </comp>
-    <comp ref="H1">
-      <value>MountingHole</value>
-      <footprint>MountingHole:MountingHole_3mm_Pad_Via</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>600819BB</tstamp>
-    </comp>
-    <comp ref="H2">
-      <value>MountingHole</value>
-      <footprint>MountingHole:MountingHole_3mm_Pad_Via</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>600A6D0C</tstamp>
-    </comp>
-    <comp ref="H3">
-      <value>MountingHole</value>
-      <footprint>MountingHole:MountingHole_3mm_Pad_Via</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>600AC80E</tstamp>
-    </comp>
-    <comp ref="H4">
-      <value>MountingHole</value>
-      <footprint>MountingHole:MountingHole_3mm_Pad_Via</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>600B22DD</tstamp>
-    </comp>
-    <comp ref="R1">
-      <value>120R</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Digi-Key_PN">CRGCQ0603F120R</field>
-        <field name="Mouser PN">279-CPF-A-0805B120RE</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>60087C69</tstamp>
-    </comp>
-    <comp ref="D2">
-      <value>D</value>
-      <footprint>Diode_SMD:D_SMC</footprint>
-      <datasheet>https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_5_0smdj_datasheet.pdf.pdf</datasheet>
-      <fields>
-        <field name="Digi-Key_PN">5.0SMDJ28ACT-ND</field>
-        <field name="Mouser PN">576-5.0SMDJ28A</field>
-      </fields>
-      <libsource lib="Device" part="D" description="Diode"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>601BD890</tstamp>
-    </comp>
-    <comp ref="D1">
-      <value>LED</value>
-      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Digi-Key_PN">516-3541-1-ND</field>
-        <field name="Mouser PN">630-HSMA-C170-T0000</field>
-      </fields>
-      <libsource lib="pdm-rescue" part="LED-Device" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>60FF77BD</tstamp>
-    </comp>
-    <comp ref="R2">
-      <value>120R</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Digi-Key_PN">CRGCQ0603F120R</field>
-        <field name="Mouser PN">603-RC0805JR-07120RL</field>
-      </fields>
-      <libsource lib="pdm-rescue" part="R-Device" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>60FF77C5</tstamp>
-    </comp>
-    <comp ref="TP1">
+    <comp ref="TP2">
       <value>TestPoint_Probe</value>
+      <footprint>TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pdm-rescue" part="TestPoint_Probe-Connector" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60ED4630</tstamp>
+    </comp>
+    <comp ref="CANH_TP1">
+      <value>CANH_Test1</value>
       <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
       <datasheet>~</datasheet>
       <libsource lib="pdm-rescue" part="TestPoint_Probe-Connector" description=""/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>60FF77DE</tstamp>
+      <tstamp>6002DB6D</tstamp>
     </comp>
-    <comp ref="C6">
-      <value>0.1uF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+    <comp ref="CANL_Test1">
+      <value>CANL_TP</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pdm-rescue" part="TestPoint_Probe-Connector" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6002ED89</tstamp>
+    </comp>
+    <comp ref="Y1">
+      <value>32Mhz</value>
+      <footprint>Crystal:Crystal_SMD_HC49-SD</footprint>
+      <datasheet>https://www.foxonline.com/wp-content/uploads/pdfs/C4SD.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">631-1010-2-ND</field>
+        <field name="Mouser PN">559-280LF-080</field>
+      </fields>
+      <libsource lib="Device" part="Crystal" description="Two pin crystal"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60D44625</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="Digi-Key_PN">1276-1318-2-ND</field>
-        <field name="Mouser PN">603-CC0805MRX77BB104</field>
+        <field name="Digi-Key_PN">1276-1869-1-ND</field>
+        <field name="MFR_PN">CL10A106MA8NRNC</field>
+        <field name="Mouser PN">81-GRM21BR61E106MA3L</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>60FF77FE</tstamp>
+      <tstamp>6102CE14</tstamp>
     </comp>
     <comp ref="U2">
       <value>LM2937xS</value>
@@ -316,87 +164,286 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>60FF7806</tstamp>
     </comp>
-    <comp ref="C9">
-      <value>10uF</value>
+    <comp ref="C6">
+      <value>0.1uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="Digi-Key_PN">1276-1869-1-ND</field>
-        <field name="MFR_PN">CL10A106MA8NRNC</field>
+        <field name="Digi-Key_PN">1276-1318-2-ND</field>
+        <field name="Mouser PN">80-C0603C104K3RC7013</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>6102CE14</tstamp>
+      <tstamp>60FF77FE</tstamp>
     </comp>
-    <comp ref="J2">
-      <value>Conn_01x04_Female</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+    <comp ref="R2">
+      <value>120R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <fields>
+        <field name="Digi-Key_PN">CRGCQ0603F120R</field>
+        <field name="Mouser PN">755-ESR03EZPF1200</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="R-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>60DB7F19</tstamp>
+      <tstamp>60FF77C5</tstamp>
     </comp>
-    <comp ref="C10">
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">516-3541-1-ND</field>
+        <field name="Mouser PN">710-150060AS75000</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="LED-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60FF77BD</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SMC</footprint>
+      <datasheet>https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_5_0smdj_datasheet.pdf.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">5.0SMDJ28ACT-ND</field>
+        <field name="Mouser PN">576-5.0SMDJ28A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601BD890</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>120R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">CRGCQ0603F120R</field>
+        <field name="Mouser PN">755-ESR03EZPF1200</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60087C69</tstamp>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3mm_Pad_Via</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600B22DD</tstamp>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3mm_Pad_Via</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600AC80E</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3mm_Pad_Via</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600A6D0C</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3mm_Pad_Via</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600819BB</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x04_Male</value>
+      <footprint>DT13-4P:TE_DT13-4P</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">1734-1024-ND</field>
+        <field name="Mouser PN">571-DT13-4P</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x04_Male" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>603F726E</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x12_Male</value>
+      <footprint>DT13-12PB-B016:TE_DT13-12PB-B016</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">1734-1635-ND</field>
+        <field name="Mouser PN">571-DT13-12PB-B016</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x12_Male" description="Generic connector, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6006C29A</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">1276-1318-2-ND</field>
+        <field name="Mouser PN">80-C0603C104K3RC7013</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA888F4</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">1276-1318-2-ND</field>
+        <field name="Mouser PN">80-C0603C104K3RC7013</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA81303</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>SN65HVD233</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/sn65hvd234.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">296-23973-2-ND</field>
+        <field name="Mouser PN">595-SN65HVD233QDRQ1</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="SN65HVD233-Interface_CAN_LIN" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F965A3B</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">1276-1318-2-ND</field>
+        <field name="Mouser PN">80-C0603C104K3RC7013</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F96A74C</tstamp>
+    </comp>
+    <comp ref="C5">
       <value>1uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="Digi-Key_PN">1276-1859-2-ND</field>
+        <field name="Mouser PN">80-C0603C160J3HACTU</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA6B51B</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">1276-1318-2-ND</field>
+        <field name="Mouser PN">80-C0603C104K3RC7013</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA0A8C4</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>16pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">478-10292-2-ND</field>
+        <field name="Mouser PN">C0603C160J3HACTU</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9D7172</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>16pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">478-10292-2-ND</field>
+        <field name="Mouser PN">C0603C160J3HACTU</field>
+      </fields>
+      <libsource lib="pdm-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9D5FE7</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>0.1pF </value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Mouser PN">791-RF18N0R1B500CT</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>60E10980</tstamp>
+      <tstamp>6112B320</tstamp>
     </comp>
-    <comp ref="Y1">
-      <value>32Mhz</value>
-      <footprint>Crystal:Crystal_SMD_HC49-SD</footprint>
-      <datasheet>https://www.foxonline.com/wp-content/uploads/pdfs/C4SD.pdf</datasheet>
-      <fields>
-        <field name="Digi-Key_PN">631-1010-2-ND</field>
-      </fields>
-      <libsource lib="Device" part="Crystal" description="Two pin crystal"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>60D44625</tstamp>
-    </comp>
-    <comp ref="CANL_Test1">
-      <value>CANL_TP</value>
-      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+    <comp ref="H6">
+      <value>MountingHole</value>
+      <footprint>pdm_v2:uwam-logo</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="pdm-rescue" part="TestPoint_Probe-Connector" description=""/>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>6002ED89</tstamp>
+      <tstamp>60E0481B</tstamp>
     </comp>
-    <comp ref="CANH_TP1">
-      <value>CANH_Test1</value>
-      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+    <comp ref="H5">
+      <value>MountingHole</value>
+      <footprint>pdm_v2:pepe-v2</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="pdm-rescue" part="TestPoint_Probe-Connector" description=""/>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>6002DB6D</tstamp>
+      <tstamp>60E053CE</tstamp>
     </comp>
-    <comp ref="TP2">
+    <comp ref="H7">
+      <value>MountingHole</value>
+      <footprint>pdm_v2:checklist</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60E0BB85</tstamp>
+    </comp>
+    <comp ref="H8">
+      <value>MountingHole</value>
+      <footprint>pdm_v2:meme-qr</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60FCFB00</tstamp>
+    </comp>
+    <comp ref="TP1">
       <value>TestPoint_Probe</value>
-      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <footprint>TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm</footprint>
       <datasheet>~</datasheet>
       <libsource lib="pdm-rescue" part="TestPoint_Probe-Connector" description=""/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>60ED4630</tstamp>
+      <tstamp>611FEF78</tstamp>
     </comp>
-    <comp ref="J3">
-      <value>Conn_01x02_Male</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+    <comp ref="TP20">
+      <value>TestPoint_Probe</value>
+      <footprint>TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <libsource lib="pdm-rescue" part="TestPoint_Probe-Connector" description=""/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>60E89EA0</tstamp>
+      <tstamp>612065E4</tstamp>
     </comp>
-    <comp ref="U3">
-      <value>STM32L432KCUx</value>
-      <footprint>Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm</footprint>
-      <datasheet>http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00257205.pdf</datasheet>
-      <libsource lib="MCU_ST_STM32L4" part="STM32L432KCUx" description="ARM Cortex-M4 MCU, 256KB flash, 64KB RAM, 80MHz, 1.71-3.6V, 26 GPIO, UFQFPN-32"/>
+    <comp ref="U9">
+      <value>STLINK_V3</value>
+      <footprint>pdm_v2:STM32_Programmer</footprint>
+      <fields>
+        <field name="Mouser PN">200-FTSH10501FDVK</field>
+      </fields>
+      <libsource lib="Project_Libraries" part="STLINK_V3" description="ST Link Programming Header"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>60CFF808</tstamp>
+      <tstamp>613028D9</tstamp>
     </comp>
     <comp ref="R6">
       <value>850</value>
@@ -416,7 +463,7 @@
       <datasheet>~</datasheet>
       <fields>
         <field name="Digi-Key_PN">516-3541-1-ND</field>
-        <field name="Mouser PN">630-HSMR-C170-R0000</field>
+        <field name="Mouser PN">710-150060AS75000</field>
       </fields>
       <libsource lib="pdm-rescue" part="LED-Device" description=""/>
       <sheetpath names="/sheet5F955F69/" tstamps="/5F955F6E/"/>
@@ -428,7 +475,7 @@
       <datasheet>~</datasheet>
       <fields>
         <field name="Digi-Key_PN">RNCP0805FTD10K0CT-ND</field>
-        <field name="Mouser PN">603-AC0805FR-0710K5L</field>
+        <field name="Mouser PN">652-CRT0603FZ2002EST</field>
       </fields>
       <libsource lib="pdm-rescue" part="R-Device" description=""/>
       <sheetpath names="/sheet5F955F69/" tstamps="/5F955F6E/"/>
@@ -440,7 +487,7 @@
       <datasheet>~</datasheet>
       <fields>
         <field name="Digi-Key_PN">1276-1859-2-ND</field>
-        <field name="Mouser PN">603-CC0805MKX58BB105</field>
+        <field name="Mouser PN">80-C0603C160J3HACTU</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/sheet5F955F69/" tstamps="/5F955F6E/"/>
@@ -452,6 +499,7 @@
       <datasheet>~</datasheet>
       <fields>
         <field name="Digi-Key_PN">486-1688-2-ND</field>
+        <field name="Mouser PN">652-SF-1206F500M-2</field>
       </fields>
       <libsource lib="pdm-rescue" part="Fuse-Device" description=""/>
       <sheetpath names="/sheet5F955F69/" tstamps="/5F955F6E/"/>
@@ -487,6 +535,7 @@
       <datasheet>~</datasheet>
       <fields>
         <field name="Digi-Key_PN">RNCP0805FTD10K0CT-ND</field>
+        <field name="Mouser PN">652-CRT0603FZ2002EST</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/sheet5F955F69/" tstamps="/5F955F6E/"/>
@@ -498,6 +547,7 @@
       <datasheet>~</datasheet>
       <fields>
         <field name="Digi-Key_PN">RNCP0805FTD10K0CT-ND</field>
+        <field name="Mouser PN">652-CRT0603FZ2002EST</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/sheet5F955F69/" tstamps="/5F955F6E/"/>
@@ -509,6 +559,7 @@
       <datasheet>~</datasheet>
       <fields>
         <field name="Digi-Key_PN">RNCP0805FTD10K0CT-ND</field>
+        <field name="Mouser PN">652-CRT0603FZ2002EST</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/sheet5F955F69/" tstamps="/5F955F6E/"/>
@@ -520,6 +571,7 @@
       <datasheet>~</datasheet>
       <fields>
         <field name="Digi-Key_PN">RNCP0805FTD10K0CT-ND</field>
+        <field name="Mouser PN">652-CRT0603FZ2002EST</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/sheet5F955F69/" tstamps="/5F955F6E/"/>
@@ -531,6 +583,7 @@
       <datasheet>http://www.diodes.com/assets/Datasheets/ds30376.pdf</datasheet>
       <fields>
         <field name="Digi-Key_PN">2N7002E-FDICT-ND</field>
+        <field name="Mouser PN">771-2N7002NXAKR</field>
       </fields>
       <libsource lib="Transistor_FET" part="2N7002E" description="0.24A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
       <sheetpath names="/sheet5F955F69/" tstamps="/5F955F6E/"/>
@@ -542,6 +595,7 @@
       <datasheet>http://www.diodes.com/assets/Datasheets/ds30376.pdf</datasheet>
       <fields>
         <field name="Digi-Key_PN">2N7002E-FDICT-ND</field>
+        <field name="Mouser PN">771-2N7002NXAKR</field>
       </fields>
       <libsource lib="Transistor_FET" part="2N7002E" description="0.24A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
       <sheetpath names="/sheet5F955F69/" tstamps="/5F955F6E/"/>
@@ -553,10 +607,35 @@
       <datasheet>http://www.diodes.com/assets/Datasheets/ds30376.pdf</datasheet>
       <fields>
         <field name="Digi-Key_PN">2N7002E-FDICT-ND</field>
+        <field name="Mouser PN">771-2N7002NXAKR</field>
       </fields>
       <libsource lib="Transistor_FET" part="2N7002E" description="0.24A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
       <sheetpath names="/sheet5F955F69/" tstamps="/5F955F6E/"/>
       <tstamp>60C8A76A</tstamp>
+    </comp>
+    <comp ref="TP4">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/sheet5F955F69/" tstamps="/5F955F6E/"/>
+      <tstamp>60F5EFD6</tstamp>
+    </comp>
+    <comp ref="TP3">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/sheet5F955F69/" tstamps="/5F955F6E/"/>
+      <tstamp>60F62FD8</tstamp>
+    </comp>
+    <comp ref="TP5">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/sheet5F955F69/" tstamps="/5F955F6E/"/>
+      <tstamp>60F647E1</tstamp>
     </comp>
     <comp ref="R15">
       <value>850</value>
@@ -576,7 +655,7 @@
       <datasheet>~</datasheet>
       <fields>
         <field name="Digi-Key_PN">516-3541-1-ND</field>
-        <field name="Mouser PN">630-HSMR-C170-R0000</field>
+        <field name="Mouser PN">710-150060AS75000</field>
       </fields>
       <libsource lib="pdm-rescue" part="LED-Device" description=""/>
       <sheetpath names="/fuse_block/" tstamps="/5F94FFF3/"/>
@@ -588,7 +667,7 @@
       <datasheet>~</datasheet>
       <fields>
         <field name="Digi-Key_PN">RNCP0805FTD10K0CT-ND</field>
-        <field name="Mouser PN">603-AC0805FR-0710K5L</field>
+        <field name="Mouser PN">652-CRT0603FZ2002EST</field>
       </fields>
       <libsource lib="pdm-rescue" part="R-Device" description=""/>
       <sheetpath names="/fuse_block/" tstamps="/5F94FFF3/"/>
@@ -600,7 +679,7 @@
       <datasheet>~</datasheet>
       <fields>
         <field name="Digi-Key_PN">1276-1859-2-ND</field>
-        <field name="Mouser PN">603-CC0805MKX58BB105</field>
+        <field name="Mouser PN">80-C0603C160J3HACTU</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/fuse_block/" tstamps="/5F94FFF3/"/>
@@ -612,6 +691,7 @@
       <datasheet>~</datasheet>
       <fields>
         <field name="Digi-Key_PN">486-1688-2-ND</field>
+        <field name="Mouser PN">652-SF-1206F500M-2</field>
       </fields>
       <libsource lib="pdm-rescue" part="Fuse-Device" description=""/>
       <sheetpath names="/fuse_block/" tstamps="/5F94FFF3/"/>
@@ -647,6 +727,7 @@
       <datasheet>~</datasheet>
       <fields>
         <field name="Digi-Key_PN">RNCP0805FTD10K0CT-ND</field>
+        <field name="Mouser PN">652-CRT0603FZ2002EST</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/fuse_block/" tstamps="/5F94FFF3/"/>
@@ -658,6 +739,7 @@
       <datasheet>~</datasheet>
       <fields>
         <field name="Digi-Key_PN">RNCP0805FTD10K0CT-ND</field>
+        <field name="Mouser PN">652-CRT0603FZ2002EST</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/fuse_block/" tstamps="/5F94FFF3/"/>
@@ -669,6 +751,7 @@
       <datasheet>~</datasheet>
       <fields>
         <field name="Digi-Key_PN">RNCP0805FTD10K0CT-ND</field>
+        <field name="Mouser PN">652-CRT0603FZ2002EST</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/fuse_block/" tstamps="/5F94FFF3/"/>
@@ -680,6 +763,7 @@
       <datasheet>~</datasheet>
       <fields>
         <field name="Digi-Key_PN">RNCP0805FTD10K0CT-ND</field>
+        <field name="Mouser PN">652-CRT0603FZ2002EST</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/fuse_block/" tstamps="/5F94FFF3/"/>
@@ -691,6 +775,7 @@
       <datasheet>http://www.diodes.com/assets/Datasheets/ds30376.pdf</datasheet>
       <fields>
         <field name="Digi-Key_PN">2N7002E-FDICT-ND</field>
+        <field name="Mouser PN">771-2N7002NXAKR</field>
       </fields>
       <libsource lib="Transistor_FET" part="2N7002E" description="0.24A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
       <sheetpath names="/fuse_block/" tstamps="/5F94FFF3/"/>
@@ -702,6 +787,7 @@
       <datasheet>http://www.diodes.com/assets/Datasheets/ds30376.pdf</datasheet>
       <fields>
         <field name="Digi-Key_PN">2N7002E-FDICT-ND</field>
+        <field name="Mouser PN">771-2N7002NXAKR</field>
       </fields>
       <libsource lib="Transistor_FET" part="2N7002E" description="0.24A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
       <sheetpath names="/fuse_block/" tstamps="/5F94FFF3/"/>
@@ -713,10 +799,35 @@
       <datasheet>http://www.diodes.com/assets/Datasheets/ds30376.pdf</datasheet>
       <fields>
         <field name="Digi-Key_PN">2N7002E-FDICT-ND</field>
+        <field name="Mouser PN">771-2N7002NXAKR</field>
       </fields>
       <libsource lib="Transistor_FET" part="2N7002E" description="0.24A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
       <sheetpath names="/fuse_block/" tstamps="/5F94FFF3/"/>
       <tstamp>60C8A76A</tstamp>
+    </comp>
+    <comp ref="TP7">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/fuse_block/" tstamps="/5F94FFF3/"/>
+      <tstamp>60F5EFD6</tstamp>
+    </comp>
+    <comp ref="TP6">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/fuse_block/" tstamps="/5F94FFF3/"/>
+      <tstamp>60F62FD8</tstamp>
+    </comp>
+    <comp ref="TP8">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/fuse_block/" tstamps="/5F94FFF3/"/>
+      <tstamp>60F647E1</tstamp>
     </comp>
     <comp ref="R24">
       <value>850</value>
@@ -736,7 +847,7 @@
       <datasheet>~</datasheet>
       <fields>
         <field name="Digi-Key_PN">516-3541-1-ND</field>
-        <field name="Mouser PN">630-HSMR-C170-R0000</field>
+        <field name="Mouser PN">710-150060AS75000</field>
       </fields>
       <libsource lib="pdm-rescue" part="LED-Device" description=""/>
       <sheetpath names="/sheet5F955EDF/" tstamps="/5F955EE4/"/>
@@ -748,7 +859,7 @@
       <datasheet>~</datasheet>
       <fields>
         <field name="Digi-Key_PN">RNCP0805FTD10K0CT-ND</field>
-        <field name="Mouser PN">603-AC0805FR-0710K5L</field>
+        <field name="Mouser PN">652-CRT0603FZ2002EST</field>
       </fields>
       <libsource lib="pdm-rescue" part="R-Device" description=""/>
       <sheetpath names="/sheet5F955EDF/" tstamps="/5F955EE4/"/>
@@ -760,7 +871,7 @@
       <datasheet>~</datasheet>
       <fields>
         <field name="Digi-Key_PN">1276-1859-2-ND</field>
-        <field name="Mouser PN">603-CC0805MKX58BB105</field>
+        <field name="Mouser PN">80-C0603C160J3HACTU</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/sheet5F955EDF/" tstamps="/5F955EE4/"/>
@@ -772,6 +883,7 @@
       <datasheet>~</datasheet>
       <fields>
         <field name="Digi-Key_PN">486-1688-2-ND</field>
+        <field name="Mouser PN">652-SF-1206F500M-2</field>
       </fields>
       <libsource lib="pdm-rescue" part="Fuse-Device" description=""/>
       <sheetpath names="/sheet5F955EDF/" tstamps="/5F955EE4/"/>
@@ -807,6 +919,7 @@
       <datasheet>~</datasheet>
       <fields>
         <field name="Digi-Key_PN">RNCP0805FTD10K0CT-ND</field>
+        <field name="Mouser PN">652-CRT0603FZ2002EST</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/sheet5F955EDF/" tstamps="/5F955EE4/"/>
@@ -818,6 +931,7 @@
       <datasheet>~</datasheet>
       <fields>
         <field name="Digi-Key_PN">RNCP0805FTD10K0CT-ND</field>
+        <field name="Mouser PN">652-CRT0603FZ2002EST</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/sheet5F955EDF/" tstamps="/5F955EE4/"/>
@@ -829,6 +943,7 @@
       <datasheet>~</datasheet>
       <fields>
         <field name="Digi-Key_PN">RNCP0805FTD10K0CT-ND</field>
+        <field name="Mouser PN">652-CRT0603FZ2002EST</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/sheet5F955EDF/" tstamps="/5F955EE4/"/>
@@ -840,6 +955,7 @@
       <datasheet>~</datasheet>
       <fields>
         <field name="Digi-Key_PN">RNCP0805FTD10K0CT-ND</field>
+        <field name="Mouser PN">652-CRT0603FZ2002EST</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/sheet5F955EDF/" tstamps="/5F955EE4/"/>
@@ -851,6 +967,7 @@
       <datasheet>http://www.diodes.com/assets/Datasheets/ds30376.pdf</datasheet>
       <fields>
         <field name="Digi-Key_PN">2N7002E-FDICT-ND</field>
+        <field name="Mouser PN">771-2N7002NXAKR</field>
       </fields>
       <libsource lib="Transistor_FET" part="2N7002E" description="0.24A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
       <sheetpath names="/sheet5F955EDF/" tstamps="/5F955EE4/"/>
@@ -862,6 +979,7 @@
       <datasheet>http://www.diodes.com/assets/Datasheets/ds30376.pdf</datasheet>
       <fields>
         <field name="Digi-Key_PN">2N7002E-FDICT-ND</field>
+        <field name="Mouser PN">771-2N7002NXAKR</field>
       </fields>
       <libsource lib="Transistor_FET" part="2N7002E" description="0.24A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
       <sheetpath names="/sheet5F955EDF/" tstamps="/5F955EE4/"/>
@@ -873,10 +991,35 @@
       <datasheet>http://www.diodes.com/assets/Datasheets/ds30376.pdf</datasheet>
       <fields>
         <field name="Digi-Key_PN">2N7002E-FDICT-ND</field>
+        <field name="Mouser PN">771-2N7002NXAKR</field>
       </fields>
       <libsource lib="Transistor_FET" part="2N7002E" description="0.24A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
       <sheetpath names="/sheet5F955EDF/" tstamps="/5F955EE4/"/>
       <tstamp>60C8A76A</tstamp>
+    </comp>
+    <comp ref="TP10">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/sheet5F955EDF/" tstamps="/5F955EE4/"/>
+      <tstamp>60F5EFD6</tstamp>
+    </comp>
+    <comp ref="TP9">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/sheet5F955EDF/" tstamps="/5F955EE4/"/>
+      <tstamp>60F62FD8</tstamp>
+    </comp>
+    <comp ref="TP11">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/sheet5F955EDF/" tstamps="/5F955EE4/"/>
+      <tstamp>60F647E1</tstamp>
     </comp>
     <comp ref="R8">
       <value>10k</value>
@@ -884,6 +1027,7 @@
       <datasheet>~</datasheet>
       <fields>
         <field name="Digi-Key_PN">RNCP0805FTD10K0CT-ND</field>
+        <field name="Mouser PN">652-CRT0603FZ2002EST</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/sheet60F4D953/" tstamps="/60F4D95A/"/>
@@ -895,6 +1039,7 @@
       <datasheet>~</datasheet>
       <fields>
         <field name="Digi-Key_PN">486-1688-2-ND</field>
+        <field name="Mouser PN">652-SF-1206F500M-2</field>
       </fields>
       <libsource lib="Device" part="Fuse" description="Fuse"/>
       <sheetpath names="/sheet60F4D953/" tstamps="/60F4D95A/"/>
@@ -906,6 +1051,7 @@
       <datasheet>~</datasheet>
       <fields>
         <field name="Digi-Key_PN">RNCP0603FTD7K50TR-ND</field>
+        <field name="Mouser PN">71-CRCW06037K50FKEAC</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/sheet60F4D953/" tstamps="/60F4D95A/"/>
@@ -917,6 +1063,7 @@
       <datasheet>~</datasheet>
       <fields>
         <field name="Digi-Key_PN">RMCF0603FT4K70TR-ND</field>
+        <field name="Mouser PN">71-CRCW06034K70JNEAC</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/sheet60F4D953/" tstamps="/60F4D95A/"/>
@@ -928,6 +1075,7 @@
       <datasheet>~</datasheet>
       <fields>
         <field name="Digi-Key_PN">RMCF0603FT40K2CT-ND</field>
+        <field name="Mouser PN">71-CRCW060340K2FKEB</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/sheet60F4D953/" tstamps="/60F4D95A/"/>
@@ -939,7 +1087,7 @@
       <datasheet>~</datasheet>
       <fields>
         <field name="Digi-Key_PN">1276-1859-2-ND</field>
-        <field name="Mouser PN">603-CC0805MKX58BB105</field>
+        <field name="Mouser PN">80-C0603C160J3HACTU</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/sheet60F4D953/" tstamps="/60F4D95A/"/>
@@ -951,6 +1099,7 @@
       <datasheet>http://www.infineon.com/dgdl/Infineon-BTS443P-DS-v01_00-EN.pdf?fileId=5546d4625a888733015aa9afbc5035d5</datasheet>
       <fields>
         <field name="Digi-Key_PN">BTS443PAUMA1CT-ND</field>
+        <field name="Mouser PN">726-BTS443P</field>
       </fields>
       <libsource lib="Power_Management" part="BTS443P" description="Smart High-Side Power Switch, PROFET, Single, 16mOhm, 7.6A, 36V, TO252-5"/>
       <sheetpath names="/sheet60F4D953/" tstamps="/60F4D95A/"/>
@@ -962,6 +1111,7 @@
       <datasheet>~</datasheet>
       <fields>
         <field name="Digi-Key_PN">RR08P1.0KDTR-ND</field>
+        <field name="Mouser PN">652-CHP0603AFX1002EL</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/sheet60F4D953/" tstamps="/60F4D95A/"/>
@@ -973,6 +1123,7 @@
       <datasheet>~</datasheet>
       <fields>
         <field name="Digi-Key_PN">RNCP0805FTD10K0CT-ND</field>
+        <field name="Mouser PN">652-CRT0603FZ2002EST</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/sheet60F4D953/" tstamps="/60F4D95A/"/>
@@ -984,6 +1135,7 @@
       <datasheet>~</datasheet>
       <fields>
         <field name="Digi-Key_PN">RMCF0603FT4K12CT-ND</field>
+        <field name="Mouser PN">667-ERJ-3EKF4121V</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/sheet60F4D953/" tstamps="/60F4D95A/"/>
@@ -995,6 +1147,7 @@
       <datasheet>~</datasheet>
       <fields>
         <field name="Digi-Key_PN">1276-1859-2-ND</field>
+        <field name="Mouser PN">80-C0603C160J3HACTU</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/sheet60F4D953/" tstamps="/60F4D95A/"/>
@@ -1006,6 +1159,7 @@
       <datasheet>~</datasheet>
       <fields>
         <field name="Digi-Key_PN">445-14423-2-ND</field>
+        <field name="Mouser PN">810-C2012X5R1E156M</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/sheet60F4D953/" tstamps="/60F4D95A/"/>
@@ -1017,6 +1171,7 @@
       <datasheet>~</datasheet>
       <fields>
         <field name="Digi-Key_PN">RMCF0603FT220KTR-ND</field>
+        <field name="Mouser PN">603-AC0603FR-07221KL</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/sheet60F4D953/" tstamps="/60F4D95A/"/>
@@ -1024,10 +1179,12 @@
     </comp>
     <comp ref="L1">
       <value>3.3uH</value>
-      <footprint>pdm_v2:inductor-PA4349.103ANLT</footprint>
-      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Pulse%20PDFs/PA4349.zzzANLT_Series_Rev2019.pdf</datasheet>
+      <footprint>Inductor_SMD:L_12x12mm_H8mm</footprint>
+      <datasheet>https://www.bourns.com/docs/Product-Datasheets/SRR1210A.pdf</datasheet>
       <fields>
-        <field name="Digi-Key_PN">553-4048-1-ND</field>
+        <field name="Digi-Key_PN">SRR1210A-3R3YCT-ND</field>
+        <field name="MFR_PN">SRR1210A-3R3Y</field>
+        <field name="Mouser PN">652-SRR1210A-3R3Y</field>
       </fields>
       <libsource lib="Device" part="L" description="Inductor"/>
       <sheetpath names="/sheet60F4D953/" tstamps="/60F4D95A/"/>
@@ -1039,32 +1196,11 @@
       <datasheet>~</datasheet>
       <fields>
         <field name="Digi-Key_PN">445-14423-2-ND</field>
+        <field name="Mouser PN">810-C2012X5R1E156M</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/sheet60F4D953/" tstamps="/60F4D95A/"/>
       <tstamp>610393D5</tstamp>
-    </comp>
-    <comp ref="D6">
-      <value>VS-20TQ045-M3</value>
-      <footprint>Package_TO_SOT_THT:TO-220-2_Vertical</footprint>
-      <datasheet>http://www.smc-diodes.com/propdf/1N4148WS%20N0572%20REV.B.pdf</datasheet>
-      <fields>
-        <field name="Digi-Key_PN">VS-20TQ045-M3-ND</field>
-      </fields>
-      <libsource lib="Device" part="D" description="Diode"/>
-      <sheetpath names="/sheet60F4D953/" tstamps="/60F4D95A/"/>
-      <tstamp>6111510D</tstamp>
-    </comp>
-    <comp ref="R30">
-      <value>10k</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Digi-Key_PN">RNCP0805FTD10K0CT-ND</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/sheet60F4D953/" tstamps="/60F4D95A/"/>
-      <tstamp>6127B124</tstamp>
     </comp>
     <comp ref="U8">
       <value>LM5085</value>
@@ -1072,21 +1208,11 @@
       <datasheet>https://www.ti.com/lit/ds/symlink/lm5085.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&amp;ts=1621953879740&amp;ref_url=https%253A%252F%252Fau.mouser.com%252F</datasheet>
       <fields>
         <field name="Digi-Key_PN">LM5085SD/NOPBTR-ND</field>
+        <field name="Mouser PN">926-LM5085SD/NOPB</field>
       </fields>
       <libsource lib="Project_Libraries" part="LM5085" description="high efficiency PFET switching regulator controller"/>
       <sheetpath names="/sheet60F4D953/" tstamps="/60F4D95A/"/>
       <tstamp>60ADC123</tstamp>
-    </comp>
-    <comp ref="Q10">
-      <value>2N7002E</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
-      <datasheet>http://www.diodes.com/assets/Datasheets/ds30376.pdf</datasheet>
-      <fields>
-        <field name="Digi-Key_PN">2N7002E-FDICT-ND</field>
-      </fields>
-      <libsource lib="Transistor_FET" part="2N7002E" description="0.24A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
-      <sheetpath names="/sheet60F4D953/" tstamps="/60F4D95A/"/>
-      <tstamp>60C9250C</tstamp>
     </comp>
     <comp ref="Q11">
       <value>2N7002E</value>
@@ -1094,6 +1220,7 @@
       <datasheet>http://www.diodes.com/assets/Datasheets/ds30376.pdf</datasheet>
       <fields>
         <field name="Digi-Key_PN">2N7002E-FDICT-ND</field>
+        <field name="Mouser PN">771-2N7002NXAKR</field>
       </fields>
       <libsource lib="Transistor_FET" part="2N7002E" description="0.24A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
       <sheetpath names="/sheet60F4D953/" tstamps="/60F4D95A/"/>
@@ -1105,6 +1232,7 @@
       <datasheet>~</datasheet>
       <fields>
         <field name="Digi-Key_PN">445-14423-2-ND</field>
+        <field name="Mouser PN">810-C2012X5R1E156M</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/sheet60F4D953/" tstamps="/60F4D95A/"/>
@@ -1116,6 +1244,7 @@
       <datasheet>~</datasheet>
       <fields>
         <field name="Digi-Key_PN">445-14423-2-ND</field>
+        <field name="Mouser PN">810-C2012X5R1E156M</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/sheet60F4D953/" tstamps="/60F4D95A/"/>
@@ -1127,10 +1256,142 @@
       <datasheet>~</datasheet>
       <fields>
         <field name="Digi-Key_PN">1276-1895-2-ND</field>
+        <field name="Mouser PN">963-UMK107B7474KA-TR</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/sheet60F4D953/" tstamps="/60F4D95A/"/>
       <tstamp>60D1A7DE</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>N/C</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Mouser PN">81-GRM21BR61E106MA3L</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/sheet60F4D953/" tstamps="/60F4D95A/"/>
+      <tstamp>60DC9A68</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>N/C</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Mouser PN">81-GRM21BR61E106MA3L</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/sheet60F4D953/" tstamps="/60F4D95A/"/>
+      <tstamp>60DD19F0</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>N/C</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Mouser PN">81-GRM21BR61E106MA3L</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/sheet60F4D953/" tstamps="/60F4D95A/"/>
+      <tstamp>60DE7025</tstamp>
+    </comp>
+    <comp ref="C25">
+      <value>N/C</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Mouser PN">81-GRM21BR61E106MA3L</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/sheet60F4D953/" tstamps="/60F4D95A/"/>
+      <tstamp>60E18F6E</tstamp>
+    </comp>
+    <comp ref="C26">
+      <value>N/C</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Mouser PN">81-GRM21BR61E106MA3L</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/sheet60F4D953/" tstamps="/60F4D95A/"/>
+      <tstamp>60E1B9D1</tstamp>
+    </comp>
+    <comp ref="Q10">
+      <value>2N7002E</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.diodes.com/assets/Datasheets/ds30376.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">2N7002E-FDICT-ND</field>
+        <field name="Mouser PN">771-2N7002NXAKR</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="2N7002E" description="0.24A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/sheet60F4D953/" tstamps="/60F4D95A/"/>
+      <tstamp>60C9250C</tstamp>
+    </comp>
+    <comp ref="R30">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">RNCP0805FTD10K0CT-ND</field>
+        <field name="Mouser PN">652-CRT0603FZ2002EST</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/sheet60F4D953/" tstamps="/60F4D95A/"/>
+      <tstamp>6127B124</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>VS-20TQ045-M3</value>
+      <footprint>Package_TO_SOT_THT:TO-220-2_Horizontal_TabDown</footprint>
+      <datasheet>http://www.smc-diodes.com/propdf/1N4148WS%20N0572%20REV.B.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key_PN">VS-20TQ045-M3-ND</field>
+        <field name="Mouser PN">78-VS-20TQ045-M3</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/sheet60F4D953/" tstamps="/60F4D95A/"/>
+      <tstamp>6111510D</tstamp>
+    </comp>
+    <comp ref="TP18">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/sheet60F4D953/" tstamps="/60F4D95A/"/>
+      <tstamp>60F96AA4</tstamp>
+    </comp>
+    <comp ref="TP16">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/sheet60F4D953/" tstamps="/60F4D95A/"/>
+      <tstamp>60F9D4DA</tstamp>
+    </comp>
+    <comp ref="TP19">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/sheet60F4D953/" tstamps="/60F4D95A/"/>
+      <tstamp>60FA7E0F</tstamp>
+    </comp>
+    <comp ref="TP17">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/sheet60F4D953/" tstamps="/60F4D95A/"/>
+      <tstamp>60FAFADA</tstamp>
+    </comp>
+    <comp ref="TP15">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/sheet60F4D953/" tstamps="/60F4D95A/"/>
+      <tstamp>60FB394A</tstamp>
     </comp>
     <comp ref="Q15">
       <value>Si7141DP</value>
@@ -1138,6 +1399,7 @@
       <datasheet>https://www.vishay.com/docs/65596/si7141dp.pdf</datasheet>
       <fields>
         <field name="Digi-Key_PN">SI7141DP-T1-GE3CT-ND</field>
+        <field name="Mouser PN">781-SI7141DP-T1-GE3</field>
       </fields>
       <libsource lib="Transistor_FET" part="Si7141DP" description="60A Id, 20V Vds, 1.9 mOhm Ron, PowerPAK-8"/>
       <sheetpath names="/sheet60F4D953/" tstamps="/60F4D95A/"/>
@@ -1161,7 +1423,7 @@
       <datasheet>~</datasheet>
       <fields>
         <field name="Digi-Key_PN">516-3541-1-ND</field>
-        <field name="Mouser PN">630-HSMR-C170-R0000</field>
+        <field name="Mouser PN">710-150060AS75000</field>
       </fields>
       <libsource lib="pdm-rescue" part="LED-Device" description=""/>
       <sheetpath names="/sheet60D2AFEF/" tstamps="/60D2AFFB/"/>
@@ -1173,7 +1435,7 @@
       <datasheet>~</datasheet>
       <fields>
         <field name="Digi-Key_PN">RNCP0805FTD10K0CT-ND</field>
-        <field name="Mouser PN">603-AC0805FR-0710K5L</field>
+        <field name="Mouser PN">652-CRT0603FZ2002EST</field>
       </fields>
       <libsource lib="pdm-rescue" part="R-Device" description=""/>
       <sheetpath names="/sheet60D2AFEF/" tstamps="/60D2AFFB/"/>
@@ -1185,7 +1447,7 @@
       <datasheet>~</datasheet>
       <fields>
         <field name="Digi-Key_PN">1276-1859-2-ND</field>
-        <field name="Mouser PN">603-CC0805MKX58BB105</field>
+        <field name="Mouser PN">80-C0603C160J3HACTU</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/sheet60D2AFEF/" tstamps="/60D2AFFB/"/>
@@ -1197,6 +1459,7 @@
       <datasheet>~</datasheet>
       <fields>
         <field name="Digi-Key_PN">486-1688-2-ND</field>
+        <field name="Mouser PN">652-SF-1206F500M-2</field>
       </fields>
       <libsource lib="pdm-rescue" part="Fuse-Device" description=""/>
       <sheetpath names="/sheet60D2AFEF/" tstamps="/60D2AFFB/"/>
@@ -1232,6 +1495,7 @@
       <datasheet>~</datasheet>
       <fields>
         <field name="Digi-Key_PN">RNCP0805FTD10K0CT-ND</field>
+        <field name="Mouser PN">652-CRT0603FZ2002EST</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/sheet60D2AFEF/" tstamps="/60D2AFFB/"/>
@@ -1243,6 +1507,7 @@
       <datasheet>~</datasheet>
       <fields>
         <field name="Digi-Key_PN">RNCP0805FTD10K0CT-ND</field>
+        <field name="Mouser PN">652-CRT0603FZ2002EST</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/sheet60D2AFEF/" tstamps="/60D2AFFB/"/>
@@ -1254,6 +1519,7 @@
       <datasheet>~</datasheet>
       <fields>
         <field name="Digi-Key_PN">RNCP0805FTD10K0CT-ND</field>
+        <field name="Mouser PN">652-CRT0603FZ2002EST</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/sheet60D2AFEF/" tstamps="/60D2AFFB/"/>
@@ -1265,6 +1531,7 @@
       <datasheet>~</datasheet>
       <fields>
         <field name="Digi-Key_PN">RNCP0805FTD10K0CT-ND</field>
+        <field name="Mouser PN">652-CRT0603FZ2002EST</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/sheet60D2AFEF/" tstamps="/60D2AFFB/"/>
@@ -1276,6 +1543,7 @@
       <datasheet>http://www.diodes.com/assets/Datasheets/ds30376.pdf</datasheet>
       <fields>
         <field name="Digi-Key_PN">2N7002E-FDICT-ND</field>
+        <field name="Mouser PN">771-2N7002NXAKR</field>
       </fields>
       <libsource lib="Transistor_FET" part="2N7002E" description="0.24A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
       <sheetpath names="/sheet60D2AFEF/" tstamps="/60D2AFFB/"/>
@@ -1287,6 +1555,7 @@
       <datasheet>http://www.diodes.com/assets/Datasheets/ds30376.pdf</datasheet>
       <fields>
         <field name="Digi-Key_PN">2N7002E-FDICT-ND</field>
+        <field name="Mouser PN">771-2N7002NXAKR</field>
       </fields>
       <libsource lib="Transistor_FET" part="2N7002E" description="0.24A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
       <sheetpath names="/sheet60D2AFEF/" tstamps="/60D2AFFB/"/>
@@ -1298,10 +1567,35 @@
       <datasheet>http://www.diodes.com/assets/Datasheets/ds30376.pdf</datasheet>
       <fields>
         <field name="Digi-Key_PN">2N7002E-FDICT-ND</field>
+        <field name="Mouser PN">771-2N7002NXAKR</field>
       </fields>
       <libsource lib="Transistor_FET" part="2N7002E" description="0.24A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
       <sheetpath names="/sheet60D2AFEF/" tstamps="/60D2AFFB/"/>
       <tstamp>60C8A76A</tstamp>
+    </comp>
+    <comp ref="TP13">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/sheet60D2AFEF/" tstamps="/60D2AFFB/"/>
+      <tstamp>60F5EFD6</tstamp>
+    </comp>
+    <comp ref="TP12">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/sheet60D2AFEF/" tstamps="/60D2AFFB/"/>
+      <tstamp>60F62FD8</tstamp>
+    </comp>
+    <comp ref="TP14">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/sheet60D2AFEF/" tstamps="/60D2AFFB/"/>
+      <tstamp>60F647E1</tstamp>
     </comp>
   </components>
   <libparts>
@@ -1318,23 +1612,6 @@
       <pins>
         <pin num="1" name="Pin_1" type="passive"/>
         <pin num="2" name="Pin_2" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Connector" part="Conn_01x04_Female">
-      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>Connector*:*_1x??_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">J</field>
-        <field name="Value">Conn_01x04_Female</field>
-      </fields>
-      <pins>
-        <pin num="1" name="Pin_1" type="passive"/>
-        <pin num="2" name="Pin_2" type="passive"/>
-        <pin num="3" name="Pin_3" type="passive"/>
-        <pin num="4" name="Pin_4" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Connector" part="Conn_01x04_Male">
@@ -1377,6 +1654,21 @@
         <pin num="10" name="Pin_10" type="passive"/>
         <pin num="11" name="Pin_11" type="passive"/>
         <pin num="12" name="Pin_12" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Device" part="C">
@@ -1584,6 +1876,28 @@
         <pin num="7" name="VCC" type="input"/>
         <pin num="8" name="VIN" type="power_in"/>
         <pin num="9" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Project_Libraries" part="STLINK_V3">
+      <description>ST Link Programming Header</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">STLINK_V3</field>
+        <field name="Footprint">pdm_v2:STM32_Programmer</field>
+      </fields>
+      <pins>
+        <pin num="3" name="T_VCC" type="input"/>
+        <pin num="4" name="SWDIO" type="BiDi"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="SWCLK" type="BiDi"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="SWO" type="BiDi"/>
+        <pin num="9" name="JCLK" type="BiDi"/>
+        <pin num="10" name="JTDI" type="BiDi"/>
+        <pin num="11" name="GND_DETECT" type="input"/>
+        <pin num="12" name="NRST" type="input"/>
+        <pin num="13" name="RX" type="output"/>
+        <pin num="14" name="TX" type="output"/>
       </pins>
     </libpart>
     <libpart lib="Regulator_Linear" part="SPX2920T-3.3_TO263">
@@ -1844,435 +2158,479 @@
   <nets>
     <net code="1" name="+3V3">
       <node ref="R20" pin="1"/>
+      <node ref="U9" pin="3"/>
       <node ref="C8" pin="1"/>
-      <node ref="R46" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="U1" pin="3"/>
+      <node ref="C4" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="R2" pin="2"/>
+      <node ref="U2" pin="3"/>
+      <node ref="C9" pin="1"/>
+      <node ref="TP2" pin="1"/>
       <node ref="U3" pin="5"/>
       <node ref="U3" pin="17"/>
       <node ref="U3" pin="1"/>
-      <node ref="C5" pin="1"/>
-      <node ref="TP2" pin="1"/>
-      <node ref="C1" pin="1"/>
-      <node ref="C10" pin="1"/>
-      <node ref="J2" pin="4"/>
-      <node ref="C9" pin="1"/>
-      <node ref="U1" pin="3"/>
-      <node ref="U2" pin="3"/>
-      <node ref="R2" pin="2"/>
       <node ref="R30" pin="1"/>
       <node ref="R29" pin="1"/>
+      <node ref="R46" pin="1"/>
       <node ref="R11" pin="1"/>
-      <node ref="C4" pin="1"/>
-      <node ref="C7" pin="1"/>
     </net>
     <net code="2" name="GND">
-      <node ref="C7" pin="2"/>
-      <node ref="C4" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="Q12" pin="2"/>
+      <node ref="R5" pin="1"/>
+      <node ref="Q13" pin="2"/>
+      <node ref="Q14" pin="2"/>
+      <node ref="R19" pin="2"/>
+      <node ref="R10" pin="2"/>
       <node ref="R3" pin="2"/>
-      <node ref="R7" pin="2"/>
+      <node ref="R12" pin="2"/>
       <node ref="R16" pin="2"/>
+      <node ref="R7" pin="2"/>
       <node ref="Q3" pin="2"/>
       <node ref="Q2" pin="2"/>
       <node ref="Q1" pin="2"/>
       <node ref="R8" pin="2"/>
-      <node ref="R10" pin="2"/>
-      <node ref="Q7" pin="2"/>
-      <node ref="C2" pin="1"/>
-      <node ref="Q8" pin="2"/>
-      <node ref="R12" pin="2"/>
+      <node ref="R36" pin="2"/>
+      <node ref="C17" pin="2"/>
+      <node ref="R14" pin="1"/>
+      <node ref="R9" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="R31" pin="2"/>
+      <node ref="C18" pin="1"/>
       <node ref="Q6" pin="2"/>
-      <node ref="Q9" pin="2"/>
+      <node ref="C23" pin="2"/>
       <node ref="Q5" pin="2"/>
       <node ref="Q4" pin="2"/>
-      <node ref="C3" pin="1"/>
+      <node ref="C24" pin="2"/>
+      <node ref="U8" pin="9"/>
+      <node ref="Q7" pin="2"/>
+      <node ref="D6" pin="2"/>
+      <node ref="Q8" pin="2"/>
+      <node ref="R40" pin="1"/>
+      <node ref="Q9" pin="2"/>
+      <node ref="U8" pin="4"/>
+      <node ref="Q11" pin="2"/>
+      <node ref="C12" pin="1"/>
+      <node ref="U9" pin="7"/>
+      <node ref="R25" pin="2"/>
+      <node ref="U9" pin="5"/>
+      <node ref="C16" pin="1"/>
+      <node ref="U9" pin="11"/>
+      <node ref="Q10" pin="3"/>
+      <node ref="C19" pin="1"/>
+      <node ref="R21" pin="2"/>
+      <node ref="C26" pin="2"/>
+      <node ref="R28" pin="2"/>
+      <node ref="C25" pin="2"/>
+      <node ref="U3" pin="31"/>
+      <node ref="U3" pin="16"/>
+      <node ref="U3" pin="32"/>
+      <node ref="U3" pin="33"/>
+      <node ref="R42" pin="2"/>
+      <node ref="TP20" pin="1"/>
+      <node ref="C21" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="R38" pin="2"/>
+      <node ref="U2" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="R23" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="D2" pin="2"/>
+      <node ref="C15" pin="2"/>
+      <node ref="J1" pin="1"/>
+      <node ref="C22" pin="2"/>
       <node ref="J4" pin="1"/>
       <node ref="J4" pin="2"/>
-      <node ref="R25" pin="2"/>
-      <node ref="Q12" pin="2"/>
-      <node ref="Q13" pin="2"/>
-      <node ref="R19" pin="2"/>
-      <node ref="R21" pin="2"/>
-      <node ref="R28" pin="2"/>
-      <node ref="R36" pin="2"/>
-      <node ref="J1" pin="1"/>
-      <node ref="C17" pin="2"/>
-      <node ref="R31" pin="2"/>
-      <node ref="Q14" pin="2"/>
-      <node ref="C18" pin="1"/>
-      <node ref="D2" pin="2"/>
-      <node ref="C19" pin="1"/>
-      <node ref="C16" pin="1"/>
-      <node ref="C12" pin="1"/>
-      <node ref="Q11" pin="2"/>
-      <node ref="Q10" pin="3"/>
-      <node ref="U8" pin="4"/>
-      <node ref="U8" pin="9"/>
-      <node ref="C8" pin="2"/>
-      <node ref="U3" pin="33"/>
-      <node ref="U3" pin="32"/>
-      <node ref="U3" pin="16"/>
-      <node ref="U1" pin="8"/>
-      <node ref="D1" pin="1"/>
-      <node ref="R23" pin="1"/>
-      <node ref="C15" pin="2"/>
-      <node ref="U1" pin="5"/>
-      <node ref="C6" pin="2"/>
-      <node ref="U2" pin="2"/>
-      <node ref="U1" pin="2"/>
-      <node ref="C9" pin="2"/>
-      <node ref="R14" pin="1"/>
-      <node ref="D6" pin="2"/>
-      <node ref="R9" pin="2"/>
-      <node ref="J2" pin="1"/>
-      <node ref="C10" pin="2"/>
-      <node ref="C13" pin="2"/>
-      <node ref="C1" pin="2"/>
-      <node ref="C23" pin="2"/>
-      <node ref="R5" pin="1"/>
-      <node ref="C24" pin="2"/>
-      <node ref="R40" pin="1"/>
-      <node ref="C11" pin="2"/>
-      <node ref="R42" pin="2"/>
       <node ref="R45" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="U1" pin="5"/>
+      <node ref="U1" pin="8"/>
+      <node ref="C1" pin="2"/>
       <node ref="C5" pin="2"/>
-      <node ref="R38" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C10" pin="2"/>
     </net>
     <net code="3" name="/canrx">
       <node ref="U3" pin="21"/>
       <node ref="U1" pin="4"/>
     </net>
     <net code="4" name="/cantx">
-      <node ref="U3" pin="22"/>
       <node ref="U1" pin="1"/>
+      <node ref="U3" pin="22"/>
     </net>
     <net code="5" name="/OSC_P">
+      <node ref="U3" pin="3"/>
       <node ref="Y1" pin="1"/>
       <node ref="C2" pin="2"/>
-      <node ref="U3" pin="3"/>
     </net>
     <net code="6" name="/OSC_N">
       <node ref="U3" pin="2"/>
-      <node ref="C3" pin="2"/>
       <node ref="Y1" pin="2"/>
+      <node ref="C3" pin="2"/>
     </net>
     <net code="7" name="/act1">
       <node ref="R16" pin="1"/>
       <node ref="R12" pin="1"/>
-      <node ref="U3" pin="14"/>
       <node ref="Q5" pin="1"/>
+      <node ref="U3" pin="13"/>
+      <node ref="TP6" pin="1"/>
       <node ref="Q4" pin="1"/>
     </net>
     <net code="8" name="/act2">
-      <node ref="R25" pin="1"/>
-      <node ref="Q8" pin="1"/>
-      <node ref="R21" pin="1"/>
-      <node ref="U3" pin="26"/>
       <node ref="Q7" pin="1"/>
+      <node ref="Q8" pin="1"/>
+      <node ref="U3" pin="15"/>
+      <node ref="R21" pin="1"/>
+      <node ref="R25" pin="1"/>
+      <node ref="TP9" pin="1"/>
     </net>
     <net code="9" name="/act3">
-      <node ref="R3" pin="1"/>
       <node ref="R7" pin="1"/>
-      <node ref="Q1" pin="1"/>
       <node ref="Q2" pin="1"/>
-      <node ref="U3" pin="13"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="U3" pin="19"/>
+      <node ref="TP3" pin="1"/>
+      <node ref="R3" pin="1"/>
     </net>
     <net code="10" name="/sense3">
       <node ref="C11" pin="1"/>
-      <node ref="U4" pin="4"/>
       <node ref="R5" pin="2"/>
+      <node ref="TP5" pin="1"/>
       <node ref="U3" pin="8"/>
+      <node ref="U4" pin="4"/>
     </net>
     <net code="11" name="/sense2">
-      <node ref="C15" pin="1"/>
+      <node ref="TP11" pin="1"/>
       <node ref="R23" pin="2"/>
+      <node ref="C15" pin="1"/>
       <node ref="U6" pin="4"/>
-      <node ref="U3" pin="10"/>
+      <node ref="U3" pin="9"/>
     </net>
     <net code="12" name="/sense1">
       <node ref="C13" pin="1"/>
-      <node ref="R14" pin="2"/>
-      <node ref="U3" pin="9"/>
       <node ref="U5" pin="4"/>
+      <node ref="U3" pin="10"/>
+      <node ref="TP8" pin="1"/>
+      <node ref="R14" pin="2"/>
     </net>
     <net code="13" name="/fuse3">
       <node ref="R11" pin="2"/>
-      <node ref="U3" pin="12"/>
+      <node ref="U3" pin="18"/>
       <node ref="Q3" pin="3"/>
     </net>
     <net code="14" name="/fuse1">
+      <node ref="U3" pin="12"/>
       <node ref="Q6" pin="3"/>
       <node ref="R20" pin="2"/>
-      <node ref="U3" pin="25"/>
     </net>
     <net code="15" name="/vout3">
-      <node ref="F1" pin="1"/>
       <node ref="J4" pin="4"/>
-      <node ref="R6" pin="1"/>
-      <node ref="J4" pin="9"/>
+      <node ref="TP4" pin="1"/>
       <node ref="R10" pin="1"/>
       <node ref="Q3" pin="1"/>
+      <node ref="J4" pin="9"/>
+      <node ref="F1" pin="1"/>
+      <node ref="R6" pin="1"/>
     </net>
     <net code="16" name="/vout1">
-      <node ref="R15" pin="1"/>
-      <node ref="J4" pin="10"/>
-      <node ref="F2" pin="1"/>
-      <node ref="Q6" pin="1"/>
       <node ref="R19" pin="1"/>
+      <node ref="R15" pin="1"/>
+      <node ref="TP7" pin="1"/>
+      <node ref="Q6" pin="1"/>
+      <node ref="F2" pin="1"/>
+      <node ref="J4" pin="10"/>
     </net>
     <net code="17" name="/fuse2">
-      <node ref="Q9" pin="3"/>
       <node ref="R29" pin="2"/>
-      <node ref="U3" pin="15"/>
+      <node ref="Q9" pin="3"/>
+      <node ref="U3" pin="14"/>
     </net>
     <net code="18" name="/vout2">
-      <node ref="J4" pin="3"/>
-      <node ref="Q9" pin="1"/>
+      <node ref="TP10" pin="1"/>
       <node ref="R24" pin="1"/>
+      <node ref="J4" pin="3"/>
       <node ref="F3" pin="1"/>
+      <node ref="Q9" pin="1"/>
       <node ref="R28" pin="1"/>
     </net>
-    <net code="19" name="/vout4">
-      <node ref="J4" pin="5"/>
-      <node ref="Q14" pin="1"/>
-      <node ref="F5" pin="1"/>
-      <node ref="R45" pin="1"/>
-      <node ref="R41" pin="1"/>
-      <node ref="J4" pin="8"/>
-    </net>
-    <net code="20" name="/vout5">
+    <net code="19" name="/vout5">
+      <node ref="R35" pin="1"/>
+      <node ref="C22" pin="1"/>
       <node ref="J4" pin="7"/>
       <node ref="J4" pin="6"/>
-      <node ref="C23" pin="1"/>
+      <node ref="C26" pin="1"/>
+      <node ref="TP18" pin="1"/>
       <node ref="L1" pin="2"/>
-      <node ref="R35" pin="1"/>
+      <node ref="C23" pin="1"/>
+      <node ref="C21" pin="1"/>
+      <node ref="C25" pin="1"/>
+      <node ref="C20" pin="1"/>
     </net>
-    <net code="21" name="+12V">
-      <node ref="C6" pin="1"/>
-      <node ref="U6" pin="3"/>
-      <node ref="U2" pin="1"/>
-      <node ref="TP1" pin="1"/>
-      <node ref="U4" pin="3"/>
-      <node ref="U10" pin="3"/>
-      <node ref="J1" pin="2"/>
-      <node ref="U7" pin="3"/>
-      <node ref="J1" pin="3"/>
-      <node ref="J1" pin="4"/>
-      <node ref="U5" pin="3"/>
-      <node ref="D2" pin="1"/>
+    <net code="20" name="/vout4">
+      <node ref="F5" pin="1"/>
+      <node ref="R41" pin="1"/>
+      <node ref="R45" pin="1"/>
+      <node ref="J4" pin="5"/>
+      <node ref="Q14" pin="1"/>
+      <node ref="J4" pin="8"/>
+      <node ref="TP13" pin="1"/>
     </net>
-    <net code="22" name="/DAC2">
-      <node ref="U3" pin="11"/>
-      <node ref="R37" pin="1"/>
-    </net>
-    <net code="23" name="/act5">
-      <node ref="Q11" pin="1"/>
-      <node ref="U3" pin="19"/>
-      <node ref="R8" pin="1"/>
-    </net>
-    <net code="24" name="/sense5">
-      <node ref="C17" pin="1"/>
-      <node ref="U7" pin="4"/>
-      <node ref="R9" pin="1"/>
-      <node ref="U3" pin="6"/>
-    </net>
-    <net code="25" name="/fuse5">
-      <node ref="R30" pin="2"/>
-      <node ref="U3" pin="18"/>
-      <node ref="Q10" pin="2"/>
-    </net>
-    <net code="26" name="Net-(D1-Pad2)">
-      <node ref="R2" pin="1"/>
-      <node ref="D1" pin="2"/>
-    </net>
-    <net code="27" name="/NRST">
-      <node ref="U3" pin="4"/>
-    </net>
-    <net code="28" name="/SWCLK">
-      <node ref="U3" pin="24"/>
-      <node ref="J2" pin="2"/>
-    </net>
-    <net code="29" name="/SWDIO">
-      <node ref="J2" pin="3"/>
-      <node ref="U3" pin="23"/>
-    </net>
-    <net code="30" name="/fuse4">
-      <node ref="U3" pin="27"/>
-      <node ref="Q14" pin="3"/>
-      <node ref="R46" pin="2"/>
-    </net>
-    <net code="31" name="/act4">
-      <node ref="Q13" pin="1"/>
-      <node ref="Q12" pin="1"/>
-      <node ref="U3" pin="20"/>
-      <node ref="R42" pin="1"/>
-      <node ref="R38" pin="1"/>
-    </net>
-    <net code="32" name="/sense4">
-      <node ref="U3" pin="7"/>
-      <node ref="C24" pin="1"/>
-      <node ref="R40" pin="2"/>
-      <node ref="U10" pin="4"/>
-    </net>
-    <net code="33" name="/_N">
-      <node ref="CANL_Test1" pin="1"/>
-      <node ref="R1" pin="1"/>
-      <node ref="J3" pin="2"/>
-      <node ref="J4" pin="12"/>
-      <node ref="U1" pin="7"/>
-    </net>
-    <net code="34" name="/_P">
-      <node ref="J4" pin="11"/>
+    <net code="21" name="/_N">
       <node ref="U1" pin="6"/>
+      <node ref="J4" pin="12"/>
       <node ref="R1" pin="2"/>
       <node ref="CANH_TP1" pin="1"/>
       <node ref="J3" pin="1"/>
     </net>
-    <net code="35" name="Net-(U3-Pad28)">
-      <node ref="U3" pin="28"/>
+    <net code="22" name="/_P">
+      <node ref="J4" pin="11"/>
+      <node ref="U1" pin="7"/>
+      <node ref="CANL_Test1" pin="1"/>
+      <node ref="J3" pin="2"/>
+      <node ref="R1" pin="1"/>
     </net>
-    <net code="36" name="Net-(U3-Pad29)">
+    <net code="23" name="+12V">
+      <node ref="TP1" pin="1"/>
+      <node ref="U10" pin="3"/>
+      <node ref="U5" pin="3"/>
+      <node ref="U2" pin="1"/>
+      <node ref="U7" pin="3"/>
+      <node ref="C6" pin="1"/>
+      <node ref="D2" pin="1"/>
+      <node ref="J1" pin="2"/>
+      <node ref="U4" pin="3"/>
+      <node ref="J1" pin="3"/>
+      <node ref="J1" pin="4"/>
+      <node ref="U6" pin="3"/>
+    </net>
+    <net code="24" name="/DAC2">
+      <node ref="TP19" pin="1"/>
+      <node ref="R37" pin="1"/>
+      <node ref="U3" pin="11"/>
+    </net>
+    <net code="25" name="/act5">
+      <node ref="U3" pin="27"/>
+      <node ref="TP15" pin="1"/>
+      <node ref="R8" pin="1"/>
+      <node ref="Q11" pin="1"/>
+    </net>
+    <net code="26" name="/sense5">
+      <node ref="TP17" pin="1"/>
+      <node ref="U3" pin="6"/>
+      <node ref="C17" pin="1"/>
+      <node ref="U7" pin="4"/>
+      <node ref="R9" pin="1"/>
+    </net>
+    <net code="27" name="/fuse5">
+      <node ref="Q10" pin="2"/>
+      <node ref="U3" pin="28"/>
+      <node ref="R30" pin="2"/>
+    </net>
+    <net code="28" name="/NRST">
+      <node ref="C10" pin="1"/>
+      <node ref="U3" pin="4"/>
+      <node ref="U9" pin="12"/>
+    </net>
+    <net code="29" name="/SWDIO">
+      <node ref="U3" pin="23"/>
+      <node ref="U9" pin="4"/>
+    </net>
+    <net code="30" name="/SWCLK">
+      <node ref="U3" pin="24"/>
+      <node ref="U9" pin="6"/>
+    </net>
+    <net code="31" name="/fuse4">
+      <node ref="U3" pin="25"/>
+      <node ref="R46" pin="2"/>
+      <node ref="Q14" pin="3"/>
+    </net>
+    <net code="32" name="/act4">
+      <node ref="Q13" pin="1"/>
+      <node ref="TP12" pin="1"/>
+      <node ref="Q12" pin="1"/>
+      <node ref="R38" pin="1"/>
+      <node ref="R42" pin="1"/>
+      <node ref="U3" pin="26"/>
+    </net>
+    <net code="33" name="/sense4">
+      <node ref="U10" pin="4"/>
+      <node ref="R40" pin="2"/>
+      <node ref="U3" pin="7"/>
+      <node ref="C24" pin="1"/>
+      <node ref="TP14" pin="1"/>
+    </net>
+    <net code="34" name="Net-(U3-Pad20)">
+      <node ref="U3" pin="20"/>
+    </net>
+    <net code="35" name="Net-(U3-Pad29)">
       <node ref="U3" pin="29"/>
     </net>
-    <net code="37" name="Net-(U3-Pad30)">
+    <net code="36" name="Net-(U3-Pad30)">
       <node ref="U3" pin="30"/>
     </net>
-    <net code="38" name="Net-(U3-Pad31)">
-      <node ref="U3" pin="31"/>
+    <net code="37" name="Net-(D1-Pad2)">
+      <node ref="R2" pin="1"/>
+      <node ref="D1" pin="2"/>
     </net>
-    <net code="39" name="/fuse_block/out-unfused">
-      <node ref="U5" pin="1"/>
+    <net code="38" name="Net-(U9-Pad8)">
+      <node ref="U9" pin="8"/>
+    </net>
+    <net code="39" name="Net-(U9-Pad9)">
+      <node ref="U9" pin="9"/>
+    </net>
+    <net code="40" name="Net-(U9-Pad10)">
+      <node ref="U9" pin="10"/>
+    </net>
+    <net code="41" name="Net-(U9-Pad13)">
+      <node ref="U9" pin="13"/>
+    </net>
+    <net code="42" name="Net-(U9-Pad14)">
+      <node ref="U9" pin="14"/>
+    </net>
+    <net code="43" name="/fuse_block/out-unfused">
       <node ref="F2" pin="2"/>
+      <node ref="U5" pin="1"/>
       <node ref="U5" pin="5"/>
     </net>
-    <net code="40" name="Net-(R13-Pad2)">
+    <net code="44" name="Net-(R13-Pad2)">
       <node ref="R13" pin="2"/>
       <node ref="U5" pin="2"/>
     </net>
-    <net code="41" name="Net-(Q4-Pad3)">
+    <net code="45" name="Net-(Q4-Pad3)">
       <node ref="R13" pin="1"/>
       <node ref="Q4" pin="3"/>
     </net>
-    <net code="42" name="Net-(D4-Pad1)">
+    <net code="46" name="Net-(D4-Pad1)">
       <node ref="D4" pin="1"/>
       <node ref="Q5" pin="3"/>
     </net>
-    <net code="43" name="Net-(D4-Pad2)">
+    <net code="47" name="Net-(D4-Pad2)">
       <node ref="D4" pin="2"/>
       <node ref="R15" pin="2"/>
     </net>
-    <net code="44" name="/sheet5F955EDF/out-unfused">
-      <node ref="U6" pin="5"/>
+    <net code="48" name="/sheet5F955EDF/out-unfused">
       <node ref="F3" pin="2"/>
       <node ref="U6" pin="1"/>
+      <node ref="U6" pin="5"/>
     </net>
-    <net code="45" name="Net-(Q7-Pad3)">
+    <net code="49" name="Net-(Q7-Pad3)">
       <node ref="Q7" pin="3"/>
       <node ref="R22" pin="1"/>
     </net>
-    <net code="46" name="Net-(R22-Pad2)">
+    <net code="50" name="Net-(R22-Pad2)">
       <node ref="R22" pin="2"/>
       <node ref="U6" pin="2"/>
     </net>
-    <net code="47" name="Net-(D5-Pad1)">
-      <node ref="Q8" pin="3"/>
+    <net code="51" name="Net-(D5-Pad1)">
       <node ref="D5" pin="1"/>
+      <node ref="Q8" pin="3"/>
     </net>
-    <net code="48" name="Net-(D5-Pad2)">
-      <node ref="D5" pin="2"/>
+    <net code="52" name="Net-(D5-Pad2)">
       <node ref="R24" pin="2"/>
+      <node ref="D5" pin="2"/>
     </net>
-    <net code="49" name="/sheet5F955F69/out-unfused">
+    <net code="53" name="/sheet5F955F69/out-unfused">
+      <node ref="F1" pin="2"/>
       <node ref="U4" pin="5"/>
       <node ref="U4" pin="1"/>
-      <node ref="F1" pin="2"/>
     </net>
-    <net code="50" name="Net-(R4-Pad2)">
-      <node ref="R4" pin="2"/>
+    <net code="54" name="Net-(R4-Pad2)">
       <node ref="U4" pin="2"/>
+      <node ref="R4" pin="2"/>
     </net>
-    <net code="51" name="Net-(Q1-Pad3)">
+    <net code="55" name="Net-(Q1-Pad3)">
       <node ref="Q1" pin="3"/>
       <node ref="R4" pin="1"/>
     </net>
-    <net code="52" name="Net-(D3-Pad1)">
+    <net code="56" name="Net-(D3-Pad1)">
       <node ref="Q2" pin="3"/>
       <node ref="D3" pin="1"/>
     </net>
-    <net code="53" name="Net-(D3-Pad2)">
-      <node ref="R6" pin="2"/>
+    <net code="57" name="Net-(D3-Pad2)">
       <node ref="D3" pin="2"/>
+      <node ref="R6" pin="2"/>
     </net>
-    <net code="54" name="/sheet60D2AFEF/out-unfused">
-      <node ref="U10" pin="5"/>
-      <node ref="U10" pin="1"/>
+    <net code="58" name="/sheet60D2AFEF/out-unfused">
       <node ref="F5" pin="2"/>
+      <node ref="U10" pin="1"/>
+      <node ref="U10" pin="5"/>
     </net>
-    <net code="55" name="Net-(R39-Pad2)">
+    <net code="59" name="Net-(R39-Pad2)">
       <node ref="R39" pin="2"/>
       <node ref="U10" pin="2"/>
     </net>
-    <net code="56" name="Net-(Q12-Pad3)">
-      <node ref="Q12" pin="3"/>
+    <net code="60" name="Net-(Q12-Pad3)">
       <node ref="R39" pin="1"/>
+      <node ref="Q12" pin="3"/>
     </net>
-    <net code="57" name="Net-(D7-Pad1)">
+    <net code="61" name="Net-(D7-Pad1)">
       <node ref="D7" pin="1"/>
       <node ref="Q13" pin="3"/>
     </net>
-    <net code="58" name="Net-(D7-Pad2)">
+    <net code="62" name="Net-(D7-Pad2)">
       <node ref="R41" pin="2"/>
       <node ref="D7" pin="2"/>
     </net>
-    <net code="59" name="Net-(R32-Pad2)">
+    <net code="63" name="Net-(Q15-Pad4)">
+      <node ref="Q15" pin="4"/>
+      <node ref="U8" pin="6"/>
+    </net>
+    <net code="64" name="/sheet60F4D953/PMOS_OUT">
+      <node ref="D6" pin="1"/>
+      <node ref="L1" pin="1"/>
+      <node ref="Q15" pin="5"/>
+      <node ref="U8" pin="5"/>
+    </net>
+    <net code="65" name="/sheet60F4D953/BUCK_FUSE_OUT">
+      <node ref="R32" pin="1"/>
+      <node ref="C14" pin="2"/>
+      <node ref="R33" pin="2"/>
+      <node ref="R31" pin="1"/>
+      <node ref="C19" pin="2"/>
+      <node ref="C16" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="U8" pin="8"/>
+      <node ref="Q10" pin="1"/>
+      <node ref="Q15" pin="3"/>
+      <node ref="Q15" pin="2"/>
+      <node ref="F4" pin="1"/>
+      <node ref="Q15" pin="1"/>
+      <node ref="TP16" pin="1"/>
+      <node ref="C18" pin="2"/>
+    </net>
+    <net code="66" name="Net-(R32-Pad2)">
       <node ref="R32" pin="2"/>
       <node ref="U8" pin="2"/>
     </net>
-    <net code="60" name="Net-(D6-Pad1)">
-      <node ref="L1" pin="1"/>
-      <node ref="D6" pin="1"/>
-      <node ref="Q15" pin="1"/>
-      <node ref="Q15" pin="2"/>
-      <node ref="Q15" pin="3"/>
-      <node ref="U8" pin="5"/>
-    </net>
-    <net code="61" name="Net-(Q15-Pad4)">
-      <node ref="U8" pin="6"/>
-      <node ref="Q15" pin="4"/>
-    </net>
-    <net code="62" name="Net-(C14-Pad1)">
-      <node ref="U8" pin="7"/>
+    <net code="67" name="Net-(C14-Pad1)">
       <node ref="C14" pin="1"/>
+      <node ref="U8" pin="7"/>
     </net>
-    <net code="63" name="Net-(R33-Pad1)">
+    <net code="68" name="Net-(R33-Pad1)">
       <node ref="R33" pin="1"/>
       <node ref="U8" pin="1"/>
     </net>
-    <net code="64" name="Net-(F4-Pad2)">
+    <net code="69" name="Net-(F4-Pad2)">
       <node ref="U7" pin="1"/>
       <node ref="U7" pin="5"/>
       <node ref="F4" pin="2"/>
     </net>
-    <net code="65" name="Net-(C12-Pad2)">
-      <node ref="C16" pin="2"/>
-      <node ref="R31" pin="1"/>
-      <node ref="C19" pin="2"/>
-      <node ref="C12" pin="2"/>
-      <node ref="Q10" pin="1"/>
-      <node ref="U8" pin="8"/>
-      <node ref="Q15" pin="5"/>
-      <node ref="R33" pin="2"/>
-      <node ref="R32" pin="1"/>
-      <node ref="C14" pin="2"/>
-      <node ref="F4" pin="1"/>
-      <node ref="C18" pin="2"/>
-    </net>
-    <net code="66" name="Net-(Q11-Pad3)">
-      <node ref="Q11" pin="3"/>
+    <net code="70" name="Net-(Q11-Pad3)">
       <node ref="U7" pin="2"/>
+      <node ref="Q11" pin="3"/>
     </net>
-    <net code="67" name="Net-(R35-Pad2)">
-      <node ref="R37" pin="2"/>
+    <net code="71" name="Net-(C20-Pad2)">
       <node ref="R36" pin="1"/>
       <node ref="U8" pin="3"/>
+      <node ref="R37" pin="2"/>
+      <node ref="C20" pin="2"/>
       <node ref="R35" pin="2"/>
     </net>
   </nets>
