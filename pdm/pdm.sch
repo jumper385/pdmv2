@@ -17,16 +17,6 @@ Wire Wire Line
 	2600 1650 2600 1550
 Wire Wire Line
 	2600 1850 2600 1750
-Wire Wire Line
-	1100 4100 1400 4100
-Wire Wire Line
-	1400 4100 1400 3900
-Connection ~ 1400 4100
-Wire Wire Line
-	1400 3600 1400 3400
-Connection ~ 1400 3400
-Wire Wire Line
-	1400 3400 1100 3400
 $Comp
 L pdm-rescue:+3.3V-power #PWR022
 U 1 1 5FA0A8CA
@@ -165,8 +155,6 @@ F 3 "" H 2200 1250 50  0001 C CNN
 $EndComp
 Text Notes 800  900  0    50   ~ 10
 CAN Transceiver
-Text Notes 800  3000 0    50   ~ 10
-Crystal Oscillator
 Text Notes 800  4650 0    50   ~ 10
 VDD Bypass Caps
 Text Notes 800  6400 0    50   ~ 10
@@ -187,12 +175,6 @@ Text Label 1600 1550 0    50   ~ 0
 cantx
 Text Label 1600 1650 0    50   ~ 0
 canrx
-Text Label 1950 3400 2    50   ~ 0
-OSC_P
-Wire Wire Line
-	800  3400 800  3700
-Text Label 1950 4100 2    50   ~ 0
-OSC_N
 Text Label 4450 1200 0    50   ~ 0
 act1
 Text Label 4450 1700 0    50   ~ 0
@@ -337,10 +319,6 @@ Text Label 5800 2300 2    50   ~ 0
 vout3
 Text Label 5800 1800 2    50   ~ 0
 vout2
-Wire Wire Line
-	1400 3400 1950 3400
-Wire Wire Line
-	1400 4100 1950 4100
 Wire Wire Line
 	6700 9000 6700 9300
 Text Label 6700 9300 1    50   ~ 0
@@ -728,24 +706,6 @@ Wire Wire Line
 Connection ~ 1750 7550
 Wire Wire Line
 	1750 7550 1750 7600
-$Comp
-L power:GND #PWR0101
-U 1 1 60D729C1
-P 650 3800
-F 0 "#PWR0101" H 650 3550 50  0001 C CNN
-F 1 "GND" H 655 3627 50  0000 C CNN
-F 2 "" H 650 3800 50  0001 C CNN
-F 3 "" H 650 3800 50  0001 C CNN
-	1    650  3800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	650  3800 650  3700
-Wire Wire Line
-	650  3700 800  3700
-Connection ~ 800  3700
-Wire Wire Line
-	800  3700 800  4100
 Wire Wire Line
 	2800 1550 3100 1550
 Wire Wire Line
@@ -868,53 +828,6 @@ F 2 "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 3500 7100 50  0001 C CNN
 F 3 "~" H 3500 7100 50  0001 C CNN
 	1    3300 7100
 	1    0    0    1   
-$EndComp
-$Comp
-L pdm-rescue:TestPoint_Probe-Connector CANH_TP?
-U 1 1 6002DB6D
-P 3100 1850
-AR Path="/5F955F6E/6002DB6D" Ref="CANH_TP?"  Part="1" 
-AR Path="/5F955EE4/6002DB6D" Ref="CANH_TP?"  Part="1" 
-AR Path="/5F94FFF3/6002DB6D" Ref="CANH_TP?"  Part="1" 
-AR Path="/5F956034/6002DB6D" Ref="CANH_TP?"  Part="1" 
-AR Path="/5F9560D2/6002DB6D" Ref="CANH_TP?"  Part="1" 
-AR Path="/6002DB6D" Ref="CANH_TP1"  Part="1" 
-F 0 "CANH_TP1" V 3150 2350 50  0000 R CNN
-F 1 "CANH_Test1" V 3050 2350 50  0000 R CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 3300 1850 50  0001 C CNN
-F 3 "~" H 3300 1850 50  0001 C CNN
-	1    3100 1850
-	0    1    -1   0   
-$EndComp
-$Comp
-L pdm-rescue:TestPoint_Probe-Connector CANL_Test?
-U 1 1 6002ED89
-P 3100 1550
-AR Path="/5F955F6E/6002ED89" Ref="CANL_Test?"  Part="1" 
-AR Path="/5F955EE4/6002ED89" Ref="CANL_Test?"  Part="1" 
-AR Path="/5F94FFF3/6002ED89" Ref="CANL_Test?"  Part="1" 
-AR Path="/5F956034/6002ED89" Ref="CANL_Test?"  Part="1" 
-AR Path="/5F9560D2/6002ED89" Ref="CANL_Test?"  Part="1" 
-AR Path="/6002ED89" Ref="CANL_Test1"  Part="1" 
-F 0 "CANL_Test1" V 3150 2050 50  0000 R CNN
-F 1 "CANL_TP" V 3250 2050 50  0000 R CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 3300 1550 50  0001 C CNN
-F 3 "~" H 3300 1550 50  0001 C CNN
-	1    3100 1550
-	0    1    -1   0   
-$EndComp
-$Comp
-L Device:Crystal Y1
-U 1 1 60D44625
-P 1400 3750
-F 0 "Y1" V 1354 3881 50  0000 L CNN
-F 1 "32Mhz" V 1445 3881 50  0000 L CNN
-F 2 "Crystal:Crystal_SMD_HC49-SD" H 1400 3750 50  0001 C CNN
-F 3 "https://www.foxonline.com/wp-content/uploads/pdfs/C4SD.pdf" H 1400 3750 50  0001 C CNN
-F 4 "631-1010-2-ND" H 1400 3750 50  0001 C CNN "Digi-Key_PN"
-F 5 "559-280LF-080" H 1400 3750 50  0001 C CNN "Mouser PN"
-	1    1400 3750
-	0    1    1    0   
 $EndComp
 $Comp
 L Device:C C9
@@ -1164,32 +1077,6 @@ F 5 "80-C0603C104K3RC7013" H 2850 5450 50  0001 C CNN "Mouser PN"
 	1    2850 5450
 	1    0    0    -1  
 $EndComp
-$Comp
-L pdm-rescue:C-Device C3
-U 1 1 5F9D7172
-P 950 4100
-F 0 "C3" H 1065 4146 50  0000 L CNN
-F 1 "16pF" H 1065 4055 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 988 3950 50  0001 C CNN
-F 3 "~" H 950 4100 50  0001 C CNN
-F 4 "478-10292-2-ND" H 950 4100 50  0001 C CNN "Digi-Key_PN"
-F 5 "C0603C160J3HACTU" H 950 4100 50  0001 C CNN "Mouser PN"
-	1    950  4100
-	0    -1   -1   0   
-$EndComp
-$Comp
-L pdm-rescue:C-Device C2
-U 1 1 5F9D5FE7
-P 950 3400
-F 0 "C2" H 1065 3446 50  0000 L CNN
-F 1 "16pF" H 1065 3355 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 988 3250 50  0001 C CNN
-F 3 "~" H 950 3400 50  0001 C CNN
-F 4 "478-10292-2-ND" H 950 3400 50  0001 C CNN "Digi-Key_PN"
-F 5 "C0603C160J3HACTU" H 950 3400 50  0001 C CNN "Mouser PN"
-	1    950  3400
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	3300 9600 3800 9600
 Wire Wire Line
@@ -1223,50 +1110,6 @@ F 1 "GND" H 4005 9477 50  0000 C CNN
 F 2 "" H 4000 9650 50  0001 C CNN
 F 3 "" H 4000 9650 50  0001 C CNN
 	1    4000 9650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H6
-U 1 1 60E0481B
-P 2000 10850
-F 0 "H6" H 2100 10896 50  0000 L CNN
-F 1 "MountingHole" H 2100 10805 50  0000 L CNN
-F 2 "pdm_v2:uwam-logo" H 2000 10850 50  0001 C CNN
-F 3 "~" H 2000 10850 50  0001 C CNN
-	1    2000 10850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H5
-U 1 1 60E053CE
-P 2000 10650
-F 0 "H5" H 2100 10696 50  0000 L CNN
-F 1 "MountingHole" H 2100 10605 50  0000 L CNN
-F 2 "pdm_v2:pepe-v2" H 2000 10650 50  0001 C CNN
-F 3 "~" H 2000 10650 50  0001 C CNN
-	1    2000 10650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H7
-U 1 1 60E0BB85
-P 2000 10450
-F 0 "H7" H 2100 10496 50  0000 L CNN
-F 1 "MountingHole" H 2100 10405 50  0000 L CNN
-F 2 "pdm_v2:checklist" H 2000 10450 50  0001 C CNN
-F 3 "~" H 2000 10450 50  0001 C CNN
-	1    2000 10450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H8
-U 1 1 60FCFB00
-P 2000 10250
-F 0 "H8" H 2100 10296 50  0000 L CNN
-F 1 "MountingHole" H 2100 10205 50  0000 L CNN
-F 2 "pdm_v2:meme-qr" H 2000 10250 50  0001 C CNN
-F 3 "~" H 2000 10250 50  0001 C CNN
-	1    2000 10250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
