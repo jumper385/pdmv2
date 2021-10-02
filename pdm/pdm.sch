@@ -711,50 +711,50 @@ Wire Wire Line
 Wire Wire Line
 	2800 1850 3100 1850
 Wire Wire Line
-	6650 5350 7300 5350
-Text Label 7300 5350 2    50   ~ 0
+	5650 5650 5000 5650
+Text Label 5000 5650 0    50   ~ 0
 fuse1
 Wire Wire Line
 	3300 7100 3200 7100
 Connection ~ 3200 7100
 Wire Wire Line
 	3200 7100 3200 7200
-Text Label 7300 5450 2    50   ~ 0
+Text Label 5000 5750 0    50   ~ 0
 act1
 Wire Wire Line
-	6650 5450 7300 5450
-Text Label 5000 5650 0    50   ~ 0
+	5650 5750 5000 5750
+Text Label 7300 5450 2    50   ~ 0
 fuse2
 Wire Wire Line
-	5650 5650 5000 5650
+	6650 5450 7300 5450
 Wire Wire Line
-	5650 5750 5000 5750
-Text Label 5000 5750 0    50   ~ 0
+	6650 5350 7300 5350
+Text Label 7300 5350 2    50   ~ 0
 act2
 Wire Wire Line
 	2650 2150 2850 2150
 Wire Wire Line
 	2850 2050 2650 2050
 Wire Wire Line
-	6650 4850 7300 4850
-Text Label 7300 4850 2    50   ~ 0
+	6650 5050 7300 5050
+Text Label 7300 5050 2    50   ~ 0
 sense4
-Text Label 7300 4750 2    50   ~ 0
+Text Label 7300 5150 2    50   ~ 0
 sense5
 Wire Wire Line
-	6650 4750 7300 4750
-Text Label 7300 5150 2    50   ~ 0
+	6650 5150 7300 5150
+Text Label 7300 4850 2    50   ~ 0
 sense1
 Wire Wire Line
-	6650 5150 7300 5150
+	6650 4850 7300 4850
 Wire Wire Line
 	6650 4950 7300 4950
 Text Label 7300 4950 2    50   ~ 0
 sense3
-Text Label 7300 5050 2    50   ~ 0
+Text Label 7300 4750 2    50   ~ 0
 sense2
 Wire Wire Line
-	6650 5050 7300 5050
+	6650 4750 7300 4750
 Text Label 7300 5250 2    50   ~ 0
 DAC2
 Wire Wire Line
